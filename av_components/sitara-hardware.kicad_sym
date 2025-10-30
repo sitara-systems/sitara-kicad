@@ -1,0 +1,2101 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	
+	(symbol "BRAINBOX_BB400_ETHERNET_IO"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IO"
+			(at 0 20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BRAINBOX_BB400_ETHERNET_IO"
+			(at 0 -20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Ethernet-based digital I/O module"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "DigitalInputs" "8 channels, 24V isolated"
+			(at 0 -21.59 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "DigitalOutputs" "8 channels, relay/solid-state"
+			(at 0 -22.86 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "10/100 Mbps Ethernet"
+			(at 0 -24.13 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Protocol" "Modbus TCP, REST API"
+			(at 0 -25.4 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "12-48V DC, 10W typical"
+			(at 0 -26.67 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Mounting" "DIN rail"
+			(at 0 -27.94 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Brainboxes BB-400"
+			(at 0 -29.21 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Remote I/O, button interfaces, sensor monitoring"
+			(at 0 -30.48 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "BRAINBOX_BB400_ETHERNET_IO_0_1"
+			(rectangle
+				(start -16.51 19.05)
+				(end 16.51 -19.05)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "BRAINBOX"
+				(at 0 5.08 0)
+				(effects (font (size 1.524 1.524) bold))
+			)
+			(text "BB-400"
+				(at 0 2.54 0)
+				(effects (font (size 1.27 1.27)))
+			)
+			(text "Ethernet I/O"
+				(at 0 0 0)
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(symbol "BRAINBOX_BB400_ETHERNET_IO_1_1"
+			(pin input line
+				(at -19.05 16.51 0)
+				(length 2.54)
+				(name "Power_24V" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -19.05 13.97 0)
+				(length 2.54)
+				(name "RJ45_Ethernet" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 8.89 0)
+				(length 2.54)
+				(name "DI-1" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 6.35 0)
+				(length 2.54)
+				(name "DI-2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 3.81 0)
+				(length 2.54)
+				(name "DI-3" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 1.27 0)
+				(length 2.54)
+				(name "DI-4" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 -1.27 0)
+				(length 2.54)
+				(name "DI-5" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 -3.81 0)
+				(length 2.54)
+				(name "DI-6" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 -6.35 0)
+				(length 2.54)
+				(name "DI-7" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -19.05 -8.89 0)
+				(length 2.54)
+				(name "DI-8" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 8.89 180)
+				(length 2.54)
+				(name "DO-1" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 6.35 180)
+				(length 2.54)
+				(name "DO-2" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 3.81 180)
+				(length 2.54)
+				(name "DO-3" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 1.27 180)
+				(length 2.54)
+				(name "DO-4" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 -1.27 180)
+				(length 2.54)
+				(name "DO-5" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 -3.81 180)
+				(length 2.54)
+				(name "DO-6" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 -6.35 180)
+				(length 2.54)
+				(name "DO-7" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 19.05 -8.89 180)
+				(length 2.54)
+				(name "DO-8" (effects (font (size 1.27 1.27))))
+				(number "18" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "TEKNIC_CLEARCORE"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CTRL"
+			(at 0 27.94 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TEKNIC_CLEARCORE"
+			(at 0 -30.48 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Industrial motion and I/O controller with Ethernet"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Processor" "ARM Cortex-M4, 120 MHz"
+			(at 0 -31.75 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "DigitalIO" "8 configurable I/O (5V/24V)"
+			(at 0 -33.02 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "AnalogInputs" "8 channels, 12-bit, 0-10V"
+			(at 0 -34.29 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "MotorOutputs" "4 integrated stepper drivers"
+			(at 0 -35.56 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "USB, Ethernet, CCIO daisy-chain"
+			(at 0 -36.83 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Protocol" "Modbus TCP, UDP, custom API"
+			(at 0 -38.1 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "12-24V DC, 100W max"
+			(at 0 -39.37 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Mounting" "DIN rail or panel mount"
+			(at 0 -40.64 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Teknic ClearCore"
+			(at 0 -41.91 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Motion control, sensor integration, AV automation"
+			(at 0 -43.18 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "TEKNIC_CLEARCORE_0_1"
+			(rectangle
+				(start -22.86 26.67)
+				(end 22.86 -29.21)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "TEKNIC"
+				(at 0 5.08 0)
+				(effects (font (size 1.778 1.778) bold))
+			)
+			(text "ClearCore"
+				(at 0 2.54 0)
+				(effects (font (size 1.524 1.524) bold))
+			)
+			(text "Motion & I/O"
+				(at 0 0 0)
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(symbol "TEKNIC_CLEARCORE_1_1"
+			(pin input line
+				(at -25.4 24.13 0)
+				(length 2.54)
+				(name "Power_24V" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 21.59 0)
+				(length 2.54)
+				(name "USB" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 19.05 0)
+				(length 2.54)
+				(name "RJ45_Ethernet" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 16.51 0)
+				(length 2.54)
+				(name "CCIO_Link" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 12.7 0)
+				(length 2.54)
+				(name "DIO-0" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 10.16 0)
+				(length 2.54)
+				(name "DIO-1" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 7.62 0)
+				(length 2.54)
+				(name "DIO-2" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 5.08 0)
+				(length 2.54)
+				(name "DIO-3" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 2.54 0)
+				(length 2.54)
+				(name "DIO-4" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 0 0)
+				(length 2.54)
+				(name "DIO-5" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 -2.54 0)
+				(length 2.54)
+				(name "DIO-6" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -25.4 -5.08 0)
+				(length 2.54)
+				(name "DIO-7" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -10.16 0)
+				(length 2.54)
+				(name "AI-0" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -12.7 0)
+				(length 2.54)
+				(name "AI-1" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -15.24 0)
+				(length 2.54)
+				(name "AI-2" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -17.78 0)
+				(length 2.54)
+				(name "AI-3" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -20.32 0)
+				(length 2.54)
+				(name "AI-4" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -22.86 0)
+				(length 2.54)
+				(name "AI-5" (effects (font (size 1.27 1.27))))
+				(number "18" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -25.4 0)
+				(length 2.54)
+				(name "AI-6" (effects (font (size 1.27 1.27))))
+				(number "19" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -25.4 -27.94 0)
+				(length 2.54)
+				(name "AI-7" (effects (font (size 1.27 1.27))))
+				(number "20" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 25.4 24.13 180)
+				(length 2.54)
+				(name "Motor-M0" (effects (font (size 1.27 1.27))))
+				(number "21" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 25.4 21.59 180)
+				(length 2.54)
+				(name "Motor-M1" (effects (font (size 1.27 1.27))))
+				(number "22" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 25.4 19.05 180)
+				(length 2.54)
+				(name "Motor-M2" (effects (font (size 1.27 1.27))))
+				(number "23" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 25.4 16.51 180)
+				(length 2.54)
+				(name "Motor-M3" (effects (font (size 1.27 1.27))))
+				(number "24" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 25.4 11.43 180)
+				(length 2.54)
+				(name "Serial-COM0" (effects (font (size 1.27 1.27))))
+				(number "25" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 25.4 8.89 180)
+				(length 2.54)
+				(name "Serial-COM1" (effects (font (size 1.27 1.27))))
+				(number "26" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_SBC4"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SBC"
+			(at 0 27.94 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_SBC4"
+			(at 0 -27.94 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Phidget Single Board Computer with integrated VINT hub"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Processor" "ARM Cortex-A53 Quad-Core, 1.5 GHz"
+			(at 0 -29.21 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Memory" "1GB RAM, 8GB eMMC storage"
+			(at 0 -30.48 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "OS" "Debian Linux with Phidget libraries"
+			(at 0 -31.75 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "VINTPorts" "6x VINT ports (built-in hub)"
+			(at 0 -33.02 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "USB" "2x USB 2.0 host ports"
+			(at 0 -34.29 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Ethernet" "10/100 Mbps"
+			(at 0 -35.56 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "12V DC, 2A typical, 4A max"
+			(at 0 -36.83 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Mounting" "DIN rail or panel mount"
+			(at 0 -38.1 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget SBC4"
+			(at 0 -39.37 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Standalone Phidget controller, edge computing, distributed I/O"
+			(at 0 -40.64 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_SBC4_0_1"
+			(rectangle
+				(start -19.05 26.67)
+				(end 19.05 -26.67)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "PHIDGET"
+				(at 0 5.08 0)
+				(effects (font (size 1.778 1.778) bold))
+			)
+			(text "SBC4"
+				(at 0 2.54 0)
+				(effects (font (size 1.524 1.524) bold))
+			)
+			(text "Single Board Computer"
+				(at 0 0 0)
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(symbol "PHIDGET_SBC4_1_1"
+			(pin input line
+				(at -21.59 24.13 0)
+				(length 2.54)
+				(name "Power_12V" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 21.59 0)
+				(length 2.54)
+				(name "RJ45_Ethernet" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 19.05 0)
+				(length 2.54)
+				(name "USB-A-1" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 16.51 0)
+				(length 2.54)
+				(name "USB-A-2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at -21.59 13.97 0)
+				(length 2.54)
+				(name "HDMI" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 11.43 0)
+				(length 2.54)
+				(name "Audio_Out" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 24.13 180)
+				(length 2.54)
+				(name "VINT-0" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 21.59 180)
+				(length 2.54)
+				(name "VINT-1" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 19.05 180)
+				(length 2.54)
+				(name "VINT-2" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 16.51 180)
+				(length 2.54)
+				(name "VINT-3" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 13.97 180)
+				(length 2.54)
+				(name "VINT-4" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 11.43 180)
+				(length 2.54)
+				(name "VINT-5" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 8.89 0)
+				(length 2.54)
+				(name "WiFi" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 6.35 0)
+				(length 2.54)
+				(name "Bluetooth" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 1.27 0)
+				(length 2.54)
+				(name "GPIO" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 -1.27 0)
+				(length 2.54)
+				(name "Serial-TX" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -21.59 -3.81 0)
+				(length 2.54)
+				(name "Serial-RX" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 1.27 180)
+				(length 2.54)
+				(name "I2C-SDA" (effects (font (size 1.27 1.27))))
+				(number "18" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 -1.27 180)
+				(length 2.54)
+				(name "I2C-SCL" (effects (font (size 1.27 1.27))))
+				(number "19" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 -6.35 180)
+				(length 2.54)
+				(name "SPI-MOSI" (effects (font (size 1.27 1.27))))
+				(number "20" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 -8.89 180)
+				(length 2.54)
+				(name "SPI-MISO" (effects (font (size 1.27 1.27))))
+				(number "21" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 -11.43 180)
+				(length 2.54)
+				(name "SPI-CLK" (effects (font (size 1.27 1.27))))
+				(number "22" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 21.59 -13.97 180)
+				(length 2.54)
+				(name "SPI-CS" (effects (font (size 1.27 1.27))))
+				(number "23" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_HUB_VINT"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "HUB"
+			(at 0 13.97 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_HUB_VINT"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "USB hub for Phidgets VINT sensors and devices"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Ports" "6x VINT ports"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "USB Type-C to computer"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Protocol" "VINT (Phidgets proprietary)"
+			(at 0 -17.78 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "USB-powered or 12-24V DC"
+			(at 0 -19.05 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "TypicalPower" "5-15W depending on connected devices"
+			(at 0 -20.32 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget HUB0000 VINT Hub"
+			(at 0 -21.59 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Sensor integration, buttons, encoders, relays"
+			(at 0 -22.86 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_HUB_VINT_0_1"
+			(rectangle
+				(start -13.97 12.7)
+				(end 13.97 -12.7)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "PHIDGET"
+				(at 0 3.81 0)
+				(effects (font (size 1.524 1.524) bold))
+			)
+			(text "VINT Hub"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "PHIDGET_HUB_VINT_1_1"
+			(pin bidirectional line
+				(at -16.51 10.16 0)
+				(length 2.54)
+				(name "USB-C" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -16.51 7.62 0)
+				(length 2.54)
+				(name "Power_12V" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 10.16 180)
+				(length 2.54)
+				(name "VINT-0" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 7.62 180)
+				(length 2.54)
+				(name "VINT-1" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 5.08 180)
+				(length 2.54)
+				(name "VINT-2" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 2.54 180)
+				(length 2.54)
+				(name "VINT-3" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 0 180)
+				(length 2.54)
+				(name "VINT-4" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 16.51 -2.54 180)
+				(length 2.54)
+				(name "VINT-5" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_RELAY_4CH"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "REL"
+			(at 0 11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_RELAY_4CH"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "4-channel relay board for Phidgets VINT"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Relays" "4x SPDT, 5A @ 250VAC"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "VINT port"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PowerDraw" "200mA @ 5V typical"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget REL1100 4x Relay"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Light control, equipment switching, AV routing"
+			(at 0 -17.78 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_RELAY_4CH_0_1"
+			(rectangle
+				(start -11.43 10.16)
+				(end 11.43 -10.16)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "4x Relay"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "PHIDGET_RELAY_4CH_1_1"
+			(pin bidirectional line
+				(at -13.97 8.89 0)
+				(length 2.54)
+				(name "VINT" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 13.97 7.62 180)
+				(length 2.54)
+				(name "Relay-1-NO" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "Relay-2-NO" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 13.97 2.54 180)
+				(length 2.54)
+				(name "Relay-3-NO" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 13.97 0 180)
+				(length 2.54)
+				(name "Relay-4-NO" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_DIGITAL_INPUT_16"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DI"
+			(at 0 20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_DIGITAL_INPUT_16"
+			(at 0 -20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "16-channel digital input module for Phidgets VINT"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Inputs" "16x isolated digital inputs"
+			(at 0 -21.59 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "InputVoltage" "5-24V DC"
+			(at 0 -22.86 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "VINT port"
+			(at 0 -24.13 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PowerDraw" "50mA @ 5V typical"
+			(at 0 -25.4 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget DAQ1000 16x Digital Input"
+			(at 0 -26.67 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Button panels, sensor monitoring, safety inputs"
+			(at 0 -27.94 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_DIGITAL_INPUT_16_0_1"
+			(rectangle
+				(start -13.97 19.05)
+				(end 13.97 -19.05)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "16x Digital In"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "PHIDGET_DIGITAL_INPUT_16_1_1"
+			(pin bidirectional line
+				(at -16.51 16.51 0)
+				(length 2.54)
+				(name "VINT" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 16.51 180)
+				(length 2.54)
+				(name "DI-0" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 13.97 180)
+				(length 2.54)
+				(name "DI-1" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 11.43 180)
+				(length 2.54)
+				(name "DI-2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 8.89 180)
+				(length 2.54)
+				(name "DI-3" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 6.35 180)
+				(length 2.54)
+				(name "DI-4" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 3.81 180)
+				(length 2.54)
+				(name "DI-5" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 1.27 180)
+				(length 2.54)
+				(name "DI-6" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -1.27 180)
+				(length 2.54)
+				(name "DI-7" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -3.81 180)
+				(length 2.54)
+				(name "DI-8" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -6.35 180)
+				(length 2.54)
+				(name "DI-9" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -8.89 180)
+				(length 2.54)
+				(name "DI-10" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -11.43 180)
+				(length 2.54)
+				(name "DI-11" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -13.97 180)
+				(length 2.54)
+				(name "DI-12" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 16.51 -16.51 180)
+				(length 2.54)
+				(name "DI-13" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -16.51 13.97 0)
+				(length 2.54)
+				(name "DI-14" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -16.51 11.43 0)
+				(length 2.54)
+				(name "DI-15" (effects (font (size 1.27 1.27))))
+				(number "17" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_ANALOG_INPUT_4"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "AI"
+			(at 0 10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_ANALOG_INPUT_4"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "4-channel analog voltage input for Phidgets VINT"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Inputs" "4x differential analog inputs"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Range" "±40V, 16-bit resolution"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "SampleRate" "1kHz max per channel"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "VINT port"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget VCP1000 4x Voltage Input"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Analog sensors, potentiometers, variable signals"
+			(at 0 -17.78 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_ANALOG_INPUT_4_0_1"
+			(rectangle
+				(start -12.7 8.89)
+				(end 12.7 -8.89)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "4x Analog In"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "PHIDGET_ANALOG_INPUT_4_1_1"
+			(pin bidirectional line
+				(at -15.24 6.35 0)
+				(length 2.54)
+				(name "VINT" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 6.35 180)
+				(length 2.54)
+				(name "AI-0" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "AI-1" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "AI-2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 -1.27 180)
+				(length 2.54)
+				(name "AI-3" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "PHIDGET_ENCODER_4X"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ENC"
+			(at 0 10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PHIDGET_ENCODER_4X"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "4-channel quadrature encoder input for Phidgets VINT"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Encoders" "4x quadrature encoder inputs"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "MaxFrequency" "250kHz per encoder"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "VINT port"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Phidget ENC1000 4x Encoder"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Rotary encoders, position tracking, jog wheels"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "PHIDGET_ENCODER_4X_0_1"
+			(rectangle
+				(start -12.7 8.89)
+				(end 12.7 -8.89)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "4x Encoder"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "PHIDGET_ENCODER_4X_1_1"
+			(pin bidirectional line
+				(at -15.24 6.35 0)
+				(length 2.54)
+				(name "VINT" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 6.35 180)
+				(length 2.54)
+				(name "Enc-0-A" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "Enc-0-B" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "Enc-1-A" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 15.24 -1.27 180)
+				(length 2.54)
+				(name "Enc-1-B" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "Enc-2-A" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "Enc-2-B" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "Enc-3-A" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "Enc-3-B" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "BUTTON_MOMENTARY"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BTN"
+			(at 0 5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BUTTON_MOMENTARY"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Momentary push button switch"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Type" "SPST-NO (Normally Open)"
+			(at 0 -6.35 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "User input, control panels, trigger events"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "BUTTON_MOMENTARY_0_1"
+			(circle
+				(center -2.54 0)
+				(radius 0.254)
+				(stroke (width 0) (type default))
+				(fill (type outline))
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.254) (xy 1.27 1.524)
+				)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(circle
+				(center 2.54 0)
+				(radius 0.254)
+				(stroke (width 0) (type default))
+				(fill (type outline))
+			)
+		)
+		(symbol "BUTTON_MOMENTARY_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "SENSOR_MOTION_PIR"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SENS"
+			(at 0 6.35 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SENSOR_MOTION_PIR"
+			(at 0 -6.35 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Passive infrared motion sensor"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Output" "Digital output (5V/24V)"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Range" "5-12m typical"
+			(at 0 -8.89 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "5-24V DC, 100mA typical"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Occupancy detection, presence sensing, automation"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "SENSOR_MOTION_PIR_0_1"
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 0 0) (xy 2.54 -2.54)
+				)
+				(stroke (width 0.508) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "SENSOR_MOTION_PIR_1_1"
+			(pin input line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "VCC" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "OUT" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "SENSOR_DISTANCE_ULTRASONIC"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SENS"
+			(at 0 7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "SENSOR_DISTANCE_ULTRASONIC"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Ultrasonic distance measurement sensor"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Range" "2cm - 400cm typical"
+			(at 0 -8.89 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Output" "Analog voltage or digital pulse"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "5V DC, 15mA typical"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "HC-SR04, MaxBotix MB1000"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Distance measurement, object detection, proximity"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "SENSOR_DISTANCE_ULTRASONIC_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(circle
+				(center -2.54 1.27)
+				(radius 1.905)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(circle
+				(center 2.54 1.27)
+				(radius 1.905)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(text "SONAR"
+				(at 0 -3.81 0)
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(symbol "SENSOR_DISTANCE_ULTRASONIC_1_1"
+			(pin input line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "VCC" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "TRIG" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "ECHO" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "ENCODER_ROTARY"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ENC"
+			(at 0 7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ENCODER_ROTARY"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Rotary quadrature encoder with push button"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Type" "Incremental, quadrature output"
+			(at 0 -8.89 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PulsesPerRev" "12-600 PPR typical"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Switch" "Integrated push button"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Jog wheels, volume control, menu navigation"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "ENCODER_ROTARY_0_1"
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27)
+				)
+				(stroke (width 0.508) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -2.54) (xy 1.27 -1.27)
+				)
+				(stroke (width 0.508) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "ENCODER_ROTARY_1_1"
+			(pin output line
+				(at -6.35 2.54 0)
+				(length 2.54)
+				(name "A" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at -6.35 0 0)
+				(length 2.54)
+				(name "B" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at -6.35 -2.54 0)
+				(length 2.54)
+				(name "SW" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 6.35 2.54 180)
+				(length 2.54)
+				(name "VCC" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 6.35 -2.54 180)
+				(length 2.54)
+				(name "GND" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "LED_INDICATOR"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LED"
+			(at 0 5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "LED_INDICATOR"
+			(at 0 -5.08 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "LED indicator light"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Voltage" "5V, 12V, or 24V typical"
+			(at 0 -6.35 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Current" "20mA typical"
+			(at 0 -7.62 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Status indication, feedback, visual alerts"
+			(at 0 -8.89 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "LED_INDICATOR_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke (width 0.254) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 2.54 0)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0)
+				)
+				(stroke (width 0.254) (type default))
+				(fill (type outline))
+			)
+			(polyline
+				(pts
+					(xy 0 2.032) (xy 1.27 3.302) (xy 0.762 3.302) (xy 1.27 3.302) (xy 1.27 2.794)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.032) (xy 2.54 3.302) (xy 2.032 3.302) (xy 2.54 3.302) (xy 2.54 2.794)
+				)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+		)
+		(symbol "LED_INDICATOR_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "K" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "BRAINBOX_USB_SERIAL"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "UART"
+			(at 0 8.89 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "BRAINBOX_USB_SERIAL"
+			(at 0 -8.89 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "USB to RS232/RS422/RS485 serial converter"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Ports" "1-4 serial ports depending on model"
+			(at 0 -10.16 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Protocols" "RS232, RS422, RS485"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "BaudRate" "Up to 921,600 bps"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "USB-powered or external 5V"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Brainboxes US-101, US-279"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Device control, legacy equipment, DMX lighting"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "BRAINBOX_USB_SERIAL_0_1"
+			(rectangle
+				(start -10.16 7.62)
+				(end 10.16 -7.62)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "USB-Serial"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(symbol "BRAINBOX_USB_SERIAL_1_1"
+			(pin bidirectional line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "USB" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "TX" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "RX" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "RTS" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "CTS" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+	
+	(symbol "TEKNIC_CLEARPATH_SERVO"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MOTOR"
+			(at 0 11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "TEKNIC_CLEARPATH_SERVO"
+			(at 0 -11.43 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "Teknic ClearPath servo motor with integrated controller"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Type" "Brushless DC servo with encoder"
+			(at 0 -12.7 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Control" "Step/direction, PWM, or analog"
+			(at 0 -13.97 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Torque" "0.8-7.5 Nm depending on model"
+			(at 0 -15.24 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "75V DC bus, 5-15A typical"
+			(at 0 -16.51 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Feedback" "Built-in encoder, optional resolver"
+			(at 0 -17.78 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Teknic ClearPath-SC, ClearPath-SD"
+			(at 0 -19.05 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Motion platforms, camera gimbals, automated stages"
+			(at 0 -20.32 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "TEKNIC_CLEARPATH_SERVO_0_1"
+			(rectangle
+				(start -11.43 10.16)
+				(end 11.43 -10.16)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke (width 0.508) (type default))
+				(fill (type none))
+			)
+			(text "SERVO"
+				(at 0 -5.08 0)
+				(effects (font (size 1.016 1.016)))
+			)
+		)
+		(symbol "TEKNIC_CLEARPATH_SERVO_1_1"
+			(pin input line
+				(at -13.97 7.62 0)
+				(length 2.54)
+				(name "Power_75V" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -13.97 5.08 0)
+				(length 2.54)
+				(name "Step" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -13.97 2.54 0)
+				(length 2.54)
+				(name "Direction" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -13.97 0 0)
+				(length 2.54)
+				(name "Enable" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin output line
+				(at 13.97 5.08 180)
+				(length 2.54)
+				(name "HLFB" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -13.97 -5.08 0)
+				(length 2.54)
+				(name "A+" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at -13.97 -7.62 0)
+				(length 2.54)
+				(name "A-" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 13.97 -5.08 180)
+				(length 2.54)
+				(name "B+" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "B-" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
+
+	(symbol "USB_HUB_13PORT"
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "HUB"
+			(at 0 20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "USB_HUB_13PORT"
+			(at 0 -20.32 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Description" "13-port USB hub with charging port"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Ports" "13x USB 3.0 data ports + 1x charging port"
+			(at 0 -21.59 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Connection" "USB Type-A or Type-C upstream to computer"
+			(at 0 -22.86 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Power" "External 12V DC power adapter"
+			(at 0 -24.13 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "TypicalPower" "60W total (varies by connected devices)"
+			(at 0 -25.4 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "PreferredModel" "Anker PowerExpand, Sabrent HB-B7C3"
+			(at 0 -26.67 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(property "Usage" "Peripheral expansion, sensor arrays, multi-device testing"
+			(at 0 -27.94 0)
+			(effects (font (size 1.27 1.27)) hide)
+		)
+		(symbol "USB_HUB_13PORT_0_1"
+			(rectangle
+				(start -15.24 19.05)
+				(end 15.24 -19.05)
+				(stroke (width 0.254) (type solid))
+				(fill (type none))
+			)
+			(text "USB HUB"
+				(at 0 3.81 0)
+				(effects (font (size 1.524 1.524) bold))
+			)
+			(text "13+1 Port"
+				(at 0 1.27 0)
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		
+		(symbol "USB_HUB_13PORT_1_1"
+			(pin bidirectional line
+				(at -17.78 16.51 0)
+				(length 2.54)
+				(name "USB-Upstream" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin input line
+				(at -17.78 13.97 0)
+				(length 2.54)
+				(name "Power_12V" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 16.51 180)
+				(length 2.54)
+				(name "USB-1" (effects (font (size 1.27 1.27))))
+				(number "3" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 13.97 180)
+				(length 2.54)
+				(name "USB-2" (effects (font (size 1.27 1.27))))
+				(number "4" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 11.43 180)
+				(length 2.54)
+				(name "USB-3" (effects (font (size 1.27 1.27))))
+				(number "5" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 8.89 180)
+				(length 2.54)
+				(name "USB-4" (effects (font (size 1.27 1.27))))
+				(number "6" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 6.35 180)
+				(length 2.54)
+				(name "USB-5" (effects (font (size 1.27 1.27))))
+				(number "7" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 3.81 180)
+				(length 2.54)
+				(name "USB-6" (effects (font (size 1.27 1.27))))
+				(number "8" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 1.27 180)
+				(length 2.54)
+				(name "USB-7" (effects (font (size 1.27 1.27))))
+				(number "9" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -1.27 180)
+				(length 2.54)
+				(name "USB-8" (effects (font (size 1.27 1.27))))
+				(number "10" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "USB-9" (effects (font (size 1.27 1.27))))
+				(number "11" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -6.35 180)
+				(length 2.54)
+				(name "USB-10" (effects (font (size 1.27 1.27))))
+				(number "12" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -8.89 180)
+				(length 2.54)
+				(name "USB-11" (effects (font (size 1.27 1.27))))
+				(number "13" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "USB-12" (effects (font (size 1.27 1.27))))
+				(number "14" (effects (font (size 1.27 1.27))))
+			)
+			(pin bidirectional line
+				(at 17.78 -13.97 180)
+				(length 2.54)
+				(name "USB-13" (effects (font (size 1.27 1.27))))
+				(number "15" (effects (font (size 1.27 1.27))))
+			)
+			(pin power_out line
+				(at 17.78 -16.51 180)
+				(length 2.54)
+				(name "USB-Charge" (effects (font (size 1.27 1.27))))
+				(number "16" (effects (font (size 1.27 1.27))))
+			)
+		)
+		
+		(embedded_fonts no)
+	)
+)
