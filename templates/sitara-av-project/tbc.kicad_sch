@@ -1,0 +1,252 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8ac9d54b-54a9-5c79-9139-bc6874441f56")
+	(paper "A3")
+	(title_block
+		(title "To be confirmed")
+		(date "2026-10-08")
+		(rev "A")
+		(company "Sitara Systems")
+		(comment 1 "Dashed outline = placeholder")
+	)
+	(lib_symbols)
+	(text "1"
+		(exclude_from_sim no)
+		(at 22 54 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "06b93aa7-a325-5491-a6b9-543866136f62")
+	)
+	(text "Replace these examples"
+		(exclude_from_sim no)
+		(at 268 67 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e9f785a-5e51-5ba9-9e00-57bf2589959b")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 226 54 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "17f9bdfb-5614-594c-b62d-69eb0378b849")
+	)
+	(text "ITEM"
+		(exclude_from_sim no)
+		(at 34 43 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4cf036-edc6-58a1-a966-90e134dff004")
+	)
+	(text "NOTE"
+		(exclude_from_sim no)
+		(at 268 43 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e7f1bf-63d5-579e-a9bc-3f37e4b6339f")
+	)
+	(text "OWNER"
+		(exclude_from_sim no)
+		(at 190 43 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5001fabe-2a6e-5210-a098-1cf88a3127ee")
+	)
+	(text "#"
+		(exclude_from_sim no)
+		(at 22 43 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "52051011-7b3a-50c2-ace0-27ce99ee3629")
+	)
+	(text "Sitara Systems"
+		(exclude_from_sim no)
+		(at 190 54 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "57f233a0-a769-56ce-bc26-f5e843cacb8b")
+	)
+	(text "TO BE CONFIRMED - 2 open items, with owner and date when known."
+		(exclude_from_sim no)
+		(at 20.32 22.86 0)
+		(effects
+			(font
+				(size 3.2 3.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c8237e6-6d9a-560a-bf46-6ab660619fd1")
+	)
+	(text "DeckLink or AJA"
+		(exclude_from_sim no)
+		(at 34 57.2 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "69a39470-527a-5bac-a427-ecd7272b8721")
+	)
+	(text "Example: SDI card model and slot"
+		(exclude_from_sim no)
+		(at 34 52 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "73f34ed4-9e56-5e4b-a756-afbe48823740")
+	)
+	(text "Client"
+		(exclude_from_sim no)
+		(at 190 67 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "81600f0a-1bbb-5777-a364-b42fc8057039")
+	)
+	(text "Example: house network switches"
+		(exclude_from_sim no)
+		(at 34 67 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5107fe0-c061-517e-8ab2-8b9ff380ab5d")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 226 67 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "be4cdeca-a965-5523-ae6f-c5d4c12eabdf")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 22 67 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ded07a40-2a6a-5454-b6a6-5d7d60f31be1")
+	)
+	(text "EXPECTED"
+		(exclude_from_sim no)
+		(at 226 43 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f410323e-9e2b-5485-a691-0349cd381ef3")
+	)
+	(text "Expected date is left blank until it is known."
+		(exclude_from_sim no)
+		(at 20.32 81 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6a45451-302a-5ef8-af25-e866d9f76dd4")
+	)
+	(polyline
+		(pts
+			(xy 20.32 46) (xy 399 46)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "9bd5bb29-62c0-5e7b-8818-ecc3c9b23191")
+	)
+	(polyline
+		(pts
+			(xy 20.32 72) (xy 399 72)
+		)
+		(stroke
+			(width 0.15)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "b457afe4-d254-56a8-814e-3ab24392a6a9")
+	)
+	(polyline
+		(pts
+			(xy 20.32 59) (xy 399 59)
+		)
+		(stroke
+			(width 0.15)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "d4036c03-f00f-5a6c-b290-9a5f7c9ceef2")
+	)
+	(polyline
+		(pts
+			(xy 20.32 36) (xy 399 36)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "ead6a338-41f9-5f02-8189-720eeee7bdcb")
+	)
+)

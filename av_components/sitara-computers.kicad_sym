@@ -5410,7 +5410,7 @@
 				(justify left)
 			)
 		)
-		(property "SlotWidth" "1 (assumed, TBC)"
+		(property "SlotWidth" "1 (retailer listing; vendor datasheet not found)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Lanes" "x4 assumed (TBC)"
+		(property "Lanes" "Drawn as x4 for slot accounting. Reportedly uses no PCIe data lines (sync runs over ribbon cables to each GPU), electrical lanes not published"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Storage" "32 GB eMMC + M.2 slot for NVMe (SSD choice TBC)"
+		(property "Storage" "500 GB NVMe SSD (Kingston NV3), M.2"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Mounting" "VESA or Protectli rack shelf - TBC"
+		(property "Mounting" "TBC (VESA or shelf)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5938,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Management" "AMD DASH; which port carries it TBC"
+		(property "Management" "AMD DASH; suspected on the 1 GbE jack, to be confirmed when the unit arrives (Oct 28)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,6 +5961,17 @@
 			)
 		)
 		(property "FormFactor" "Tower Workstation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Mounting" "Dell rail kit 3WF88 / 03W88, 4U"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

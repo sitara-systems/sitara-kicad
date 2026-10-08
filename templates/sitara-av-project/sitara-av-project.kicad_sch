@@ -380,7 +380,7 @@
 					(justify left)
 				)
 			)
-			(property "SlotWidth" "1 (assumed, TBC)"
+			(property "SlotWidth" "1 (retailer listing; vendor datasheet not found)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -391,7 +391,7 @@
 					)
 				)
 			)
-			(property "Lanes" "x4 assumed (TBC)"
+			(property "Lanes" "Drawn as x4 for slot accounting. Reportedly uses no PCIe data lines (sync runs over ribbon cables to each GPU), electrical lanes not published"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -633,7 +633,7 @@
 					)
 				)
 			)
-			(property "Management" "AMD DASH; which port carries it TBC"
+			(property "Management" "AMD DASH; suspected on the 1 GbE jack, to be confirmed when the unit arrives (Oct 28)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -656,6 +656,17 @@
 				)
 			)
 			(property "FormFactor" "Tower Workstation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Mounting" "Dell rail kit 3WF88 / 03W88, 4U"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2238,7 +2249,7 @@
 		(at 22.86 240 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -2249,18 +2260,29 @@
 		(at 158.75 67.58 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
 		(uuid "1ce6d126-c6f7-50de-b146-aa448671b17c")
+	)
+	(text "Client: 1   Sitara Systems: 1"
+		(exclude_from_sim no)
+		(at 24.32 269 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "35b2a312-945e-5b6d-a4bc-8553fd1d9d94")
 	)
 	(text "dual width: slot 3 too"
 		(exclude_from_sim no)
 		(at 167.64 76.59 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -2283,22 +2305,53 @@
 		(at 181.61 160.29 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
 		(uuid "5e6747b1-2ac5-5f21-b242-ae2506841a59")
+	)
+	(text "Full register with owner and expected date: sheet 2."
+		(exclude_from_sim no)
+		(at 24.32 263 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7f1e37f-2bd4-5a9d-a274-4053e3f534ce")
 	)
 	(text "PCIe (slot 6)"
 		(exclude_from_sim no)
 		(at 173.99 204.74 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
 		(uuid "f501e824-78cb-5928-98d4-e5fb7809c8b3")
+	)
+	(text_box "TO BE CONFIRMED (TBC): 2 open"
+		(exclude_from_sim no)
+		(at 20.32 247 0)
+		(size 270 28)
+		(margins 1.8175 1.8175 1.8175 1.8175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left top)
+		)
+		(uuid "35ea8b79-5b69-5230-85ff-564d5cac24ce")
 	)
 	(no_connect
 		(at 392.43 184.15)
@@ -3607,7 +3660,7 @@
 				(justify left top)
 			)
 		)
-		(property "SlotWidth" "1 (assumed, TBC)"
+		(property "SlotWidth" "1 (retailer listing; vendor datasheet not found)"
 			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -3618,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Lanes" "x4 assumed (TBC)"
+		(property "Lanes" "Drawn as x4 for slot accounting. Reportedly uses no PCIe data lines (sync runs over ribbon cables to each GPU), electrical lanes not published"
 			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Management" "AMD DASH; which port carries it TBC"
+		(property "Management" "AMD DASH; suspected on the 1 GbE jack, to be confirmed when the unit arrives (Oct 28)"
 			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3835,6 +3888,17 @@
 			)
 		)
 		(property "FormFactor" "Tower Workstation"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Mounting" "Dell rail kit 3WF88 / 03W88, 4U"
 			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4330,6 +4394,53 @@
 				(path "/6abcf7eb-a459-5bbe-a03c-66e5275de101"
 					(reference "GPU1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 350.52 222.25)
+		(size 50.8 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8ac9d54b-54a9-5c79-9139-bc6874441f56")
+		(property "Sheetname" "To be confirmed"
+			(at 350.52 221.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.4 2.4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tbc.kicad_sch"
+			(at 350.52 243.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sitara-av-project"
+				(path "/6abcf7eb-a459-5bbe-a03c-66e5275de101"
+					(page "2")
 				)
 			)
 		)

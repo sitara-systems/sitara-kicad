@@ -378,7 +378,7 @@
 					(justify left)
 				)
 			)
-			(property "SlotWidth" "1 (assumed, TBC)"
+			(property "SlotWidth" "1 (retailer listing; vendor datasheet not found)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -389,7 +389,7 @@
 					)
 				)
 			)
-			(property "Lanes" "x4 assumed (TBC)"
+			(property "Lanes" "Drawn as x4 for slot accounting. Reportedly uses no PCIe data lines (sync runs over ribbon cables to each GPU), electrical lanes not published"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -631,7 +631,7 @@
 					)
 				)
 			)
-			(property "Management" "AMD DASH; which port carries it TBC"
+			(property "Management" "AMD DASH; suspected on the 1 GbE jack, to be confirmed when the unit arrives (Oct 28)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -654,6 +654,17 @@
 				)
 			)
 			(property "FormFactor" "Tower Workstation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Mounting" "Dell rail kit 3WF88 / 03W88, 4U"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1394,7 +1405,7 @@
 		(at 22.86 240 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -1405,7 +1416,7 @@
 		(at 158.75 67.58 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -1416,7 +1427,7 @@
 		(at 181.61 160.29 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -1427,7 +1438,7 @@
 		(at 173.99 204.74 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -1438,7 +1449,7 @@
 		(at 167.64 76.59 0)
 		(effects
 			(font
-				(size 1.78 1.78)
+				(size 2.29 2.29)
 			)
 			(justify left bottom)
 		)
@@ -2079,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Management" "AMD DASH; which port carries it TBC"
+		(property "Management" "AMD DASH; suspected on the 1 GbE jack, to be confirmed when the unit arrives (Oct 28)"
 			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2102,6 +2113,17 @@
 			)
 		)
 		(property "FormFactor" "Tower Workstation"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Mounting" "Dell rail kit 3WF88 / 03W88, 4U"
 			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2305,7 +2327,7 @@
 				(justify left top)
 			)
 		)
-		(property "SlotWidth" "1 (assumed, TBC)"
+		(property "SlotWidth" "1 (retailer listing; vendor datasheet not found)"
 			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -2316,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Lanes" "x4 assumed (TBC)"
+		(property "Lanes" "Drawn as x4 for slot accounting. Reportedly uses no PCIe data lines (sync runs over ribbon cables to each GPU), electrical lanes not published"
 			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)

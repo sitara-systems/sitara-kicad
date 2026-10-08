@@ -45,6 +45,7 @@ def main():
         for fn, text in (("sym-lib-table", sym), ("design-block-lib-table", blk)):
             open(os.path.join(out, fn), "w", encoding="utf-8", newline="\n").write(text)
         shutil.copy(os.path.join(proj, NAME + ".kicad_sch"), os.path.join(out, NAME + ".kicad_sch"))
+        shutil.copy(os.path.join(proj, "tbc.kicad_sch"), os.path.join(out, "tbc.kicad_sch"))
         pro = json.load(open(os.path.join(proj, NAME + ".kicad_pro"), encoding="utf-8"))
         pro["schematic"]["page_layout_descr_file"] = "${SITARA_KICAD}/worksheet_template/template.kicad_wks"
         json.dump(pro, open(os.path.join(out, NAME + ".kicad_pro"), "w", encoding="utf-8", newline="\n"), indent=2)

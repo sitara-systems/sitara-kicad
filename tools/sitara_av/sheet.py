@@ -20,6 +20,7 @@ from symbols_spec import SYMBOLS  # noqa: E402
 from . import palette  # noqa: E402
 
 UNIT = 1.27
+NOTE = 2.29  # comment / note text: 1.3x the symbol text size T, so notes stay readable when a sheet is printed on A4 or Letter
 
 
 def gr(x):
@@ -137,16 +138,19 @@ class Sheet:
         self.items.append(f'(no_connect (at {pt[0]:.2f} {pt[1]:.2f}) (uuid "{self.key("n")}"))')
 
     def text(self, t, x, y, size=T, bold=False, color=None):
+        size = NOTE if size == T else size
         b = " bold" if bold else ""
         c = f" (color {color} 1)" if color else ""
         self.items.append(f'(text "{q(t)}" (exclude_from_sim no) (at {x:.2f} {y:.2f} 0) (effects (font (size {size} {size}){b}{c}) (justify left bottom)) (uuid "{self.key("t")}"))')
 
     def text_box(self, t, x, y, w, h, size=T):
+        size = NOTE if size == T else size
         """Single paragraph (KiCad wraps it); embedded newlines are not accepted by the parser."""
         self.items.append(f'(text_box "{q(t)}" (exclude_from_sim no) (at {x:.2f} {y:.2f} 0) (size {w} {h}) (stroke (width 0.2) (type solid)) (fill (type none)) '
                           f'(effects (font (size {size} {size})) (justify left top)) (uuid "{self.key("tb")}"))')
 
     def notes(self, paragraphs, x, y, w, size=T):
+        size = NOTE if size == T else size
         """Stack of auto-wrapping boxes, one per paragraph. Returns the bottom y."""
         cpl = max(20, int(w / (size * 1.02)))
         for t in paragraphs:

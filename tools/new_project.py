@@ -49,7 +49,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PROJ = os.path.dirname(HERE)
 sys.path.insert(0, {tools_path})
 from sitara_av import Context, Sheet, T, gr  # noqa: E402
-from sitara_av import blocks  # noqa: E402
+from sitara_av import blocks, tbc  # noqa: E402
 
 NS = "{namespace}"
 
@@ -59,7 +59,14 @@ def make_context(mode="color"):
                    comment="Dashed outline = placeholder", namespace=NS, mode=mode)
 
 
-def system(ctx):
+# Open items. One list feeds the register sheet and the count on the root sheet. Leave expected blank until a date is known.
+TBC = [
+    tbc.Item("Example: SDI card model and slot", "DeckLink or AJA", "{company}", "", ""),
+    tbc.Item("Example: house network switches", "", "Client", "", "Replace these examples"),
+]
+
+
+def system(ctx, page):
     s = Sheet(ctx, "{name}.kicad_sch", "{name} - signal flow", "A3", ctx.uid("root"), "")
     s.page = "1"
     s.text("{name}: render node, reference and network (starting point - replace with the real system).", 20.32, 22.86, 3.2, True)
@@ -81,15 +88,19 @@ def system(ctx):
         s.nc(srv.pin(pn))
     for k in range(1, 6):
         s.nc(srv.pin("DP-OUT-" + str(k))); s.nc(srv.pin("HDMI-OUT-" + str(k)))
+    s.subsheet(page, (gr(350), gr(222)), (50.8, 20.32), [])
+    tbc.summary(s, TBC, 20.32, 247.0, 270.0, 28.0, page="2")
     return s
 
 
 def generate(mode="color"):
     """Write every sheet. mode = 'color' (normal) or 'print' (black wires told apart by line pattern)."""
     ctx = make_context(mode)
-    root = system(ctx)
+    page = tbc.register_sheet(ctx, ctx.uid("tbc"), ctx.uid("root"), TBC, page="2")
+    root = system(ctx, page)
+    page.write()
     root.write(root=True)
-    return [root.fname]
+    return [root.fname, page.fname]
 
 
 if __name__ == "__main__":
@@ -120,7 +131,7 @@ def main():
     ap.add_argument("--strict", action="store_true")
     ap.add_argument("--rev", default="A")
     a = ap.parse_args()
-    cfg = BuildConfig(proj_dir=PROJ, name="{name}", sheets=["{name}.kicad_sch"], generate=gen_schematic.generate, rev=a.rev,
+    cfg = BuildConfig(proj_dir=PROJ, name="{name}", sheets=["{name}.kicad_sch", "tbc.kicad_sch"], generate=gen_schematic.generate, rev=a.rev,
                       worksheet={worksheet})
     build(cfg, no_gen=a.no_gen, strict=a.strict)
 
