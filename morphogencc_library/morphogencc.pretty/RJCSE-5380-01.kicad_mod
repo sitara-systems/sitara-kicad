@@ -43,8 +43,8 @@
   (pad 12 smd rect (at -6.99 -16.08) (size 0.61 3.05) (layers F.Cu F.Paste F.Mask))
   (pad 13 smd rect (at -8.66 -5.28) (size 2.5 3.9) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 8.66 -5.28) (size 2.5 3.9) (layers F.Cu F.Paste F.Mask))
-  (pad 15 np_thru_hole circle (at -6.35 -5.28) (size 3.3 0) (drill 3.3) (layers *.Cu *.Mask))
-  (pad 16 np_thru_hole circle (at 6.35 -5.28) (size 3.3 0) (drill 3.3) (layers *.Cu *.Mask))
+  (pad 15 np_thru_hole circle (at -6.35 -5.28) (size 3.3 3.3) (drill 3.3) (layers *.Cu *.Mask))
+  (pad 16 np_thru_hole circle (at 6.35 -5.28) (size 3.3 3.3) (drill 3.3) (layers *.Cu *.Mask))
   (model C:\Users\Developer\Downloads\SamacSys_Parts.3dshapes\RJCSE-5380-01.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
