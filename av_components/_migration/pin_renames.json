@@ -1,0 +1,1619 @@
+[
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "CAMERA_BROADCAST_SDI",
+  "old": "HDMI",
+  "new": "HDMI-OUT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "CAMERA_BROADCAST_SDI",
+  "old": "Power_12V",
+  "new": "PWR-12V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "CAMERA_PTZ_IP_POE",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "CAMERA_SECURITY_IP_POE",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "CAMERA_THERMAL_IP_POE",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-cameras.kicad_sym",
+  "symbol": "OPTITRACK_SYNC_HUB",
+  "old": "Power_12V",
+  "new": "PWR-12V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_RACKMOUNT_2U",
+  "old": "DisplayPort-MB",
+  "new": "DP-OUT-MB",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_RACKMOUNT_2U",
+  "old": "USB-A-Front-2",
+  "new": "USB-A-FRONT-2",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_RACKMOUNT_2U",
+  "old": "USB-A-Front-1",
+  "new": "USB-A-FRONT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "Audio-Out",
+  "new": "AUDIO-OUT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "DisplayPort-MB",
+  "new": "DP-OUT-MB",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "Power-Input",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "USB-A-Front-1",
+  "new": "USB-A-FRONT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_SFF_STANDARD",
+  "old": "USB-C-Front",
+  "new": "USB-C-FRONT",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TINY_COMPACT",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TINY_COMPACT",
+  "old": "DisplayPort-2",
+  "new": "DP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TINY_COMPACT",
+  "old": "DisplayPort-1",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TINY_COMPACT",
+  "old": "USB-A-Front",
+  "new": "USB-A-FRONT",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "Audio-In",
+  "new": "AUDIO-IN-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "Audio-Out",
+  "new": "AUDIO-OUT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "DisplayPort-MB",
+  "new": "DP-OUT-MB",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "Power-Input",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "USB-A-Front-2",
+  "new": "USB-A-FRONT-2",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "USB-A-Front-1",
+  "new": "USB-A-FRONT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "COMPUTER_TOWER_WORKSTATION",
+  "old": "USB-C-Front",
+  "new": "USB-C-FRONT",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A1000",
+  "old": "Mini-DP-4",
+  "new": "MDP-OUT-4",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A1000",
+  "old": "Mini-DP-3",
+  "new": "MDP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A1000",
+  "old": "Mini-DP-2",
+  "new": "MDP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A1000",
+  "old": "Mini-DP-1",
+  "new": "MDP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A2000",
+  "old": "Mini-DP-4",
+  "new": "MDP-OUT-4",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A2000",
+  "old": "Mini-DP-3",
+  "new": "MDP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A2000",
+  "old": "Mini-DP-2",
+  "new": "MDP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A2000",
+  "old": "Mini-DP-1",
+  "new": "MDP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A400",
+  "old": "Mini-DP-3",
+  "new": "MDP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A400",
+  "old": "Mini-DP-2",
+  "new": "MDP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A400",
+  "old": "Mini-DP-1",
+  "new": "MDP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A4000",
+  "old": "DisplayPort-4",
+  "new": "DP-OUT-4",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A4000",
+  "old": "DisplayPort-3",
+  "new": "DP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A4000",
+  "old": "DisplayPort-2",
+  "new": "DP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A4000",
+  "old": "DisplayPort-1",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A5000",
+  "old": "DisplayPort-4",
+  "new": "DP-OUT-4",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A5000",
+  "old": "DisplayPort-3",
+  "new": "DP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A5000",
+  "old": "DisplayPort-2",
+  "new": "DP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A5000",
+  "old": "DisplayPort-1",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A6000",
+  "old": "DisplayPort-4",
+  "new": "DP-OUT-4",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A6000",
+  "old": "DisplayPort-3",
+  "new": "DP-OUT-3",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A6000",
+  "old": "DisplayPort-2",
+  "new": "DP-OUT-2",
+  "type": "output"
+ },
+ {
+  "library": "sitara-computers.kicad_sym",
+  "symbol": "GPU_NVIDIA_RTX_A6000",
+  "old": "DisplayPort-1",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_DISPLAYPORT_TO_HDMI",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_DISPLAYPORT_TO_HDMI",
+  "old": "DP_IN",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_HDMI_TO_DISPLAYPORT",
+  "old": "DP_OUT",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_HDMI_TO_DISPLAYPORT",
+  "old": "HDMI_IN",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_MINI_DP_TO_HDMI",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_USBC_TO_DISPLAYPORT",
+  "old": "DP_OUT",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "ADAPTER_USBC_TO_HDMI",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_22_FHD",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_22_FHD",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_22_FHD",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_22_FHD",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_FHD",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_FHD",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_FHD",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_FHD",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_QHD",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_QHD",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_QHD",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_24_QHD",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_FHD",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_FHD",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_FHD",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_FHD",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_QHD",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_QHD",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_QHD",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_27_QHD",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_32_4K",
+  "old": "USB_Hub",
+  "new": "USB-HUB",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_32_4K",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_32_4K",
+  "old": "HDMI_2",
+  "new": "HDMI-IN-2",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_32_4K",
+  "old": "HDMI_1",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "DISPLAY_32_4K",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_22_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_22_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_22_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_22_PCAP",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_22_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_32_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_32_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_32_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_32_PCAP",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_32_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_43_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "Audio_In",
+  "new": "AUDIO-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "HDMI",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_55_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "Audio_Out",
+  "new": "AUDIO-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "Audio_In",
+  "new": "AUDIO-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "HDMI_2",
+  "new": "HDMI-IN-2",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "HDMI_1",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_65_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "Audio_Out",
+  "new": "AUDIO-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "Audio_In",
+  "new": "AUDIO-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "USB_Touch",
+  "new": "USB-TOUCH",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "DisplayPort",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "HDMI_2",
+  "new": "HDMI-IN-2",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "HDMI_1",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "TOUCHSCREEN_86_PCAP",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "RJ45_Control",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "DVI_OUT",
+  "new": "DVI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "DVI_IN",
+  "new": "DVI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "DP_OUT",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "DP_IN",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "HDMI_IN",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_46_NARROW",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "RJ45_Control",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "DVI_OUT",
+  "new": "DVI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "DVI_IN",
+  "new": "DVI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "DP_OUT",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "DP_IN",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "HDMI_IN",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_NARROW",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "RJ45_Control",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "DVI_OUT",
+  "new": "DVI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "DVI_IN",
+  "new": "DVI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "DP_OUT",
+  "new": "DP-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "DP_IN",
+  "new": "DP-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "HDMI_OUT",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "HDMI_IN",
+  "new": "HDMI-IN-1",
+  "type": "input"
+ },
+ {
+  "library": "sitara-displays.kicad_sym",
+  "symbol": "VIDEOWALL_TILE_55_ULTRA_NARROW",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "BRAINBOX_BB400_ETHERNET_IO",
+  "old": "RJ45_Ethernet",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "BRAINBOX_BB400_ETHERNET_IO",
+  "old": "Power_24V",
+  "new": "PWR-24V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "BRAINBOX_USB_SERIAL",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "PHIDGET_HUB_VINT",
+  "old": "Power_12V",
+  "new": "PWR-12V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "PHIDGET_SBC4",
+  "old": "Audio_Out",
+  "new": "AUDIO-OUT-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "PHIDGET_SBC4",
+  "old": "HDMI",
+  "new": "HDMI-OUT-1",
+  "type": "output"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "PHIDGET_SBC4",
+  "old": "RJ45_Ethernet",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "PHIDGET_SBC4",
+  "old": "Power_12V",
+  "new": "PWR-12V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "TEKNIC_CLEARCORE",
+  "old": "RJ45_Ethernet",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "TEKNIC_CLEARCORE",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "TEKNIC_CLEARCORE",
+  "old": "Power_24V",
+  "new": "PWR-24V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "TEKNIC_CLEARPATH_SERVO",
+  "old": "Power_75V",
+  "new": "PWR-75V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hardware.kicad_sym",
+  "symbol": "USB_HUB_13PORT",
+  "old": "Power_12V",
+  "new": "PWR-12V",
+  "type": "input"
+ },
+ {
+  "library": "sitara-hid.kicad_sym",
+  "symbol": "KEYBOARD_MOUSE_WIRELESS_USB_DONGLE",
+  "old": "USB_Dongle",
+  "new": "USB-DONGLE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hid.kicad_sym",
+  "symbol": "KEYBOARD_USB",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hid.kicad_sym",
+  "symbol": "KEYBOARD_WIRELESS_USB_DONGLE",
+  "old": "USB_Dongle",
+  "new": "USB-DONGLE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hid.kicad_sym",
+  "symbol": "MOUSE_USB",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-hid.kicad_sym",
+  "symbol": "MOUSE_WIRELESS_USB_DONGLE",
+  "old": "USB_Dongle",
+  "new": "USB-DONGLE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "ADAPTER_USB_ETHERNET",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "ADAPTER_USB_ETHERNET",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "POE_INJECTOR",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "ROUTER_VPN",
+  "old": "USB3.0",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "ROUTER_VPN",
+  "old": "LAN",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_GIGABIT",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-16(PoE)",
+  "new": "RJ45-16-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-15(PoE)",
+  "new": "RJ45-15-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-14(PoE)",
+  "new": "RJ45-14-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-13(PoE)",
+  "new": "RJ45-13-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-12(PoE)",
+  "new": "RJ45-12-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-11(PoE)",
+  "new": "RJ45-11-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-10(PoE)",
+  "new": "RJ45-10-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-9(PoE)",
+  "new": "RJ45-9-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-8(PoE)",
+  "new": "RJ45-8-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-7(PoE)",
+  "new": "RJ45-7-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-6(PoE)",
+  "new": "RJ45-6-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-5(PoE)",
+  "new": "RJ45-5-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-4(PoE)",
+  "new": "RJ45-4-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-3(PoE)",
+  "new": "RJ45-3-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-2(PoE)",
+  "new": "RJ45-2-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "RJ45-1(PoE)",
+  "new": "RJ45-1-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_16PORT_POE",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_GIGABIT",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-24(PoE)",
+  "new": "RJ45-24-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-23(PoE)",
+  "new": "RJ45-23-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-22(PoE)",
+  "new": "RJ45-22-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-21(PoE)",
+  "new": "RJ45-21-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-20(PoE)",
+  "new": "RJ45-20-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-19(PoE)",
+  "new": "RJ45-19-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-18(PoE)",
+  "new": "RJ45-18-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-17(PoE)",
+  "new": "RJ45-17-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-16(PoE)",
+  "new": "RJ45-16-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-15(PoE)",
+  "new": "RJ45-15-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-14(PoE)",
+  "new": "RJ45-14-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-13(PoE)",
+  "new": "RJ45-13-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-12(PoE)",
+  "new": "RJ45-12-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-11(PoE)",
+  "new": "RJ45-11-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-10(PoE)",
+  "new": "RJ45-10-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-9(PoE)",
+  "new": "RJ45-9-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-8(PoE)",
+  "new": "RJ45-8-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-7(PoE)",
+  "new": "RJ45-7-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-6(PoE)",
+  "new": "RJ45-6-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-5(PoE)",
+  "new": "RJ45-5-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-4(PoE)",
+  "new": "RJ45-4-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-3(PoE)",
+  "new": "RJ45-3-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-2(PoE)",
+  "new": "RJ45-2-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "RJ45-1(PoE)",
+  "new": "RJ45-1-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_24PORT_POE",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_GIGABIT",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_POE",
+  "old": "RJ45-4(PoE)",
+  "new": "RJ45-4-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_POE",
+  "old": "RJ45-3(PoE)",
+  "new": "RJ45-3-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_POE",
+  "old": "RJ45-2(PoE)",
+  "new": "RJ45-2-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_POE",
+  "old": "RJ45-1(PoE)",
+  "new": "RJ45-1-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_5PORT_POE",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_GIGABIT",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-8(PoE)",
+  "new": "RJ45-8-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-7(PoE)",
+  "new": "RJ45-7-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-6(PoE)",
+  "new": "RJ45-6-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-5(PoE)",
+  "new": "RJ45-5-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-4(PoE)",
+  "new": "RJ45-4-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-3(PoE)",
+  "new": "RJ45-3-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-2(PoE)",
+  "new": "RJ45-2-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "RJ45-1(PoE)",
+  "new": "RJ45-1-POE",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "SWITCH_8PORT_POE",
+  "old": "Power",
+  "new": "PWR-IN",
+  "type": "input"
+ },
+ {
+  "library": "sitara-networking.kicad_sym",
+  "symbol": "WIFI_ACCESS_POINT",
+  "old": "RJ45",
+  "new": "RJ45-1",
+  "type": "bidirectional"
+ },
+ {
+  "library": "sitara-skies.kicad_sym",
+  "symbol": "GRAUPNER_MX-20_TRANSMITTER",
+  "old": "USB",
+  "new": "USB-A-1",
+  "type": "bidirectional"
+ }
+]

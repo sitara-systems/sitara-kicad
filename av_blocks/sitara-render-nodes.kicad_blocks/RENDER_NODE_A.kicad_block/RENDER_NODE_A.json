@@ -1,5 +1,5 @@
 {
-  "description": "Permanent render node: Dell Precision 7875 Tower, RTX PRO 6000 Blackwell Max-Q (dual slot), 12G-SDI card, RTX PRO Sync card, PCIe slot wiring, unused ports flagged. Excludes external USB sound card.",
+  "description": "Render node A: Dell Precision 7875 Tower, RTX PRO 6000 Blackwell Max-Q (dual slot), 12G-SDI card and RTX PRO Sync card with the PCIe slots wired as claims, unused ports flagged. Excludes any external USB sound card.",
   "keywords": "render node, Dell Precision 7875, RTX PRO 6000, SDI, genlock, AV",
   "fields": {}
 }

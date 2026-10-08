@@ -24,3 +24,10 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# KiCad GUI state and generator caches
+*.kicad_prl
+*-backups/
+fp-info-cache
+.history/
+__pycache__/

@@ -2,11 +2,10 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a47913b4-6935-5a04-9221-d92defca39e7")
+	(uuid "29b255e2-a3c9-5548-a865-79c073162427")
 	(paper "A3")
 	(title_block
-		(title "Render node A (design block)")
-		(date "2026-10-08")
+		(title "Render Node A (design block)")
 		(rev "A")
 		(company "Sitara Systems")
 	)
@@ -18,23 +17,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SDI"
-				(at -15.24 7.62 0)
+				(at -16.51 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "CAPTURE_CARD_SDI_12G_4CH"
-				(at -15.24 -7.62 0)
+				(at -16.51 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -46,7 +45,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -57,7 +56,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -68,17 +67,17 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Model" "DeckLink 8K Pro G2 | AJA Corvid 44 12G BNC (TBC)"
-				(at -15.24 -10.16 0)
+				(at -16.51 -14.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -90,7 +89,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -101,7 +100,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -112,7 +111,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -123,7 +122,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -134,7 +133,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -145,25 +144,25 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Status" "TBC"
-				(at -15.24 -12.7 0)
+				(at -16.51 -17.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
 			)
 			(symbol "CAPTURE_CARD_SDI_12G_4CH_0_1"
 				(rectangle
-					(start -15.24 6.35)
-					(end 15.24 -6.35)
+					(start -16.51 10.16)
+					(end 16.51 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -175,109 +174,109 @@
 			)
 			(symbol "CAPTURE_CARD_SDI_12G_4CH_1_1"
 				(pin output line
-					(at -17.78 1.27 0)
-					(length 2.54)
+					(at -20.32 1.27 0)
+					(length 3.81)
 					(name "PCIe-X8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 -1.27 0)
-					(length 2.54)
+					(at -20.32 -2.54 0)
+					(length 3.81)
 					(name "REF-IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 3.81 180)
-					(length 2.54)
+					(at 20.32 5.08 180)
+					(length 3.81)
 					(name "SDI-OUT-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 1.27 180)
-					(length 2.54)
+					(at 20.32 1.27 180)
+					(length 3.81)
 					(name "SDI-OUT-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 -1.27 180)
-					(length 2.54)
+					(at 20.32 -2.54 180)
+					(length 3.81)
 					(name "SDI-OUT-3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 -3.81 180)
-					(length 2.54)
+					(at 20.32 -6.35 180)
+					(length 3.81)
 					(name "SDI-OUT-4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
@@ -292,23 +291,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SYNC"
-				(at -15.24 5.08 0)
+				(at -21.59 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "CARD_NVIDIA_RTX_PRO_SYNC"
-				(at -15.24 -5.08 0)
+				(at -21.59 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -320,7 +319,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -331,7 +330,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -342,17 +341,17 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Model" "NVIDIA RTX PRO Sync"
-				(at -15.24 -7.62 0)
+				(at -21.59 -10.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -364,17 +363,17 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Usage" "Added separately (not sold by Dell)"
-				(at -15.24 -10.16 0)
+				(at -21.59 -13.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -386,7 +385,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -397,25 +396,25 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
-			(property "Status" "CONFIRMED"
+			(property "Status" "TBC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(symbol "CARD_NVIDIA_RTX_PRO_SYNC_0_1"
 				(rectangle
-					(start -15.24 3.81)
-					(end 15.24 -3.81)
+					(start -21.59 6.35)
+					(end 21.59 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -427,55 +426,55 @@
 			)
 			(symbol "CARD_NVIDIA_RTX_PRO_SYNC_1_1"
 				(pin output line
-					(at -17.78 1.27 0)
-					(length 2.54)
+					(at -25.4 1.27 0)
+					(length 3.81)
 					(name "PCIe-X4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -17.78 -1.27 0)
-					(length 2.54)
+					(at -25.4 -2.54 0)
+					(length 3.81)
 					(name "GENLOCK-IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 0 180)
-					(length 2.54)
+					(at 25.4 0 180)
+					(length 3.81)
 					(name "GENLOCK-LOOP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
@@ -490,23 +489,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CPU"
-				(at -20.32 15.24 0)
+				(at -29.21 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "DELL_PRECISION_7875_TOWER"
-				(at -20.32 -15.24 0)
+				(at -29.21 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -518,7 +517,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -529,7 +528,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -540,17 +539,17 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Model" "Dell Precision 7875 Tower"
-				(at -20.32 -17.78 0)
+				(at -29.21 -30.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -562,7 +561,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -573,7 +572,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -584,7 +583,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -595,7 +594,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -606,7 +605,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -617,29 +616,29 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
-			(property "Network" "Integrated: 1x RJ45 1 GbE + 1x RJ45 10 GbE (Dell spec page)"
+			(property "Network" "Integrated: RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
-			(property "Management" "AMD DASH per Dell product page; which port carries it TBC"
+			(property "Management" "AMD DASH; which port carries it TBC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -650,18 +649,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Ethernet" "RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -672,7 +660,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -683,7 +671,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -694,14 +682,14 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(symbol "DELL_PRECISION_7875_TOWER_0_1"
 				(rectangle
-					(start -20.32 13.97)
-					(end 20.32 -13.97)
+					(start -29.21 26.67)
+					(end 29.21 -26.67)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -713,325 +701,379 @@
 			)
 			(symbol "DELL_PRECISION_7875_TOWER_1_1"
 				(pin power_in line
-					(at -22.86 11.43 0)
-					(length 2.54)
+					(at -33.02 22.86 0)
+					(length 3.81)
 					(name "PWR-IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 8.89 0)
-					(length 2.54)
-					(name "USB-C-FRONT"
+					(at -33.02 19.05 0)
+					(length 3.81)
+					(name "USB-C-FRONT-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 6.35 0)
-					(length 2.54)
-					(name "USB-A-FRONT-1"
+					(at -33.02 15.24 0)
+					(length 3.81)
+					(name "USB-C-FRONT-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 3.81 0)
-					(length 2.54)
-					(name "USB-A-FRONT-2"
+					(at -33.02 11.43 0)
+					(length 3.81)
+					(name "USB-A-FRONT-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 1.27 0)
-					(length 2.54)
-					(name "USB-A-REAR-1"
+					(at -33.02 7.62 0)
+					(length 3.81)
+					(name "USB-A-FRONT-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -1.27 0)
-					(length 2.54)
-					(name "USB-A-REAR-2"
+					(at -33.02 3.81 0)
+					(length 3.81)
+					(name "HEADSET-FRONT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -3.81 0)
-					(length 2.54)
-					(name "USB-A-REAR-3"
+					(at -33.02 0 0)
+					(length 3.81)
+					(name "USB-A-REAR-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -6.35 0)
-					(length 2.54)
-					(name "USB-A-REAR-4"
+					(at -33.02 -3.81 0)
+					(length 3.81)
+					(name "USB-A-REAR-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -8.89 0)
-					(length 2.54)
-					(name "USB-C-REAR-1"
+					(at -33.02 -7.62 0)
+					(length 3.81)
+					(name "USB-A-REAR-3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at -22.86 -11.43 0)
-					(length 2.54)
-					(name "AUDIO-OUT"
+				(pin bidirectional line
+					(at -33.02 -11.43 0)
+					(length 3.81)
+					(name "USB-C-REAR-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 8.89 180)
-					(length 2.54)
-					(name "RJ45-1G"
+					(at -33.02 -15.24 0)
+					(length 3.81)
+					(name "USB-C-REAR-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 6.35 180)
-					(length 2.54)
-					(name "RJ45-10G"
+					(at -33.02 -19.05 0)
+					(length 3.81)
+					(name "USB-C-REAR-3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 22.86 3.81 180)
-					(length 2.54)
-					(name "PCIe-Slot-1-G5x8"
+				(pin output line
+					(at -33.02 -22.86 0)
+					(length 3.81)
+					(name "AUDIO-OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 22.86 1.27 180)
-					(length 2.54)
-					(name "PCIe-Slot-2-G5x16"
+				(pin bidirectional line
+					(at 33.02 12.7 180)
+					(length 3.81)
+					(name "RJ45-1G"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 22.86 -1.27 180)
-					(length 2.54)
-					(name "PCIe-Slot-3-G4x4"
+				(pin bidirectional line
+					(at 33.02 8.89 180)
+					(length 3.81)
+					(name "RJ45-10G"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 22.86 -3.81 180)
-					(length 2.54)
-					(name "PCIe-Slot-4-G4x8"
+					(at 33.02 5.08 180)
+					(length 3.81)
+					(name "PCIe-Slot-1-G5x8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 22.86 -6.35 180)
-					(length 2.54)
-					(name "PCIe-Slot-5-G4x16"
+					(at 33.02 1.27 180)
+					(length 3.81)
+					(name "PCIe-Slot-2-G5x16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at 22.86 -8.89 180)
-					(length 2.54)
-					(name "PCIe-Slot-6-G4x8"
+					(at 33.02 -2.54 180)
+					(length 3.81)
+					(name "PCIe-Slot-3-G4x4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -6.35 180)
+					(length 3.81)
+					(name "PCIe-Slot-4-G4x8"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -10.16 180)
+					(length 3.81)
+					(name "PCIe-Slot-5-G4x16"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -13.97 180)
+					(length 3.81)
+					(name "PCIe-Slot-6-G4x8"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.78 1.78)
 							)
 						)
 					)
@@ -1046,23 +1088,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "GPU"
-				(at -15.24 7.62 0)
+				(at -16.51 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ"
-				(at -15.24 -7.62 0)
+				(at -16.51 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -1074,7 +1116,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1085,7 +1127,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1096,17 +1138,17 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(property "Model" "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
-				(at -15.24 -10.16 0)
+				(at -16.51 -14.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 					(justify left)
 				)
@@ -1118,7 +1160,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1129,7 +1171,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1140,18 +1182,18 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
-			(property "DisplayOutputs" "4x DisplayPort (DP 2.1 per NVIDIA - verify)"
+			(property "DisplayOutputs" "4x DisplayPort 2.1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1162,7 +1204,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1173,7 +1215,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1184,7 +1226,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1195,7 +1237,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1206,7 +1248,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
@@ -1217,14 +1259,14 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.78 1.78)
 					)
 				)
 			)
 			(symbol "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ_0_1"
 				(rectangle
-					(start -15.24 6.35)
-					(end 15.24 -6.35)
+					(start -16.51 10.16)
+					(end 16.51 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1236,109 +1278,109 @@
 			)
 			(symbol "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ_1_1"
 				(pin output line
-					(at -17.78 1.27 0)
-					(length 2.54)
+					(at -20.32 1.27 0)
+					(length 3.81)
 					(name "PCIe-X16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at -17.78 -1.27 0)
-					(length 2.54)
+					(at -20.32 -2.54 0)
+					(length 3.81)
 					(name "PCIe-ADJ"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 3.81 180)
-					(length 2.54)
+					(at 20.32 5.08 180)
+					(length 3.81)
 					(name "DP-OUT-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 1.27 180)
-					(length 2.54)
+					(at 20.32 1.27 180)
+					(length 3.81)
 					(name "DP-OUT-2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 -1.27 180)
-					(length 2.54)
+					(at 20.32 -2.54 180)
+					(length 3.81)
 					(name "DP-OUT-3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 -3.81 180)
-					(length 2.54)
+					(at 20.32 -6.35 180)
+					(length 3.81)
 					(name "DP-OUT-4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.78 1.78)
 							)
 						)
 					)
@@ -1347,497 +1389,486 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCIe x16 (slot 2)"
-		(exclude_from_sim no)
-		(at 133.35 69.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03934b63-2b6b-57de-aeb8-4cf31bcc7b98")
-	)
-	(text "dual width: slot 3 too"
-		(exclude_from_sim no)
-		(at 142 75.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57a055e4-0198-5bdf-80bd-4095cd2f9209")
-	)
 	(text "PCIe slots (Dell manual numbering): 1 Gen5 x8, 2 Gen5 x16, 3 Gen4 x8 at x4, 4 Gen4 x8, 5 Gen4 x16, 6 Gen4 x8."
 		(exclude_from_sim no)
-		(at 22.86 197 0)
+		(at 22.86 240 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "8b7069ed-716d-5948-9a7d-4c49f0b1c08d")
+		(uuid "44d48dff-ba53-5016-8974-8a4b4d475333")
+	)
+	(text "PCIe x16 (slot 2)"
+		(exclude_from_sim no)
+		(at 158.75 67.58 0)
+		(effects
+			(font
+				(size 1.78 1.78)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f7f58e3-7528-5d3c-8027-a4e3353d5fea")
 	)
 	(text "PCIe x8 (slot 4)"
 		(exclude_from_sim no)
-		(at 128.27 137.67 0)
+		(at 181.61 160.29 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "a310d2f5-cd60-5fd4-b9fd-150a64c68189")
+		(uuid "97bf9d13-7d8b-5df3-8aef-84bdcb870615")
 	)
 	(text "PCIe (slot 6)"
 		(exclude_from_sim no)
-		(at 125.73 163.07 0)
+		(at 173.99 204.74 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "d85666e9-4f07-549b-bd60-79284a977303")
+		(uuid "a965d69f-13d5-521b-9dbe-638b98f2153c")
+	)
+	(text "dual width: slot 3 too"
+		(exclude_from_sim no)
+		(at 167.64 76.59 0)
+		(effects
+			(font
+				(size 1.78 1.78)
+			)
+			(justify left bottom)
+		)
+		(uuid "b483094e-e349-54d4-92eb-458499bbe3a6")
 	)
 	(no_connect
-		(at 200.66 69.85)
-		(uuid "1f98550c-2c9e-55cf-b29d-76e6e159c6ad")
+		(at 270.51 72.39)
+		(uuid "0458a5f6-3a9b-5c9d-91be-420a446e4cd2")
 	)
 	(no_connect
-		(at 53.34 105.41)
-		(uuid "2402334c-43e1-5003-b3f5-b856c9b8bd64")
+		(at 224.79 209.55)
+		(uuid "1091ca75-c388-5780-a446-e8fdf73f01a0")
 	)
 	(no_connect
-		(at 53.34 123.19)
-		(uuid "420341a1-e2f0-5118-8266-c0a70e986792")
+		(at 52.07 127)
+		(uuid "1675f0dd-8a51-53cb-8793-e7696d31f5c5")
 	)
 	(no_connect
-		(at 53.34 118.11)
-		(uuid "573ea06a-a623-5275-b76b-efe94c15a387")
+		(at 52.07 149.86)
+		(uuid "1ab2e6f8-9fef-5177-bf94-ca653747f760")
 	)
 	(no_connect
-		(at 53.34 110.49)
-		(uuid "5aab5aa3-d73c-56f0-b079-500a6878a9b6")
+		(at 52.07 130.81)
+		(uuid "22ebbe96-7801-5216-a13f-04c4cc46e1e0")
 	)
 	(no_connect
-		(at 200.66 74.93)
-		(uuid "5cd9ca77-dfe1-59b6-bece-d7efbbd93fef")
+		(at 270.51 68.58)
+		(uuid "34459090-3683-5a32-aba8-f0bd7797aee5")
 	)
 	(no_connect
-		(at 200.66 165.1)
-		(uuid "7dedbdfc-994a-55c4-baf0-80fbcd4d9650")
+		(at 270.51 64.77)
+		(uuid "36af832c-3cb1-5d83-9db1-3941bebf154f")
 	)
 	(no_connect
-		(at 53.34 113.03)
-		(uuid "97930298-a8f8-57c0-818a-2745fc87e582")
+		(at 118.11 144.78)
+		(uuid "61f01cf2-fd75-53b8-8a24-aa3ea1c74e74")
 	)
 	(no_connect
-		(at 99.06 118.11)
-		(uuid "b76e2999-b5b5-551f-821b-fc8958775da3")
+		(at 52.07 142.24)
+		(uuid "62fe1a2f-a987-5647-88b9-6c1ff1cfb423")
 	)
 	(no_connect
-		(at 53.34 100.33)
-		(uuid "cca9ce1f-6691-581f-ae46-5fabb07f03e6")
+		(at 52.07 146.05)
+		(uuid "78eea739-7679-572e-b081-ed2d9968e8c0")
 	)
 	(no_connect
-		(at 53.34 102.87)
-		(uuid "ce17b05c-537f-5954-b4df-d2a114ab5a88")
+		(at 270.51 76.2)
+		(uuid "87ab6aa7-898e-58bf-b9ac-d47bdeaae543")
 	)
 	(no_connect
-		(at 53.34 115.57)
-		(uuid "d0005acd-daf8-5fcf-a45b-3e1e8f46a11e")
+		(at 52.07 111.76)
+		(uuid "8a5c8d67-e1ef-57be-9f7e-bf95e998d44d")
 	)
 	(no_connect
-		(at 53.34 120.65)
-		(uuid "d54da27f-93d7-543b-a6df-dc92cef92464")
+		(at 52.07 123.19)
+		(uuid "ab573800-48fa-58d9-ac3b-d81c337ae7d3")
 	)
 	(no_connect
-		(at 200.66 67.31)
-		(uuid "d9f79ca2-7936-5469-b496-ecba873ef52b")
+		(at 52.07 119.38)
+		(uuid "c077f512-79fe-5e2b-a95f-3ab2d1a511ed")
 	)
 	(no_connect
-		(at 200.66 72.39)
-		(uuid "f0728c24-6408-5791-a15f-13466936904d")
+		(at 275.59 207.01)
+		(uuid "d702ca2a-35b7-5c45-883b-140e750d46e3")
 	)
 	(no_connect
-		(at 99.06 107.95)
-		(uuid "fada1258-5d08-58e5-8a9b-c9eaf291e75e")
+		(at 52.07 115.57)
+		(uuid "d91d5585-5e9d-5cbc-9977-91843e676d03")
 	)
 	(no_connect
-		(at 165.1 166.37)
-		(uuid "fde3917b-779d-51c1-9723-c7a8173ce397")
+		(at 52.07 157.48)
+		(uuid "e319e0ec-416d-5dfa-b2aa-b9cb144f6a4e")
 	)
 	(no_connect
-		(at 53.34 107.95)
-		(uuid "feaabc4a-6c51-533f-b176-f0c8be528152")
+		(at 52.07 134.62)
+		(uuid "e7fbb1a4-0b2c-5d28-b166-9b97a69ff827")
+	)
+	(no_connect
+		(at 118.11 129.54)
+		(uuid "e82e8943-2e8c-5e41-abed-5822eafeab43")
+	)
+	(no_connect
+		(at 52.07 153.67)
+		(uuid "eb12099c-5f82-51ef-a6de-7eb90458ee00")
+	)
+	(no_connect
+		(at 52.07 138.43)
+		(uuid "f7fe5624-44f7-507a-8f8b-eaf2adb6c0f1")
 	)
 	(bus_entry
-		(at 213.36 135.89)
+		(at 288.29 165.1)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ae194de-4fa4-5f02-8077-7425cbfb1353")
+		(uuid "5b63d1a7-51f1-5bc2-9b9b-28287cd479ff")
 	)
 	(bus_entry
-		(at 213.36 143.51)
+		(at 288.29 157.48)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "521a978a-1fee-5a60-bc35-7a0a5585ce6f")
+		(uuid "9d9d8393-4091-552e-ae35-7c9801b2b259")
 	)
 	(bus_entry
-		(at 213.36 138.43)
+		(at 288.29 168.91)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b613be7f-77c0-562b-9ef4-e7be3a61e241")
+		(uuid "a60b5d74-1f47-515a-a98a-476771ca85b7")
 	)
 	(bus_entry
-		(at 213.36 140.97)
+		(at 288.29 161.29)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc21db68-bb09-5afb-ae31-1148bd0b9f8b")
+		(uuid "e51ac2d1-ee75-5f96-83c4-5fd24c7362f8")
 	)
 	(wire
 		(pts
-			(xy 127 115.57) (xy 127 138.43)
+			(xy 270.51 161.29) (xy 288.29 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 185 55 125 1)
 		)
-		(uuid "02663ba2-7235-5a44-9778-0339bd2005ab")
-	)
-	(bus
-		(pts
-			(xy 215.9 170.18) (xy 254 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 150 0 1)
-		)
-		(uuid "07ccbb83-450c-54fe-ae87-7c05e8c498cb")
+		(uuid "0c24577a-927a-5008-889f-286d4a835d00")
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 165.1 72.39)
+			(xy 270.51 168.91) (xy 288.29 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 185 55 125 1)
 		)
-		(uuid "10c2ca4d-b602-5e6e-90b4-7839a6e74689")
+		(uuid "1ab547c2-1fab-5c2c-908d-aae6f2908eb5")
 	)
 	(wire
 		(pts
-			(xy 127 138.43) (xy 165.1 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 90 90 90 1)
-		)
-		(uuid "2501f9bf-cf1e-5a74-b824-3a5b5dcdf40c")
-	)
-	(bus
-		(pts
-			(xy 215.9 138.43) (xy 215.9 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 150 0 1)
-		)
-		(uuid "5272101c-184d-5dd0-89f6-a9314a50ebad")
-	)
-	(wire
-		(pts
-			(xy 165.1 140.97) (xy 152.4 140.97)
+			(xy 229.87 165.1) (xy 219.71 165.1)
 		)
 		(stroke
 			(width 0)
 			(type dash)
-			(color 0 0 0 1)
+			(color 30 30 30 1)
 		)
-		(uuid "54a69b50-15c1-57ab-9f66-97a8b4fc033c")
+		(uuid "23dc31fb-67c1-572e-ad7e-53ea35e02bb0")
 	)
 	(wire
 		(pts
-			(xy 124.46 163.83) (xy 165.1 163.83)
+			(xy 118.11 133.35) (xy 157.48 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "93241378-6914-5808-b7c6-ec40651116a2")
+		(uuid "30e2427e-29a9-522b-b580-3fef68f7455c")
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 134.62 113.03)
+			(xy 118.11 137.16) (xy 165.1 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "9b4bae5c-e74f-5459-8871-1debc75b84c3")
+		(uuid "3d49ca71-1591-5ea0-a27a-d2e136d81cfc")
 	)
 	(wire
 		(pts
-			(xy 200.66 140.97) (xy 213.36 140.97)
+			(xy 180.34 161.29) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 150 0 1)
+			(color 80 80 80 1)
 		)
-		(uuid "a652ad2a-fe07-5c44-a75c-ebf4fe6e122b")
+		(uuid "51313277-909d-56b2-9edc-c84d33938018")
 	)
 	(wire
 		(pts
-			(xy 99.06 120.65) (xy 124.46 120.65)
+			(xy 157.48 133.35) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "aab2c6fe-e983-5313-91e6-5bf1f4328f27")
+		(uuid "59a54e11-5485-5472-983a-ea0025dab114")
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 127 115.57)
+			(xy 165.1 72.39) (xy 229.87 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "ac66f997-26ff-53de-857d-8bdea7aa70a4")
+		(uuid "6a979552-eb21-535e-b937-380fc9b84dc4")
 	)
 	(wire
 		(pts
-			(xy 99.06 105.41) (xy 111.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 120 120 120 1)
-		)
-		(uuid "aed49e8c-3f25-556d-a5a7-a75edfbe09bd")
-	)
-	(wire
-		(pts
-			(xy 99.06 102.87) (xy 111.76 102.87)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 120 120 120 1)
-		)
-		(uuid "b8439cc3-1195-5557-93d0-2d2295fdc845")
-	)
-	(wire
-		(pts
-			(xy 200.66 138.43) (xy 213.36 138.43)
+			(xy 270.51 165.1) (xy 288.29 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 150 0 1)
+			(color 185 55 125 1)
 		)
-		(uuid "c64086a3-fc15-53d5-bd41-a95b8b9c6277")
-	)
-	(wire
-		(pts
-			(xy 200.66 135.89) (xy 213.36 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 150 0 1)
-		)
-		(uuid "c7fa56b1-98a9-5bb6-82a7-2a00aadfa285")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 124.46 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 90 90 90 1)
-		)
-		(uuid "c895790e-90d8-5f90-9b06-a0ac6f23e86a")
-	)
-	(wire
-		(pts
-			(xy 132.08 69.85) (xy 165.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 90 90 90 1)
-		)
-		(uuid "c9e0f103-cebe-53ab-a3a4-f806a2028a9a")
+		(uuid "6c32a396-bb92-50c9-a268-774b07823ffb")
 	)
 	(bus
 		(pts
-			(xy 215.9 146.05) (xy 215.9 170.18)
+			(xy 290.83 160.02) (xy 290.83 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 150 0 1)
+			(color 185 55 125 1)
 		)
-		(uuid "cb1cbb7b-53f2-5cff-9bbf-dd5c23f9ca15")
+		(uuid "6eb7940a-fd07-5265-bf69-d5f36fa32311")
 	)
 	(wire
 		(pts
-			(xy 200.66 143.51) (xy 213.36 143.51)
+			(xy 118.11 121.92) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 110 110 110 1)
+		)
+		(uuid "8606ea24-3d59-5956-a995-76cff2061c78")
+	)
+	(bus
+		(pts
+			(xy 290.83 218.44) (xy 330.2 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 150 0 1)
+			(color 185 55 125 1)
 		)
-		(uuid "d875d91b-cd66-5138-b558-fec5447bafa8")
+		(uuid "9f081f34-0699-5cfd-863b-a38b0f5391af")
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 132.08 69.85)
+			(xy 270.51 157.48) (xy 288.29 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 185 55 125 1)
 		)
-		(uuid "ea3a5e93-899b-5fa6-ab72-04179fe5f6d1")
+		(uuid "9f200619-e51f-57d9-8bee-29d977189010")
 	)
 	(wire
 		(pts
-			(xy 134.62 113.03) (xy 134.62 72.39)
+			(xy 157.48 68.58) (xy 229.87 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "ec6681d2-062e-5276-9ab7-438f494a2f5e")
+		(uuid "c04cbceb-e891-58b8-94b2-cdcaec169337")
 	)
 	(wire
 		(pts
-			(xy 99.06 110.49) (xy 132.08 110.49)
+			(xy 172.72 148.59) (xy 172.72 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 90 90 90 1)
+			(color 80 80 80 1)
 		)
-		(uuid "f6d7bd39-ffd8-551e-b390-1fd8be588220")
+		(uuid "c7a136d7-f28a-5047-84df-9f3bbf4912f5")
 	)
-	(label "SDI[1..4]"
-		(at 254 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 165.1 137.16) (xy 165.1 72.39)
 		)
-		(uuid "1658bea3-b60e-5ec6-8bad-89e7aa03d00d")
+		(stroke
+			(width 0)
+			(type default)
+			(color 80 80 80 1)
+		)
+		(uuid "ccb4f187-9dd1-537f-bd1f-7c723e055524")
 	)
-	(label "SDI1"
-		(at 204.47 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(bus
+		(pts
+			(xy 290.83 171.45) (xy 290.83 218.44)
 		)
-		(uuid "48a85c73-b9e6-58b3-887d-8e82359d4f92")
+		(stroke
+			(width 0)
+			(type default)
+			(color 185 55 125 1)
+		)
+		(uuid "ccf28ecc-7e21-5f51-ae0f-0ed95b6282fe")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 110 110 110 1)
+		)
+		(uuid "d1d12402-b658-5ff3-92d9-b74080b384fc")
+	)
+	(wire
+		(pts
+			(xy 172.72 205.74) (xy 224.79 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 80 80 80 1)
+		)
+		(uuid "d32a4d4b-6f1e-5167-be32-360ed78ff68e")
+	)
+	(wire
+		(pts
+			(xy 118.11 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 80 80 80 1)
+		)
+		(uuid "d893404b-b661-5ae4-a379-7ae233f2632c")
+	)
+	(wire
+		(pts
+			(xy 118.11 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 80 80 80 1)
+		)
+		(uuid "da30201a-85a2-5e4f-9fd6-910a9614a54a")
+	)
+	(wire
+		(pts
+			(xy 180.34 140.97) (xy 180.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 80 80 80 1)
+		)
+		(uuid "f6ee11ea-c3b2-594a-a1ea-78eaa0c26eb9")
 	)
 	(label "SDI4"
-		(at 204.47 143.51 0)
+		(at 274.32 168.91 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "844c259f-53b9-5b1b-9da3-3e1b88a3201e")
+		(uuid "22461d89-6591-57f4-b374-ff8234058e15")
 	)
-	(label "SDI3"
-		(at 204.47 140.97 0)
+	(label "SDI[1..4]"
+		(at 330.2 218.44 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "a8db18e3-b79d-5dda-a141-a473cbbee576")
+		(uuid "8260ae44-97d1-560f-94a4-406c8522c8cf")
 	)
 	(label "SDI2"
-		(at 204.47 138.43 0)
+		(at 274.32 161.29 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left bottom)
 		)
-		(uuid "bef0731b-d7fd-57b5-9521-d8114334160a")
+		(uuid "9bf74136-e8b9-5e7f-8ff8-5ae032b16567")
+	)
+	(label "SDI3"
+		(at 274.32 165.1 0)
+		(effects
+			(font
+				(size 1.78 1.78)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb8efa16-dbb0-5513-b55f-84eec409a395")
+	)
+	(label "SDI1"
+		(at 274.32 157.48 0)
+		(effects
+			(font
+				(size 1.78 1.78)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5281b4d-f7c1-543c-b21a-058c207e5fe9")
 	)
 	(global_label "REF"
 		(shape input)
-		(at 152.4 140.97 180)
+		(at 219.71 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify right)
 		)
-		(uuid "73fbfa0e-0f79-5766-aade-10320cdd1cd9")
+		(uuid "b058dfee-53d9-50ff-9a25-78ad78f26526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "NET-SHOW"
-		(shape bidirectional)
-		(at 111.76 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "be30905b-02ec-5359-bf43-d41d09f8335f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 105.41 0)
+			(at 219.71 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,17 +1881,17 @@
 	)
 	(global_label "NET-MGMT"
 		(shape bidirectional)
-		(at 111.76 102.87 0)
+		(at 123.19 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.78 1.78)
 			)
 			(justify left)
 		)
-		(uuid "fc4e52b8-1ceb-5364-8225-3ebef5e929d4")
+		(uuid "bfc73f68-c786-5f7a-9c36-ceb3984b2c59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 102.87 0)
+			(at 123.19 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,340 +1902,32 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "sitara-computers:CAPTURE_CARD_SDI_12G_4CH")
-		(at 182.88 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3990a19a-01b7-5fc9-b949-356ff3722edc")
-		(property "Reference" "SDI1"
-			(at 167.64 132.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(global_label "NET-SHOW"
+		(shape bidirectional)
+		(at 123.19 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.78 1.78)
 			)
+			(justify left)
 		)
-		(property "Value" "CAPTURE_CARD_SDI_12G_4CH"
-			(at 167.64 146.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 139.7 0)
+		(uuid "e7f5413e-e979-54c2-a6bd-23981f3139f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic 4-channel 12G-SDI PCIe I/O card with reference input, drawn configured as 4x OUT"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Model" "DeckLink 8K Pro G2 | AJA Corvid 44 12G BNC (TBC)"
-			(at 167.64 149.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "PreferredModel" "TBC"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SlotWidth" "1 (TBC for DeckLink; AJA Corvid 44 is single width)"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PortMode" "4x OUT in this drawing (hardware ports are bidirectional 12G-SDI)"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Connector" "BNC"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RefInput" "Tri-level / black burst, 59.94 or 60 - format TBC"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Output" "4x 2160p60 10-bit 4:2:2 single-link 12G, locked to house reference"
-			(at 182.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "TBC"
-			(at 167.64 151.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "423f1d15-ed1c-5537-a5bd-97728a66f088")
-		)
-		(pin "2"
-			(uuid "2498af9e-df3c-5508-a00e-e373b8d025f3")
-		)
-		(pin "3"
-			(uuid "a155da5d-3fe0-5642-b671-3741405cf3c3")
-		)
-		(pin "4"
-			(uuid "0cdbc0fd-13d1-5624-990c-b36fa9aae071")
-		)
-		(pin "5"
-			(uuid "a187d66b-feb0-5b91-8120-877b9f7c6359")
-		)
-		(pin "6"
-			(uuid "2ac7b9de-2a57-55a1-adb3-a9b7382c0302")
-		)
-		(instances
-			(project "design_block"
-				(path "/b15ba890-64b7-52a0-a117-4367d78b1665/9b3ebaeb-584a-54b1-bc0a-d62bb9a1264c"
-					(reference "SDI1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sitara-computers:CARD_NVIDIA_RTX_PRO_SYNC")
-		(at 182.88 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bba17ec-ae77-5a20-a80f-0adb7d956e9e")
-		(property "Reference" "SYNC1"
-			(at 167.64 160.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CARD_NVIDIA_RTX_PRO_SYNC"
-			(at 167.64 169.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NVIDIA RTX PRO Sync card (frame lock / genlock). Shown for PCIe slot accounting"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Model" "NVIDIA RTX PRO Sync"
-			(at 167.64 172.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "PreferredModel" "NVIDIA RTX PRO Sync"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Usage" "Added separately (not sold by Dell)"
-			(at 167.64 174.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "SlotWidth" "1 (assumed, TBC)"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Lanes" "x4 assumed (TBC)"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Status" "CONFIRMED"
-			(at 182.88 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de7b3f21-b022-5d14-a493-9cba8751f82d")
-		)
-		(pin "2"
-			(uuid "8c80ff40-27d4-5bfc-89b7-d486b735da8e")
-		)
-		(pin "3"
-			(uuid "6de86039-cbde-5dd5-b48c-be646584b189")
-		)
-		(instances
-			(project "design_block"
-				(path "/b15ba890-64b7-52a0-a117-4367d78b1665/9b3ebaeb-584a-54b1-bc0a-d62bb9a1264c"
-					(reference "SYNC1")
-					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "sitara-computers:DELL_PRECISION_7875_TOWER")
-		(at 76.2 111.76 0)
+		(at 85.09 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2212,273 +1935,271 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b0167ab4-ba90-5004-87f3-eba69129f9ed")
+		(uuid "254315f0-3160-59bb-b0bb-41deb76f2cec")
 		(property "Reference" "CPU1"
-			(at 55.88 97.03 0)
+			(at 55.88 107.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Value" "DELL_PRECISION_7875_TOWER"
-			(at 55.88 126.49 0)
+			(at 55.88 162.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Description" "Dell Precision 7875 Tower workstation (Threadripper PRO)"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "Dell Precision 7875 Tower"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PreferredModel" "Dell Precision 7875 Tower"
-			(at 55.88 129.03 0)
+			(at 55.88 165.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "Processor" "AMD Ryzen Threadripper PRO 9945WX, 12C/24T, 4.7-5.4 GHz, 350 W"
-			(at 55.88 131.57 0)
+			(at 55.88 168.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "RAM" "64 GB (2x 32 GB) DDR5-5200 RDIMM ECC"
-			(at 55.88 134.11 0)
+			(at 55.88 171.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "Storage" "2x 2 TB NVMe Performance SSD (SED ready)"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PSU" "1350 W"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "OS" "Windows 11 Pro"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Network" "Integrated: 1x RJ45 1 GbE + 1x RJ45 10 GbE (Dell spec page)"
-			(at 76.2 111.76 0)
+		(property "Network" "Integrated: RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Management" "AMD DASH per Dell product page; which port carries it TBC"
-			(at 76.2 111.76 0)
+		(property "Management" "AMD DASH; which port carries it TBC"
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PCIeConfig" "6 full-height slots, numbered as in the Dell owner's manual rear view: 1 Gen5 x8 (open-ended), 2 Gen5 x16, 3 Gen4 x8 running x4 (open-ended), 4 Gen4 x8 (open-ended), 5 Gen4 x16, 6 Gen4 x8 (open-ended). Slot pins are inputs: a card claims a slot with an output pin, so two cards on one slot is an ERC error. Slot pin names carry electrical lanes"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Ethernet" "RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "FormFactor" "Tower Workstation"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "CONFIRMED"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Usage" "Real-time render node"
-			(at 76.2 111.76 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "c2b1b998-7304-54cf-b55a-4471370c669e")
+			(uuid "609e90b6-990d-5f69-857c-1e7a65508abb")
 		)
 		(pin "2"
-			(uuid "c4986774-448a-5bc4-bd85-2af9a26b1e35")
+			(uuid "8498b64d-5667-5c2a-bb4b-97b3ca93497a")
 		)
 		(pin "3"
-			(uuid "29790004-1cb5-59ac-9e8b-28403e50ce8b")
+			(uuid "00110652-eef3-5aed-b614-e0fd4689974e")
 		)
 		(pin "4"
-			(uuid "eec7f4f7-d83e-5f7a-9547-7b50e063f0c5")
+			(uuid "40a24635-52e7-508c-8799-9645e835995a")
 		)
 		(pin "5"
-			(uuid "8d9b7c1a-c9ca-5d93-8f5c-11cfbc2cbd7e")
+			(uuid "267725e4-55cc-5fa1-8ffc-ff69a4b074ff")
 		)
 		(pin "6"
-			(uuid "8afd5168-ae1f-516d-9fa5-f77da2979a57")
+			(uuid "6c210a46-89e9-5096-9b4a-bf6ad1f7e602")
 		)
 		(pin "7"
-			(uuid "47c4cd13-9e96-55cf-b78d-b9784d8de516")
+			(uuid "09898791-d0d4-5575-b48d-c295bd63cb6f")
 		)
 		(pin "8"
-			(uuid "991a7bfe-162f-5ce8-ae1a-c91974a8b3b5")
+			(uuid "b81629d5-185a-5d6d-93d9-503076ab5528")
 		)
 		(pin "9"
-			(uuid "b2f2b2ee-e7e7-5160-b2cd-24c97fecd01c")
+			(uuid "0105574c-8324-568c-b013-cef49a46d716")
 		)
 		(pin "10"
-			(uuid "7c34c625-e7f9-519f-a8e7-e55e54c59e6d")
+			(uuid "1ad93f9b-8378-5450-a691-c9fb1df0a666")
 		)
 		(pin "11"
-			(uuid "dedc22e4-6744-5acf-a20d-13590240ff16")
+			(uuid "383af6e4-6e52-5d92-83d1-4f409f135f31")
 		)
 		(pin "12"
-			(uuid "b9473bf7-8fba-506b-a567-b13999ba5614")
+			(uuid "a7cc0dc3-1c6b-559c-b30e-eec6d0524763")
 		)
 		(pin "13"
-			(uuid "df703116-c07c-5187-8240-3de3eb726058")
+			(uuid "aaa7b6e0-5e33-5d14-a5b0-9a2c6bc78642")
 		)
 		(pin "14"
-			(uuid "cf013e30-09af-5dd6-9f28-2dcd4582c977")
+			(uuid "0a69a4ff-743d-5149-abe6-0ddd6e9df228")
 		)
 		(pin "15"
-			(uuid "8887e6a4-5a4d-5a8e-83f9-a506ff88835e")
+			(uuid "2e8897cc-b0f9-5e6f-bde6-bf5925a662cc")
 		)
 		(pin "16"
-			(uuid "a56dbb48-72ad-5ada-93df-375dcf321db5")
+			(uuid "d978ef82-36b3-5bec-91a0-da5dee116bb5")
 		)
 		(pin "17"
-			(uuid "02b85f60-36b8-5c08-a62c-db5dbcd1c621")
+			(uuid "302dbd0b-5025-58e7-b3b0-6631eb7cd494")
 		)
 		(pin "18"
-			(uuid "262038a5-ac7e-5c93-a7de-bd112428fd39")
+			(uuid "5976fdc1-3b7b-523c-acaa-17c5220a32a7")
+		)
+		(pin "19"
+			(uuid "275da0bb-e53e-52f7-a5db-a55bef19db61")
+		)
+		(pin "20"
+			(uuid "7272ba1c-a5c9-54c1-b10f-ba3b7af2d10d")
+		)
+		(pin "21"
+			(uuid "c21aa918-86df-58fe-ada6-3e3a1b233065")
 		)
 		(instances
-			(project "design_block"
-				(path "/b15ba890-64b7-52a0-a117-4367d78b1665/9b3ebaeb-584a-54b1-bc0a-d62bb9a1264c"
+			(project ""
+				(path "/29b255e2-a3c9-5548-a865-79c073162427"
 					(reference "CPU1")
 					(unit 1)
 				)
@@ -2486,8 +2207,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sitara-computers:GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ")
-		(at 182.88 71.12 0)
+		(lib_id "sitara-computers:CARD_NVIDIA_RTX_PRO_SYNC")
+		(at 250.19 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2495,205 +2216,536 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c516a436-7945-5163-ba99-01487bb67cc0")
-		(property "Reference" "GPU1"
-			(at 167.64 64.01 0)
+		(uuid "7163a54c-ff35-5cb7-ba1f-c62e176683f1")
+		(property "Reference" "SYNC1"
+			(at 228.6 199.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ"
-			(at 167.64 78.23 0)
+		(property "Value" "CARD_NVIDIA_RTX_PRO_SYNC"
+			(at 228.6 214.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 71.12 0)
+			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 71.12 0)
+			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "NVIDIA RTX PRO Sync card (frame lock / genlock). Shown for PCIe slot accounting"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "NVIDIA RTX PRO Sync"
+			(at 228.6 217.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "PreferredModel" "NVIDIA RTX PRO Sync"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Usage" "Added separately (not sold by Dell)"
+			(at 228.6 220.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "SlotWidth" "1 (assumed, TBC)"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Lanes" "x4 assumed (TBC)"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "TBC"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcd5556f-5fed-5310-ab36-4f615757b40f")
+		)
+		(pin "2"
+			(uuid "8e6abf66-f38d-5123-be2c-7365c2bc93ec")
+		)
+		(pin "3"
+			(uuid "a31aec0a-8006-53df-a718-92c3848719fa")
+		)
+		(instances
+			(project ""
+				(path "/29b255e2-a3c9-5548-a865-79c073162427"
+					(reference "SYNC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sitara-computers:GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ")
+		(at 250.19 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8289aa08-4cd9-5a98-9cee-66b19f41e135")
+		(property "Reference" "GPU1"
+			(at 233.68 58.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ"
+			(at 233.68 80.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Description" "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 96 GB, 4x DisplayPort"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PreferredModel" "NVIDIA RTX PRO 6000 Blackwell Max-Q"
-			(at 167.64 80.77 0)
+			(at 233.68 83.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
 		(property "Architecture" "Blackwell"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "VRAM" "96 GB GDDR7 ECC"
-			(at 167.64 83.31 0)
+			(at 233.68 86.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left top)
 			)
 		)
-		(property "DisplayOutputs" "4x DisplayPort (DP 2.1 per NVIDIA - verify)"
-			(at 182.88 71.12 0)
+		(property "DisplayOutputs" "4x DisplayPort 2.1"
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PCIeInterface" "x16 Gen5"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "PowerDraw" "300 W"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "CoolingSlots" "Dual-slot"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "SlotWidth" "2 (PCIe-X16 + PCIe-ADJ: also blocks the adjacent slot)"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "CONFIRMED"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Usage" "Render node GPU; DP outputs unused when video leaves over SDI"
-			(at 182.88 71.12 0)
+			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(pin "1"
-			(uuid "499c5368-e555-519a-9188-8bd7e5d8c92a")
+			(uuid "b92228a2-4c3a-5e43-ab53-344fc9c9c6d8")
 		)
 		(pin "2"
-			(uuid "5a84405f-1931-5b9e-b597-c913ed86e97a")
+			(uuid "d070015f-a5c0-5c41-8572-8d365fec67bf")
 		)
 		(pin "3"
-			(uuid "b51bde88-e8cc-5629-a0ed-ce60fbba4360")
+			(uuid "501c5343-ed43-581e-8159-a42f64e577c7")
 		)
 		(pin "4"
-			(uuid "17db95be-e752-590e-b617-a02bebe34bad")
+			(uuid "a133259d-c515-5193-9def-eec9ef560a9d")
 		)
 		(pin "5"
-			(uuid "dfe0f5e8-e024-52d2-a166-199edd09d3c2")
+			(uuid "b25cbb64-60e7-52cd-9ee3-1a0e19c8cf70")
 		)
 		(pin "6"
-			(uuid "f38f1fb3-2b37-582c-ae80-93171328d0d4")
+			(uuid "885761ee-c8a8-5f12-ab1e-afbdc91bcc67")
 		)
 		(instances
-			(project "design_block"
-				(path "/b15ba890-64b7-52a0-a117-4367d78b1665/9b3ebaeb-584a-54b1-bc0a-d62bb9a1264c"
+			(project ""
+				(path "/29b255e2-a3c9-5548-a865-79c073162427"
 					(reference "GPU1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sitara-computers:CAPTURE_CARD_SDI_12G_4CH")
+		(at 250.19 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2c34d02-9c81-5f53-a049-4e1937cf92bd")
+		(property "Reference" "SDI1"
+			(at 233.68 151.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CAPTURE_CARD_SDI_12G_4CH"
+			(at 233.68 173.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic 4-channel 12G-SDI PCIe I/O card with reference input, drawn configured as 4x OUT"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "DeckLink 8K Pro G2 | AJA Corvid 44 12G BNC (TBC)"
+			(at 233.68 176.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "PreferredModel" "TBC"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "SlotWidth" "1 (TBC for DeckLink; AJA Corvid 44 is single width)"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PortMode" "4x OUT in this drawing (hardware ports are bidirectional 12G-SDI)"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Connector" "BNC"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "RefInput" "Tri-level / black burst, 59.94 or 60 - format TBC"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Output" "4x 2160p60 10-bit 4:2:2 single-link 12G, locked to house reference"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "TBC"
+			(at 233.68 179.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "2f4e124a-6d46-5675-a6f2-70c2415d282c")
+		)
+		(pin "2"
+			(uuid "e86df35d-93ee-5d86-b3e0-ca0bcf3db614")
+		)
+		(pin "3"
+			(uuid "9de8f208-1f85-5f25-8e1a-e06da32522b8")
+		)
+		(pin "4"
+			(uuid "8f8ad2c6-a1de-5591-a225-2a35dd93fe94")
+		)
+		(pin "5"
+			(uuid "a1fa6b7c-c07c-5eac-97ed-d43196d7b7d3")
+		)
+		(pin "6"
+			(uuid "496b7d53-20c2-56e3-9363-d600e46b840d")
+		)
+		(instances
+			(project ""
+				(path "/29b255e2-a3c9-5548-a865-79c073162427"
+					(reference "SDI1")
 					(unit 1)
 				)
 			)

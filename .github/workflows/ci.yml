@@ -1,0 +1,31 @@
+name: checks
+on:
+  push:
+  pull_request:
+
+jobs:
+  leak-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Leak scan (generic patterns + optional name list from a repository secret)
+        env:
+          SITARA_LEAK_TERMS: ${{ secrets.SITARA_LEAK_TERMS }}
+        run: python tools/leak_scan.py
+
+  kicad:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install KiCad 10
+        run: |
+          sudo add-apt-repository -y ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+          kicad-cli --version
+      - name: Repository checks
+        run: xvfb-run -a python tools/check_repo.py

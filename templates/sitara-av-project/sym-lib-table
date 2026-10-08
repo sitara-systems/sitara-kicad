@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "sitara-audio")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-audio.kicad_sym")(options "")(descr "Sitara AV: audio"))
+  (lib (name "sitara-cameras")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-cameras.kicad_sym")(options "")(descr "Sitara AV: cameras"))
+  (lib (name "sitara-computers")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-computers.kicad_sym")(options "")(descr "Sitara AV: computers"))
+  (lib (name "sitara-displays")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-displays.kicad_sym")(options "")(descr "Sitara AV: displays"))
+  (lib (name "sitara-hardware")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-hardware.kicad_sym")(options "")(descr "Sitara AV: hardware"))
+  (lib (name "sitara-hid")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-hid.kicad_sym")(options "")(descr "Sitara AV: hid"))
+  (lib (name "sitara-networking")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-networking.kicad_sym")(options "")(descr "Sitara AV: networking"))
+  (lib (name "sitara-power")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-power.kicad_sym")(options "")(descr "Sitara AV: power"))
+  (lib (name "sitara-skies")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-skies.kicad_sym")(options "")(descr "Sitara AV: skies"))
+  (lib (name "sitara-video")(type "KiCad")(uri "${SITARA_KICAD}/av_components/sitara-video.kicad_sym")(options "")(descr "Sitara AV: video processing, distribution, media servers, sync"))
+)

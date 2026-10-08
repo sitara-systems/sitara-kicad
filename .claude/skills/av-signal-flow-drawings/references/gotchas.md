@@ -17,7 +17,7 @@
 - Global labels used on only one sheet raise an "only appears once" warning. Hierarchical labels and sheet pins must match exactly, including bus ranges.
 
 ## Libraries
-- Symbol libraries upgrade cleanly with `kicad-cli sym upgrade`. Upgrades add `show_name`/`do_not_autoplace` defaults and re-sort pins; nothing else changes. The result will not open in KiCad 9.
+- Symbol libraries upgrade cleanly with `kicad-cli sym upgrade`. Upgrades add `show_name`, `do_not_autoplace`, `in_pos_files` and `duplicate_pin_numbers_are_jumpers` defaults and re-sort pins; nothing else changes. The result will not open in KiCad 9.
 - A **single bad footprint makes `kicad-cli fp` refuse the whole `.pretty` library** ("Unable to load library"). KiCad 10 rejects a pad with a zero size dimension, for example `(size 3.3 0)` on a non-plated hole. Use `(size 3.3 3.3)`. Test each footprint in its own folder to find the culprit.
 - A file with a misspelled extension (`.kicad_symb`) is silently ignored by KiCad.
 - Submodule checkouts may be a detached HEAD; check out `main` before committing.

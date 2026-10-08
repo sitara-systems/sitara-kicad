@@ -12,8 +12,9 @@ Conventions (pin names FORMAT-DIR-n; electrical type = role in the drawing):
 import math
 
 GRID = 2.54
-FONT = "(effects (font (size 1.27 1.27)))"
-FONT_HIDE = "(effects (font (size 1.27 1.27)) hide)"
+TEXT = 1.78      # symbol text height (mm): 1.4x KiCad's 1.27 default so A3 sheets stay readable when printed on A4
+FONT = f"(effects (font (size {TEXT} {TEXT})))"
+FONT_HIDE = f"(effects (font (size {TEXT} {TEXT})) hide)"
 STD_FIELDS = ("Reference", "Value", "Footprint", "Datasheet", "Description")
 
 
@@ -25,19 +26,34 @@ def side_pins(spec, side):
     return [p for p in spec["pins"] if p[1] == side]
 
 
+PITCH = 3.81     # vertical pin pitch (mm): 1.5x KiCad's 2.54 so text at TEXT size has room
+PIN_LEN = 3.81
+UNIT = 1.27      # connection grid
+
+
+def side_top(n):
+    """y of the first pin on a side with n pins: centred, rounded down to the connection grid."""
+    return UNIT * math.floor(((n - 1) * PITCH / 2) / UNIT + 1e-9)
+
+
 def body_half_height(spec):
-    n = max(len(side_pins(spec, "L")), len(side_pins(spec, "R")), 1)
-    return math.ceil((n * GRID + GRID) / GRID) * GRID / 2
+    ext = 0.0
+    for side in ("L", "R"):
+        n = len(side_pins(spec, side))
+        if n:
+            top = side_top(n)
+            ext = max(ext, top, abs(top - (n - 1) * PITCH))
+    return UNIT * math.ceil((ext + 0.75 * PITCH) / UNIT - 1e-9)
 
 
 def pin_pos(spec, name):
     """Connection point of pin `name` in symbol coordinates (y up)."""
     for side, sign in (("L", -1), ("R", 1)):
         col = side_pins(spec, side)
-        top = (len(col) - 1) * GRID / 2
+        top = side_top(len(col)) if col else 0
         for i, p in enumerate(col):
             if p[0] == name:
-                return (sign * (spec["w"] / 2 + GRID), top - i * GRID)
+                return (sign * (spec["w"] / 2 + PIN_LEN), top - i * PITCH)
     raise KeyError(name)
 
 
@@ -55,8 +71,8 @@ def symbol_text(name, spec, lib_prefix=""):
     fields = dict(spec.get("fields", {}))
     desc = _q(spec.get("desc", ""))
     out = [f'(symbol "{lib_prefix}{name}" (exclude_from_sim no) (in_bom {"no" if spec.get("exclude_bom") else "yes"}) (on_board yes)']
-    out.append(f'(property "Reference" "{spec["ref"]}" (at {-hw:.2f} {hh + 1.27:.2f} 0) (effects (font (size 1.27 1.27)) (justify left)))')
-    out.append(f'(property "Value" "{name}" (at {-hw:.2f} {-(hh + 1.27):.2f} 0) (effects (font (size 1.27 1.27)) (justify left)))')
+    out.append(f'(property "Reference" "{spec["ref"]}" (at {-hw:.2f} {hh + 1.27:.2f} 0) (effects (font (size {TEXT} {TEXT})) (justify left)))')
+    out.append(f'(property "Value" "{name}" (at {-hw:.2f} {-(hh + 1.27):.2f} 0) (effects (font (size {TEXT} {TEXT})) (justify left)))')
     out.append(f'(property "Footprint" "" (at 0 0 0) {FONT_HIDE})')
     out.append(f'(property "Datasheet" "" (at 0 0 0) {FONT_HIDE})')
     out.append(f'(property "Description" "{desc}" (at 0 0 0) {FONT_HIDE})')
@@ -66,7 +82,7 @@ def symbol_text(name, spec, lib_prefix=""):
         if k in STD_FIELDS:
             continue
         if k in visible:
-            out.append(f'(property "{k}" "{_q(v)}" (at {-hw:.2f} {-(hh + 1.27 + 2.54 * (row - 1)):.2f} 0) (effects (font (size 1.27 1.27)) (justify left)))')
+            out.append(f'(property "{k}" "{_q(v)}" (at {-hw:.2f} {-(hh + 1.27 + 3.0 * (row - 1)):.2f} 0) (effects (font (size {TEXT} {TEXT})) (justify left)))')
             row += 1
         else:
             out.append(f'(property "{k}" "{_q(v)}" (at 0 0 0) {FONT_HIDE})')
@@ -77,7 +93,7 @@ def symbol_text(name, spec, lib_prefix=""):
     for (pname, side, etype) in spec["pins"]:
         x, y = pin_pos(spec, pname)
         ang = 0 if side == "L" else 180
-        out.append(f'(pin {etype} line (at {x:.2f} {y:.2f} {ang}) (length {GRID}) '
+        out.append(f'(pin {etype} line (at {x:.2f} {y:.2f} {ang}) (length {PIN_LEN}) '
                    f'(name "{_q(pname)}" {FONT}) (number "{pin_number(spec, pname)}" {FONT}))')
     out.append("))")
     return "\n".join(out)

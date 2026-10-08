@@ -1,0 +1,5 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "sitara-render-nodes")(type "KiCad")(uri "${SITARA_KICAD}/av_blocks/sitara-render-nodes.kicad_blocks")(options "")(descr "Sitara render node assemblies"))
+  (lib (name "sitara-av-blocks")(type "KiCad")(uri "${SITARA_KICAD}/av_blocks/sitara-av-blocks.kicad_blocks")(options "")(descr "Sitara AV assemblies (processing stacks, surveyor node, audio)"))
+)

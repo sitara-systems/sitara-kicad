@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "filename": "sitara-av-project.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "page_layout_descr_file": "${SITARA_KICAD}/worksheet_template/template.kicad_wks",
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "net_settings": {
+    "meta": {
+      "version": 4
+    },
+    "classes": [
+      {
+        "name": "Default",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "HDMI",
+        "schematic_color": "rgb(105, 80, 225)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "DP",
+        "schematic_color": "rgb(205, 103, 0)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "SDI",
+        "schematic_color": "rgb(185, 55, 125)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "LED",
+        "schematic_color": "rgb(0, 100, 95)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "AUDIO",
+        "schematic_color": "rgb(40, 100, 190)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "NET",
+        "schematic_color": "rgb(110, 110, 110)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      },
+      {
+        "name": "REF",
+        "schematic_color": "rgb(30, 30, 30)",
+        "wire_width": 6,
+        "bus_width": 12,
+        "line_style": 0,
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647
+      }
+    ],
+    "netclass_patterns": [
+      {
+        "netclass": "HDMI",
+        "pattern": "HDMI*"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "D8HDMI*"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "PROC*"
+      },
+      {
+        "netclass": "DP",
+        "pattern": "DP*"
+      },
+      {
+        "netclass": "DP",
+        "pattern": "D8DP*"
+      },
+      {
+        "netclass": "SDI",
+        "pattern": "SDI*"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "LED*"
+      },
+      {
+        "netclass": "AUDIO",
+        "pattern": "AUDIO*"
+      },
+      {
+        "netclass": "NET",
+        "pattern": "NET-*"
+      },
+      {
+        "netclass": "REF",
+        "pattern": "REF"
+      }
+    ]
+  }
+}

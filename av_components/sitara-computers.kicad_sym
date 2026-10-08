@@ -319,7 +319,7 @@
 			(pin bidirectional line
 				(at -25.4 20.32 0)
 				(length 2.54)
-				(name "USB-A-Front-1"
+				(name "USB-A-FRONT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -337,7 +337,7 @@
 			(pin bidirectional line
 				(at -25.4 17.78 0)
 				(length 2.54)
-				(name "USB-A-Front-2"
+				(name "USB-A-FRONT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -463,7 +463,7 @@
 			(pin output line
 				(at 25.4 0 180)
 				(length 2.54)
-				(name "DisplayPort-MB"
+				(name "DP-OUT-MB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -768,7 +768,7 @@
 			(pin bidirectional line
 				(at -22.86 17.78 0)
 				(length 2.54)
-				(name "USB-C-Front"
+				(name "USB-C-FRONT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -786,7 +786,7 @@
 			(pin bidirectional line
 				(at -22.86 15.24 0)
 				(length 2.54)
-				(name "USB-A-Front-1"
+				(name "USB-A-FRONT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -804,7 +804,7 @@
 			(pin input line
 				(at 22.86 17.78 180)
 				(length 2.54)
-				(name "Power-Input"
+				(name "PWR-IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -894,7 +894,7 @@
 			(pin output line
 				(at 22.86 0 180)
 				(length 2.54)
-				(name "DisplayPort-MB"
+				(name "DP-OUT-MB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -912,7 +912,7 @@
 			(pin bidirectional line
 				(at 22.86 -5.08 180)
 				(length 2.54)
-				(name "Audio-Out"
+				(name "AUDIO-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -930,7 +930,7 @@
 			(pin bidirectional line
 				(at 22.86 -10.16 180)
 				(length 2.54)
-				(name "RJ45"
+				(name "RJ45-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1127,7 +1127,7 @@
 			(pin bidirectional line
 				(at -20.32 12.7 0)
 				(length 2.54)
-				(name "USB-A-Front"
+				(name "USB-A-FRONT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1181,7 +1181,7 @@
 			(pin output line
 				(at 20.32 7.62 180)
 				(length 2.54)
-				(name "DisplayPort-1"
+				(name "DP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1199,7 +1199,7 @@
 			(pin output line
 				(at 20.32 5.08 180)
 				(length 2.54)
-				(name "DisplayPort-2"
+				(name "DP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 			(pin bidirectional line
 				(at 20.32 -10.16 180)
 				(length 2.54)
-				(name "RJ45"
+				(name "RJ45-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			(pin bidirectional line
 				(at -25.4 22.86 0)
 				(length 2.54)
-				(name "USB-C-Front"
+				(name "USB-C-FRONT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 			(pin bidirectional line
 				(at -25.4 20.32 0)
 				(length 2.54)
-				(name "USB-A-Front-1"
+				(name "USB-A-FRONT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1486,7 +1486,7 @@
 			(pin bidirectional line
 				(at -25.4 17.78 0)
 				(length 2.54)
-				(name "USB-A-Front-2"
+				(name "USB-A-FRONT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1504,7 +1504,7 @@
 			(pin input line
 				(at 25.4 22.86 180)
 				(length 2.54)
-				(name "Power-Input"
+				(name "PWR-IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 			(pin output line
 				(at 25.4 0 180)
 				(length 2.54)
-				(name "DisplayPort-MB"
+				(name "DP-OUT-MB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 			(pin bidirectional line
 				(at 25.4 -5.08 180)
 				(length 2.54)
-				(name "Audio-Out"
+				(name "AUDIO-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			(pin bidirectional line
 				(at 25.4 -7.62 180)
 				(length 2.54)
-				(name "Audio-In"
+				(name "AUDIO-IN-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1979,7 +1979,7 @@
 			(pin output line
 				(at -15.24 6.35 0)
 				(length 2.54)
-				(name "Mini-DP-1"
+				(name "MDP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 			(pin output line
 				(at -15.24 3.81 0)
 				(length 2.54)
-				(name "Mini-DP-2"
+				(name "MDP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 			(pin output line
 				(at -15.24 1.27 0)
 				(length 2.54)
-				(name "Mini-DP-3"
+				(name "MDP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2033,7 +2033,7 @@
 			(pin output line
 				(at -15.24 -1.27 0)
 				(length 2.54)
-				(name "Mini-DP-4"
+				(name "MDP-OUT-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			(pin output line
 				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "Mini-DP-1"
+				(name "MDP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2274,7 +2274,7 @@
 			(pin output line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "Mini-DP-2"
+				(name "MDP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2292,7 +2292,7 @@
 			(pin output line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "Mini-DP-3"
+				(name "MDP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 			(pin output line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "Mini-DP-4"
+				(name "MDP-OUT-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2533,7 +2533,7 @@
 			(pin output line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "Mini-DP-1"
+				(name "MDP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2551,7 +2551,7 @@
 			(pin output line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "Mini-DP-2"
+				(name "MDP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2569,7 +2569,7 @@
 			(pin output line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "Mini-DP-3"
+				(name "MDP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2792,7 +2792,7 @@
 			(pin output line
 				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "DisplayPort-1"
+				(name "DP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2810,7 +2810,7 @@
 			(pin output line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "DisplayPort-2"
+				(name "DP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2828,7 +2828,7 @@
 			(pin output line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "DisplayPort-3"
+				(name "DP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 			(pin output line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "DisplayPort-4"
+				(name "DP-OUT-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3069,7 +3069,7 @@
 			(pin output line
 				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "DisplayPort-1"
+				(name "DP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3087,7 +3087,7 @@
 			(pin output line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "DisplayPort-2"
+				(name "DP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3105,7 +3105,7 @@
 			(pin output line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "DisplayPort-3"
+				(name "DP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3123,7 +3123,7 @@
 			(pin output line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "DisplayPort-4"
+				(name "DP-OUT-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 			(pin output line
 				(at -15.24 7.62 0)
 				(length 2.54)
-				(name "DisplayPort-1"
+				(name "DP-OUT-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3364,7 +3364,7 @@
 			(pin output line
 				(at -15.24 5.08 0)
 				(length 2.54)
-				(name "DisplayPort-2"
+				(name "DP-OUT-2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 			(pin output line
 				(at -15.24 2.54 0)
 				(length 2.54)
-				(name "DisplayPort-3"
+				(name "DP-OUT-3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 			(pin output line
 				(at -15.24 0 0)
 				(length 2.54)
-				(name "DisplayPort-4"
+				(name "DP-OUT-4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4675,23 +4675,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "AUDX"
-			(at -15.24 5.08 0)
+			(at -15.24 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "AUDIO_DESTINATION_TBC"
-			(at -15.24 -5.08 0)
+			(at -15.24 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -4703,7 +4703,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4714,7 +4714,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4725,17 +4725,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "TBC (house audio system)"
-			(at -15.24 -7.62 0)
+			(at -15.24 -10.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -4747,7 +4747,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4758,25 +4758,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "PLACEHOLDER"
-			(at -15.24 -10.16 0)
+			(at -15.24 -13.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "AUDIO_DESTINATION_TBC_0_1"
 			(rectangle
-				(start -15.24 3.81)
-				(end 15.24 -3.81)
+				(start -15.24 6.35)
+				(end 15.24 -6.35)
 				(stroke
 					(width 0.254)
 					(type dash)
@@ -4788,37 +4788,37 @@
 		)
 		(symbol "AUDIO_DESTINATION_TBC_1_1"
 			(pin input line
-				(at -17.78 1.27 0)
-				(length 2.54)
+				(at -19.05 1.27 0)
+				(length 3.81)
 				(name "AUDIO-IN-L"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -17.78 -1.27 0)
-				(length 2.54)
+				(at -19.05 -2.54 0)
+				(length 3.81)
 				(name "AUDIO-IN-R"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -4833,23 +4833,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "AUD"
-			(at -17.78 6.35 0)
+			(at -17.78 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "AUDIO_INTERFACE_FOCUSRITE_SCARLETT_2I2"
-			(at -17.78 -6.35 0)
+			(at -17.78 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -4861,7 +4861,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4872,7 +4872,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4883,17 +4883,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "Focusrite Scarlett 2i2"
-			(at -17.78 -8.89 0)
+			(at -17.78 -11.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -4905,7 +4905,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4916,17 +4916,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Outputs" "2x 1/4 in balanced line out (one stereo pair); 1x 1/4 in TRS headphone out"
-			(at -17.78 -11.43 0)
+			(at -17.78 -14.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -4938,7 +4938,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -4949,14 +4949,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "AUDIO_INTERFACE_FOCUSRITE_SCARLETT_2I2_0_1"
 			(rectangle
-				(start -17.78 5.08)
-				(end 17.78 -5.08)
+				(start -17.78 7.62)
+				(end 17.78 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4968,73 +4968,73 @@
 		)
 		(symbol "AUDIO_INTERFACE_FOCUSRITE_SCARLETT_2I2_1_1"
 			(pin bidirectional line
-				(at -20.32 0 0)
-				(length 2.54)
+				(at -21.59 0 0)
+				(length 3.81)
 				(name "USB-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 20.32 2.54 180)
-				(length 2.54)
+				(at 21.59 3.81 180)
+				(length 3.81)
 				(name "AUDIO-OUT-L"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 20.32 0 180)
-				(length 2.54)
+				(at 21.59 0 180)
+				(length 3.81)
 				(name "AUDIO-OUT-R"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 20.32 -2.54 180)
-				(length 2.54)
+				(at 21.59 -3.81 180)
+				(length 3.81)
 				(name "AUDIO-HP"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -5049,23 +5049,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SDI"
-			(at -15.24 7.62 0)
+			(at -16.51 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "CAPTURE_CARD_SDI_12G_4CH"
-			(at -15.24 -7.62 0)
+			(at -16.51 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5077,7 +5077,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5088,7 +5088,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5099,17 +5099,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "DeckLink 8K Pro G2 | AJA Corvid 44 12G BNC (TBC)"
-			(at -15.24 -10.16 0)
+			(at -16.51 -14.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5121,7 +5121,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5132,7 +5132,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5143,7 +5143,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5154,7 +5154,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5165,7 +5165,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5176,25 +5176,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "TBC"
-			(at -15.24 -12.7 0)
+			(at -16.51 -17.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "CAPTURE_CARD_SDI_12G_4CH_0_1"
 			(rectangle
-				(start -15.24 6.35)
-				(end 15.24 -6.35)
+				(start -16.51 10.16)
+				(end 16.51 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5206,109 +5206,109 @@
 		)
 		(symbol "CAPTURE_CARD_SDI_12G_4CH_1_1"
 			(pin output line
-				(at -17.78 1.27 0)
-				(length 2.54)
+				(at -20.32 1.27 0)
+				(length 3.81)
 				(name "PCIe-X8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -17.78 -1.27 0)
-				(length 2.54)
+				(at -20.32 -2.54 0)
+				(length 3.81)
 				(name "REF-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 3.81 180)
-				(length 2.54)
+				(at 20.32 5.08 180)
+				(length 3.81)
 				(name "SDI-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
-				(length 2.54)
+				(at 20.32 1.27 180)
+				(length 3.81)
 				(name "SDI-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -1.27 180)
-				(length 2.54)
+				(at 20.32 -2.54 180)
+				(length 3.81)
 				(name "SDI-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -3.81 180)
-				(length 2.54)
+				(at 20.32 -6.35 180)
+				(length 3.81)
 				(name "SDI-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -5323,23 +5323,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SYNC"
-			(at -15.24 5.08 0)
+			(at -21.59 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "CARD_NVIDIA_RTX_PRO_SYNC"
-			(at -15.24 -5.08 0)
+			(at -21.59 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5351,7 +5351,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5362,7 +5362,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5373,17 +5373,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "NVIDIA RTX PRO Sync"
-			(at -15.24 -7.62 0)
+			(at -21.59 -10.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5395,17 +5395,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Usage" "Added separately (not sold by Dell)"
-			(at -15.24 -10.16 0)
+			(at -21.59 -13.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5417,7 +5417,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5428,25 +5428,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Status" "CONFIRMED"
+		(property "Status" "TBC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "CARD_NVIDIA_RTX_PRO_SYNC_0_1"
 			(rectangle
-				(start -15.24 3.81)
-				(end 15.24 -3.81)
+				(start -21.59 6.35)
+				(end 21.59 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5458,55 +5458,55 @@
 		)
 		(symbol "CARD_NVIDIA_RTX_PRO_SYNC_1_1"
 			(pin output line
-				(at -17.78 1.27 0)
-				(length 2.54)
+				(at -25.4 1.27 0)
+				(length 3.81)
 				(name "PCIe-X4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -17.78 -1.27 0)
-				(length 2.54)
+				(at -25.4 -2.54 0)
+				(length 3.81)
 				(name "GENLOCK-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
-				(length 2.54)
+				(at 25.4 0 180)
+				(length 3.81)
 				(name "GENLOCK-LOOP"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -5521,23 +5521,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SURV"
-			(at -17.78 5.08 0)
+			(at -17.78 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "COMPUTER_PROTECTLI_V1210"
-			(at -17.78 -5.08 0)
+			(at -17.78 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5549,7 +5549,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5560,7 +5560,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5571,17 +5571,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "Protectli V1210 (2-port)"
-			(at -17.78 -7.62 0)
+			(at -17.78 -10.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5593,7 +5593,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5604,7 +5604,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5615,7 +5615,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5626,7 +5626,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5637,28 +5637,28 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "OS" "Ubuntu Server 26.xx"
+		(property "OS" "Ubuntu Server 26.04"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Role" "Surveyor node (StarWatch + MeshCentral)"
-			(at -17.78 -10.16 0)
+			(at -17.78 -13.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5670,7 +5670,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5681,7 +5681,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5692,7 +5692,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5703,7 +5703,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5714,14 +5714,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "COMPUTER_PROTECTLI_V1210_0_1"
 			(rectangle
-				(start -17.78 3.81)
-				(end 17.78 -3.81)
+				(start -17.78 6.35)
+				(end 17.78 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5733,55 +5733,55 @@
 		)
 		(symbol "COMPUTER_PROTECTLI_V1210_1_1"
 			(pin power_in line
-				(at -20.32 0 0)
-				(length 2.54)
+				(at -21.59 0 0)
+				(length 3.81)
 				(name "PWR-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 1.27 180)
-				(length 2.54)
+				(at 21.59 1.27 180)
+				(length 3.81)
 				(name "RJ45-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -1.27 180)
-				(length 2.54)
+				(at 21.59 -2.54 180)
+				(length 3.81)
 				(name "RJ45-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -5796,23 +5796,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "CPU"
-			(at -20.32 15.24 0)
+			(at -29.21 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "DELL_PRECISION_7875_TOWER"
-			(at -20.32 -15.24 0)
+			(at -29.21 -27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5824,7 +5824,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5835,7 +5835,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5846,17 +5846,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "Dell Precision 7875 Tower"
-			(at -20.32 -17.78 0)
+			(at -29.21 -30.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -5868,7 +5868,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5879,7 +5879,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5890,7 +5890,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5901,7 +5901,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5912,7 +5912,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5923,29 +5923,29 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Network" "Integrated: 1x RJ45 1 GbE + 1x RJ45 10 GbE (Dell spec page)"
+		(property "Network" "Integrated: RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Management" "AMD DASH per Dell product page; which port carries it TBC"
+		(property "Management" "AMD DASH; which port carries it TBC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5956,18 +5956,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Ethernet" "RJ45 1 GbE (Realtek RTL8111-EPP) + RJ45 10 GbE (Marvell AQC113)"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5978,7 +5967,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -5989,7 +5978,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6000,14 +5989,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "DELL_PRECISION_7875_TOWER_0_1"
 			(rectangle
-				(start -20.32 13.97)
-				(end 20.32 -13.97)
+				(start -29.21 26.67)
+				(end 29.21 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6019,325 +6008,379 @@
 		)
 		(symbol "DELL_PRECISION_7875_TOWER_1_1"
 			(pin power_in line
-				(at -22.86 11.43 0)
-				(length 2.54)
+				(at -33.02 22.86 0)
+				(length 3.81)
 				(name "PWR-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 8.89 0)
-				(length 2.54)
-				(name "USB-C-FRONT"
+				(at -33.02 19.05 0)
+				(length 3.81)
+				(name "USB-C-FRONT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 6.35 0)
-				(length 2.54)
-				(name "USB-A-FRONT-1"
+				(at -33.02 15.24 0)
+				(length 3.81)
+				(name "USB-C-FRONT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 3.81 0)
-				(length 2.54)
-				(name "USB-A-FRONT-2"
+				(at -33.02 11.43 0)
+				(length 3.81)
+				(name "USB-A-FRONT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 1.27 0)
-				(length 2.54)
-				(name "USB-A-REAR-1"
+				(at -33.02 7.62 0)
+				(length 3.81)
+				(name "USB-A-FRONT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -1.27 0)
-				(length 2.54)
-				(name "USB-A-REAR-2"
+				(at -33.02 3.81 0)
+				(length 3.81)
+				(name "HEADSET-FRONT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -3.81 0)
-				(length 2.54)
-				(name "USB-A-REAR-3"
+				(at -33.02 0 0)
+				(length 3.81)
+				(name "USB-A-REAR-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -6.35 0)
-				(length 2.54)
-				(name "USB-A-REAR-4"
+				(at -33.02 -3.81 0)
+				(length 3.81)
+				(name "USB-A-REAR-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -8.89 0)
-				(length 2.54)
-				(name "USB-C-REAR-1"
+				(at -33.02 -7.62 0)
+				(length 3.81)
+				(name "USB-A-REAR-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
-			(pin output line
-				(at -22.86 -11.43 0)
-				(length 2.54)
-				(name "AUDIO-OUT"
+			(pin bidirectional line
+				(at -33.02 -11.43 0)
+				(length 3.81)
+				(name "USB-C-REAR-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 8.89 180)
-				(length 2.54)
-				(name "RJ45-1G"
+				(at -33.02 -15.24 0)
+				(length 3.81)
+				(name "USB-C-REAR-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 6.35 180)
-				(length 2.54)
-				(name "RJ45-10G"
+				(at -33.02 -19.05 0)
+				(length 3.81)
+				(name "USB-C-REAR-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 3.81 180)
-				(length 2.54)
-				(name "PCIe-Slot-1-G5x8"
+			(pin output line
+				(at -33.02 -22.86 0)
+				(length 3.81)
+				(name "AUDIO-OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 1.27 180)
-				(length 2.54)
-				(name "PCIe-Slot-2-G5x16"
+			(pin bidirectional line
+				(at 33.02 12.7 180)
+				(length 3.81)
+				(name "RJ45-1G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
-			(pin input line
-				(at 22.86 -1.27 180)
-				(length 2.54)
-				(name "PCIe-Slot-3-G4x4"
+			(pin bidirectional line
+				(at 33.02 8.89 180)
+				(length 3.81)
+				(name "RJ45-10G"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 22.86 -3.81 180)
-				(length 2.54)
-				(name "PCIe-Slot-4-G4x8"
+				(at 33.02 5.08 180)
+				(length 3.81)
+				(name "PCIe-Slot-1-G5x8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 22.86 -6.35 180)
-				(length 2.54)
-				(name "PCIe-Slot-5-G4x16"
+				(at 33.02 1.27 180)
+				(length 3.81)
+				(name "PCIe-Slot-2-G5x16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at 22.86 -8.89 180)
-				(length 2.54)
-				(name "PCIe-Slot-6-G4x8"
+				(at 33.02 -2.54 180)
+				(length 3.81)
+				(name "PCIe-Slot-3-G4x4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -6.35 180)
+				(length 3.81)
+				(name "PCIe-Slot-4-G4x8"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -10.16 180)
+				(length 3.81)
+				(name "PCIe-Slot-5-G4x16"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -13.97 180)
+				(length 3.81)
+				(name "PCIe-Slot-6-G4x8"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -6352,23 +6395,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "GPU"
-			(at -15.24 7.62 0)
+			(at -16.51 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ"
-			(at -15.24 -7.62 0)
+			(at -16.51 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -6380,7 +6423,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6391,7 +6434,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6402,17 +6445,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
-			(at -15.24 -10.16 0)
+			(at -16.51 -14.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -6424,7 +6467,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6435,7 +6478,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6446,18 +6489,18 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "DisplayOutputs" "4x DisplayPort (DP 2.1 per NVIDIA - verify)"
+		(property "DisplayOutputs" "4x DisplayPort 2.1"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6468,7 +6511,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6479,7 +6522,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6490,7 +6533,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6501,7 +6544,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6512,7 +6555,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -6523,14 +6566,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ_0_1"
 			(rectangle
-				(start -15.24 6.35)
-				(end 15.24 -6.35)
+				(start -16.51 10.16)
+				(end 16.51 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6542,109 +6585,109 @@
 		)
 		(symbol "GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ_1_1"
 			(pin output line
-				(at -17.78 1.27 0)
-				(length 2.54)
+				(at -20.32 1.27 0)
+				(length 3.81)
 				(name "PCIe-X16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at -17.78 -1.27 0)
-				(length 2.54)
+				(at -20.32 -2.54 0)
+				(length 3.81)
 				(name "PCIe-ADJ"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 3.81 180)
-				(length 2.54)
+				(at 20.32 5.08 180)
+				(length 3.81)
 				(name "DP-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
-				(length 2.54)
+				(at 20.32 1.27 180)
+				(length 3.81)
 				(name "DP-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -1.27 180)
-				(length 2.54)
+				(at 20.32 -2.54 180)
+				(length 3.81)
 				(name "DP-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -3.81 180)
-				(length 2.54)
+				(at 20.32 -6.35 180)
+				(length 3.81)
 				(name "DP-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)

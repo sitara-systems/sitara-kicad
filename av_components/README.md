@@ -20,10 +20,9 @@ More specific variants when I/O differs significantly:
 
 **Tier 3: Internal Expansion Modules**
 Separate symbols that nest inside computers:
-- `GPU_NVIDIA_RTX4000`
-- `GPU_NVIDIA_RTX6000`
-- `CAPTURE_CARD_DECKLINK_QUAD2`
-- `NETWORK_CARD_10GBE_DUAL`
+- `GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ` (double-width GPU)
+- `CAPTURE_CARD_SDI_12G_4CH` (4-channel 12G-SDI card)
+- `CARD_NVIDIA_RTX_PRO_SYNC` (frame lock / genlock card)
 
 ### Why Nested Components?
 
@@ -42,11 +41,13 @@ Separate symbols that nest inside computers:
 
 **Decision:** Use explicit pin connections for internal expansion slots.
 
-**Implementation:**
-- Computer symbols have `PCIe-Slot-X` pins
-- Expansion card symbols have `PCIe-xN-Input` pins
-- Draw wires between them on schematic
-- Visual placement shows physical location, pins show electrical connection
+**Implementation (slots are claims):**
+- Computer symbols have one slot pin per physical slot, an **input** named by slot number, generation and lanes, e.g. `PCIe-Slot-2-G5x16`
+- Expansion card symbols have an **output** pin named by lanes, e.g. `PCIe-X16`, `PCIe-X8`
+- A card wider than one slot has a second output pin, `PCIe-ADJ`, wired to the neighbouring slot
+- Draw wires between them on the schematic
+- Two cards on one slot join two outputs on a net, which ERC reports as an error, so over-commitment is caught automatically
+- ERC cannot compare lane counts; the project build script checks that a card's lanes do not exceed its slot's lanes
 
 **Why not just visual nesting?**
 - Explicit connections support multi-GPU systems cleanly
@@ -66,15 +67,15 @@ pin 3:  "USB-A-Front-1"
 pin 16: "RJ45-2"
 ```
 
-**Internal PCIe Slot Pins (17-20+):**
+**Internal PCIe Slot Pins:**
 ```
-pin 17: "PCIe-Slot-1"
-pin 18: "PCIe-Slot-2"
-pin 19: "PCIe-Slot-3"
-pin 20: "PCIe-Slot-4"
+"PCIe-Slot-1-G5x8"
+"PCIe-Slot-2-G5x16"
+"PCIe-Slot-3-G4x4"     # x8 physical, x4 electrical
+...
 ```
 
-**Note:** Electrical width (x16, x8, x4) is documented in the computer's properties, not in pin names. This keeps pin names simple while preserving specification details.
+**Note:** Slot pin names carry the slot number, PCIe generation and electrical lanes, so a card can be checked against the slot it claims. Use the vendor manual's slot numbering and note the source of the numbering in the symbol's `PCIeConfig` field.
 
 **Power Distribution Pins:**
 ```
@@ -84,7 +85,7 @@ pin 22: "PSU-Capacity"       # Informational capacity value
 
 **Pin Types:**
 - External I/O: `input`, `output`, or `bidirectional` as appropriate
-- PCIe slots: `bidirectional` (data)
+- PCIe slots: `input` (claimed by a card's `output` pin)
 - Power bus: `power_out`
 - PSU capacity: `passive`
 
@@ -92,7 +93,8 @@ pin 22: "PSU-Capacity"       # Informational capacity value
 
 **Connection Pins:**
 ```
-pin 1:  "PCIe-x16-Input"     # Connects to computer's slot pin
+pin 1:  "PCIe-X16"           # Output: claims the computer's slot pin
+pin 2:  "PCIe-ADJ"           # Second output on a double-width card; wire to the neighbouring slot
 ```
 
 **Function Pins (GPU example):**
@@ -109,7 +111,7 @@ pin 6:  "Power-PCIe"         # Auxiliary power from PSU
 ```
 
 **Pin Types:**
-- PCIe input: `bidirectional`
+- PCIe claim: `output`
 - Display outputs: `output`
 - Power input: `power_in`
 
@@ -172,3 +174,14 @@ property "CoolingSlots" "Triple-slot width"
 - Minor model year updates with same I/O
 
 Use properties to document CPU/RAM/storage options that vary within same chassis.
+
+## Pin names and generic symbols
+
+All AV symbols use `FORMAT-DIR-n` pin names (`HDMI-OUT-1`, `DP-IN-1`, `RJ45-1`, `PWR-IN`, `USB-A-REAR-1`). The older hand-drawn
+symbols were migrated by `tools/migrate_pins.py` (rename table: `_migration/pin_renames.json`); pin numbers did not change, so
+existing schematics keep their wiring but show the new labels. Pins the script could not classify (PCIe slots, RS232, GPIO,
+power rails) were left alone.
+
+Generic placeholders in `sitara-video`, `sitara-displays` and the new `sitara-audio` (matrix switcher, SDI/HDMI converters,
+SDI/HDMI distribution amplifiers, projector, Dante endpoint, stereo amplifier) are dashed and excluded from the BOM until a
+real model replaces them. Add or change generated symbols in `_generator/symbols_spec.py`, then run `build_symbols.py`.

@@ -2,30 +2,30 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "DA_HDMI_1X2_TBC"
+	(symbol "CONVERTER_HDMI_TO_SDI"
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "DA"
+		(property "Reference" "CONV"
 			(at -15.24 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "DA_HDMI_1X2_TBC"
+		(property "Value" "CONVERTER_HDMI_TO_SDI"
 			(at -15.24 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -37,7 +37,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -48,18 +48,18 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Description" "Placeholder HDMI distribution amplifier 1x2 - built, NOT placed (placeholder)"
+		(property "Description" "Generic HDMI to SDI converter - placeholder until a model is chosen"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -70,22 +70,22 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "PLACEHOLDER"
-			(at -15.24 -7.62 0)
+			(at -15.24 -8.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
-		(symbol "DA_HDMI_1X2_TBC_0_1"
+		(symbol "CONVERTER_HDMI_TO_SDI_0_1"
 			(rectangle
 				(start -15.24 3.81)
 				(end 15.24 -3.81)
@@ -98,57 +98,329 @@
 				)
 			)
 		)
-		(symbol "DA_HDMI_1X2_TBC_1_1"
+		(symbol "CONVERTER_HDMI_TO_SDI_1_1"
 			(pin input line
-				(at -17.78 0 0)
-				(length 2.54)
+				(at -19.05 0 0)
+				(length 3.81)
 				(name "HDMI-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
-				(length 2.54)
-				(name "HDMI-OUT-1"
+				(at 19.05 0 180)
+				(length 3.81)
+				(name "SDI-OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CONVERTER_SDI_TO_HDMI"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "CONV"
+			(at -15.24 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONVERTER_SDI_TO_HDMI"
+			(at -15.24 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic SDI to HDMI converter - placeholder until a model is chosen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -15.24 -8.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "CONVERTER_SDI_TO_HDMI_0_1"
+			(rectangle
+				(start -15.24 3.81)
+				(end 15.24 -3.81)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CONVERTER_SDI_TO_HDMI_1_1"
+			(pin input line
+				(at -19.05 0 0)
+				(length 3.81)
+				(name "SDI-IN"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -1.27 180)
-				(length 2.54)
+				(at 19.05 0 180)
+				(length 3.81)
+				(name "HDMI-OUT"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DA_HDMI_1X2_TBC"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at -17.78 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DA_HDMI_1X2_TBC"
+			(at -17.78 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Placeholder HDMI distribution amplifier 1x2 - built, NOT placed (placeholder)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -17.78 -10.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "DA_HDMI_1X2_TBC_0_1"
+			(rectangle
+				(start -17.78 6.35)
+				(end 17.78 -6.35)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DA_HDMI_1X2_TBC_1_1"
+			(pin input line
+				(at -21.59 0 0)
+				(length 3.81)
+				(name "HDMI-IN"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 1.27 180)
+				(length 3.81)
+				(name "HDMI-OUT-1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 21.59 -2.54 180)
+				(length 3.81)
 				(name "HDMI-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -163,23 +435,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "DA"
-			(at -15.24 7.62 0)
+			(at -17.78 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "DA_HDMI_1X4_TBC"
-			(at -15.24 -7.62 0)
+			(at -17.78 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -191,7 +463,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -202,7 +474,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -213,7 +485,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -224,25 +496,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "PLACEHOLDER"
-			(at -15.24 -10.16 0)
+			(at -17.78 -14.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "DA_HDMI_1X4_TBC_0_1"
 			(rectangle
-				(start -15.24 6.35)
-				(end 15.24 -6.35)
+				(start -17.78 10.16)
+				(end 17.78 -10.16)
 				(stroke
 					(width 0.254)
 					(type dash)
@@ -254,91 +526,281 @@
 		)
 		(symbol "DA_HDMI_1X4_TBC_1_1"
 			(pin input line
-				(at -17.78 0 0)
-				(length 2.54)
+				(at -21.59 0 0)
+				(length 3.81)
 				(name "HDMI-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 3.81 180)
-				(length 2.54)
+				(at 21.59 5.08 180)
+				(length 3.81)
 				(name "HDMI-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
-				(length 2.54)
+				(at 21.59 1.27 180)
+				(length 3.81)
 				(name "HDMI-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -1.27 180)
-				(length 2.54)
+				(at 21.59 -2.54 180)
+				(length 3.81)
 				(name "HDMI-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -3.81 180)
-				(length 2.54)
+				(at 21.59 -6.35 180)
+				(length 3.81)
 				(name "HDMI-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "DA_SDI_1X4"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "DA"
+			(at -16.51 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DA_SDI_1X4"
+			(at -16.51 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic SDI distribution amplifier 1x4 - placeholder until a model is chosen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -16.51 -14.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "DA_SDI_1X4_0_1"
+			(rectangle
+				(start -16.51 10.16)
+				(end 16.51 -10.16)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DA_SDI_1X4_1_1"
+			(pin input line
+				(at -20.32 0 0)
+				(length 3.81)
+				(name "SDI-IN"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 5.08 180)
+				(length 3.81)
+				(name "SDI-OUT-1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 1.27 180)
+				(length 3.81)
+				(name "SDI-OUT-2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 -2.54 180)
+				(length 3.81)
+				(name "SDI-OUT-3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 -6.35 180)
+				(length 3.81)
+				(name "SDI-OUT-4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -353,23 +815,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "EXT"
-			(at -15.24 3.81 0)
+			(at -16.51 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "EXTENDER_FIBER_HDMI21_RX"
-			(at -15.24 -3.81 0)
+			(at -16.51 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -381,7 +843,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -392,28 +854,28 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Description" "HDMI 2.1 / DP 1.4 over fiber extender, receiver (Path B native chain, future)"
+		(property "Description" "HDMI 2.1 / DP 1.4 over fiber extender, receiver"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "TBC"
-			(at -15.24 -6.35 0)
+			(at -16.51 -8.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -425,14 +887,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "EXTENDER_FIBER_HDMI21_RX_0_1"
 			(rectangle
-				(start -15.24 2.54)
-				(end 15.24 -2.54)
+				(start -16.51 3.81)
+				(end 16.51 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -444,37 +906,37 @@
 		)
 		(symbol "EXTENDER_FIBER_HDMI21_RX_1_1"
 			(pin input line
-				(at -17.78 0 0)
-				(length 2.54)
+				(at -20.32 0 0)
+				(length 3.81)
 				(name "FIBER-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
-				(length 2.54)
+				(at 20.32 0 180)
+				(length 3.81)
 				(name "HDMI-OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -489,23 +951,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "EXT"
-			(at -15.24 3.81 0)
+			(at -16.51 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "EXTENDER_FIBER_HDMI21_TX"
-			(at -15.24 -3.81 0)
+			(at -16.51 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -517,7 +979,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -528,28 +990,28 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Description" "HDMI 2.1 / DP 1.4 over fiber extender, transmitter (Path B native chain, future)"
+		(property "Description" "HDMI 2.1 / DP 1.4 over fiber extender, transmitter"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "TBC"
-			(at -15.24 -6.35 0)
+			(at -16.51 -8.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -561,14 +1023,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "EXTENDER_FIBER_HDMI21_TX_0_1"
 			(rectangle
-				(start -15.24 2.54)
-				(end 15.24 -2.54)
+				(start -16.51 3.81)
+				(end 16.51 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -580,37 +1042,37 @@
 		)
 		(symbol "EXTENDER_FIBER_HDMI21_TX_1_1"
 			(pin input line
-				(at -17.78 0 0)
-				(length 2.54)
+				(at -20.32 0 0)
+				(length 3.81)
 				(name "HDMI-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
-				(length 2.54)
+				(at 20.32 0 180)
+				(length 3.81)
 				(name "FIBER-OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -625,23 +1087,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "PROC"
-			(at -19.05 11.43 0)
+			(at -22.86 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "LED_PROCESSOR_BROMPTON_SX40"
-			(at -19.05 -11.43 0)
+			(at -22.86 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -653,7 +1115,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -664,7 +1126,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -675,29 +1137,29 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "Brompton Tessera SX40"
-			(at -19.05 -13.97 0)
+			(at -22.86 -19.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
-		(property "PartNumber" "BROMSX403Y"
+		(property "PartNumber" "TBC (no public order code)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -708,7 +1170,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -719,7 +1181,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -730,7 +1192,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -741,7 +1203,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -752,14 +1214,14 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(symbol "LED_PROCESSOR_BROMPTON_SX40_0_1"
 			(rectangle
-				(start -19.05 10.16)
-				(end 19.05 -10.16)
+				(start -22.86 15.24)
+				(end 22.86 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -771,199 +1233,199 @@
 		)
 		(symbol "LED_PROCESSOR_BROMPTON_SX40_1_1"
 			(pin input line
-				(at -21.59 3.81 0)
-				(length 2.54)
+				(at -26.67 5.08 0)
+				(length 3.81)
 				(name "HDMI2.0-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 1.27 0)
-				(length 2.54)
+				(at -26.67 1.27 0)
+				(length 3.81)
 				(name "SDI-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 -1.27 0)
-				(length 2.54)
+				(at -26.67 -2.54 0)
+				(length 3.81)
 				(name "SYNC-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -3.81 0)
-				(length 2.54)
+				(at -26.67 -6.35 0)
+				(length 3.81)
 				(name "LAN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 7.62 180)
-				(length 2.54)
+				(at 26.67 11.43 180)
+				(length 3.81)
 				(name "HDMI2.0-THRU"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 5.08 180)
-				(length 2.54)
+				(at 26.67 7.62 180)
+				(length 3.81)
 				(name "SDI-THRU"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 2.54 180)
-				(length 2.54)
+				(at 26.67 3.81 180)
+				(length 3.81)
 				(name "SYNC-THRU"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 0 180)
-				(length 2.54)
+				(at 26.67 0 180)
+				(length 3.81)
 				(name "TESSERA-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -2.54 180)
-				(length 2.54)
+				(at 26.67 -3.81 180)
+				(length 3.81)
 				(name "TESSERA-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -5.08 180)
-				(length 2.54)
+				(at 26.67 -7.62 180)
+				(length 3.81)
 				(name "TESSERA-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -7.62 180)
-				(length 2.54)
+				(at 26.67 -11.43 180)
+				(length 3.81)
 				(name "TESSERA-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -978,23 +1440,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SRV"
-			(at -19.05 15.24 0)
+			(at -19.05 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "MEDIASERVER_RESOLUME_HOUSE"
-			(at -19.05 -15.24 0)
+			(at -19.05 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1006,7 +1468,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1017,7 +1479,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1028,17 +1490,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "TBC (house Resolume server; make, model, GPU unknown)"
-			(at -19.05 -17.78 0)
+			(at -19.05 -25.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1050,29 +1512,29 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Role" "Primary | Backup (set per instance)"
-			(at -19.05 -20.32 0)
+			(at -19.05 -28.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
-		(property "Ingest" "4x 12G-SDI live (RFP required one 4K; 'exceeded by 4'); file/live canvas 3840x6794 as 4K slices"
+		(property "Ingest" "4x 12G-SDI live inputs"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1083,36 +1545,36 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Fallback" "Backup server plays the house ProRes 422 3840x6794@60 ambient loop"
+		(property "Fallback" "Backup server plays an ambient ProRes loop"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "TBC"
-			(at -19.05 -22.86 0)
+			(at -19.05 -31.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "MEDIASERVER_RESOLUME_HOUSE_0_1"
 			(rectangle
-				(start -19.05 13.97)
-				(end 19.05 -13.97)
+				(start -19.05 21.59)
+				(end 19.05 -21.59)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1124,289 +1586,289 @@
 		)
 		(symbol "MEDIASERVER_RESOLUME_HOUSE_1_1"
 			(pin input line
-				(at -21.59 6.35 0)
-				(length 2.54)
+				(at -22.86 8.89 0)
+				(length 3.81)
 				(name "SDI-IN-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 3.81 0)
-				(length 2.54)
+				(at -22.86 5.08 0)
+				(length 3.81)
 				(name "SDI-IN-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 1.27 0)
-				(length 2.54)
+				(at -22.86 1.27 0)
+				(length 3.81)
 				(name "SDI-IN-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 -1.27 0)
-				(length 2.54)
+				(at -22.86 -2.54 0)
+				(length 3.81)
 				(name "SDI-IN-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 -3.81 0)
-				(length 2.54)
+				(at -22.86 -6.35 0)
+				(length 3.81)
 				(name "REF-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -6.35 0)
-				(length 2.54)
+				(at -22.86 -10.16 0)
+				(length 3.81)
 				(name "LAN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 11.43 180)
-				(length 2.54)
+				(at 22.86 16.51 180)
+				(length 3.81)
 				(name "DP-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 8.89 180)
-				(length 2.54)
+				(at 22.86 12.7 180)
+				(length 3.81)
 				(name "DP-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 6.35 180)
-				(length 2.54)
+				(at 22.86 8.89 180)
+				(length 3.81)
 				(name "DP-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 3.81 180)
-				(length 2.54)
+				(at 22.86 5.08 180)
+				(length 3.81)
 				(name "DP-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 1.27 180)
-				(length 2.54)
+				(at 22.86 1.27 180)
+				(length 3.81)
 				(name "DP-OUT-5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -1.27 180)
-				(length 2.54)
+				(at 22.86 -2.54 180)
+				(length 3.81)
 				(name "HDMI-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -3.81 180)
-				(length 2.54)
+				(at 22.86 -6.35 180)
+				(length 3.81)
 				(name "HDMI-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -6.35 180)
-				(length 2.54)
+				(at 22.86 -10.16 180)
+				(length 3.81)
 				(name "HDMI-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -8.89 180)
-				(length 2.54)
+				(at 22.86 -13.97 180)
+				(length 3.81)
 				(name "HDMI-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -11.43 180)
-				(length 2.54)
+				(at 22.86 -17.78 180)
+				(length 3.81)
 				(name "HDMI-OUT-5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -1421,23 +1883,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
-			(at -15.24 3.81 0)
+			(at -17.78 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SCALER_TBC"
-			(at -15.24 -3.81 0)
+			(at -17.78 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1449,7 +1911,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1460,18 +1922,18 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Description" "Placeholder scaler - built for the library, NOT placed: no standalone scaler exists in any thread; the D8 units scale"
+		(property "Description" "Placeholder scaler - built for the library, not placed in the drawings"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1482,25 +1944,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "PLACEHOLDER"
-			(at -15.24 -6.35 0)
+			(at -17.78 -8.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "SCALER_TBC_0_1"
 			(rectangle
-				(start -15.24 2.54)
-				(end 15.24 -2.54)
+				(start -17.78 3.81)
+				(end 17.78 -3.81)
 				(stroke
 					(width 0.254)
 					(type dash)
@@ -1512,37 +1974,299 @@
 		)
 		(symbol "SCALER_TBC_1_1"
 			(pin input line
-				(at -17.78 0 0)
-				(length 2.54)
+				(at -21.59 0 0)
+				(length 3.81)
 				(name "VID-IN-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 0 180)
-				(length 2.54)
+				(at 21.59 0 180)
+				(length 3.81)
 				(name "VID-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SWITCHER_HDMI_MATRIX_4X4"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at -19.05 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWITCHER_HDMI_MATRIX_4X4"
+			(at -19.05 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic 4x4 HDMI matrix switcher - placeholder until a model is chosen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -19.05 -15.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "SWITCHER_HDMI_MATRIX_4X4_0_1"
+			(rectangle
+				(start -19.05 11.43)
+				(end 19.05 -11.43)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SWITCHER_HDMI_MATRIX_4X4_1_1"
+			(pin input line
+				(at -22.86 7.62 0)
+				(length 3.81)
+				(name "HDMI-IN-1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 3.81 0)
+				(length 3.81)
+				(name "HDMI-IN-2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 0 0)
+				(length 3.81)
+				(name "HDMI-IN-3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -3.81 0)
+				(length 3.81)
+				(name "HDMI-IN-4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -7.62 0)
+				(length 3.81)
+				(name "LAN"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 5.08 180)
+				(length 3.81)
+				(name "HDMI-OUT-1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 1.27 180)
+				(length 3.81)
+				(name "HDMI-OUT-2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 -2.54 180)
+				(length 3.81)
+				(name "HDMI-OUT-3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 -6.35 180)
+				(length 3.81)
+				(name "HDMI-OUT-4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -1557,23 +2281,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
-			(at -19.05 8.89 0)
+			(at -22.86 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SWITCHER_RGBLINK_D8_PLUS"
-			(at -19.05 -8.89 0)
+			(at -22.86 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1585,7 +2309,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1596,7 +2320,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1607,17 +2331,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "RGBLink D8 Plus (sometimes called 'D8 Pro'; verify)"
-			(at -19.05 -11.43 0)
+			(at -22.86 -15.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1629,7 +2353,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1640,7 +2364,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1651,7 +2375,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1662,7 +2386,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1673,7 +2397,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1684,25 +2408,25 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "TBC"
-			(at -19.05 -13.97 0)
+			(at -22.86 -18.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "SWITCHER_RGBLINK_D8_PLUS_0_1"
 			(rectangle
-				(start -19.05 7.62)
-				(end 19.05 -7.62)
+				(start -22.86 11.43)
+				(end 22.86 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1714,181 +2438,181 @@
 		)
 		(symbol "SWITCHER_RGBLINK_D8_PLUS_1_1"
 			(pin input line
-				(at -21.59 5.08 0)
-				(length 2.54)
+				(at -26.67 7.62 0)
+				(length 3.81)
 				(name "DP1.4-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 2.54 0)
-				(length 2.54)
+				(at -26.67 3.81 0)
+				(length 3.81)
 				(name "HDMI2.1-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -21.59 0 0)
-				(length 2.54)
+				(at -26.67 0 0)
+				(length 3.81)
 				(name "GENLOCK-IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -2.54 0)
-				(length 2.54)
+				(at -26.67 -3.81 0)
+				(length 3.81)
 				(name "LAN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -21.59 -5.08 0)
-				(length 2.54)
+				(at -26.67 -7.62 0)
+				(length 3.81)
 				(name "RS232"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 5.08 180)
-				(length 2.54)
+				(at 26.67 7.62 180)
+				(length 3.81)
 				(name "HDMI2.0-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 2.54 180)
-				(length 2.54)
+				(at 26.67 3.81 180)
+				(length 3.81)
 				(name "HDMI2.0-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 0 180)
-				(length 2.54)
+				(at 26.67 0 180)
+				(length 3.81)
 				(name "HDMI2.0-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -2.54 180)
-				(length 2.54)
+				(at 26.67 -3.81 180)
+				(length 3.81)
 				(name "HDMI2.0-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 21.59 -5.08 180)
-				(length 2.54)
+				(at 26.67 -7.62 180)
+				(length 3.81)
 				(name "GENLOCK-LOOP"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
@@ -1903,23 +2627,23 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "REF"
-			(at -15.24 7.62 0)
+			(at -15.24 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "SYNC_GENERATOR_TBC"
-			(at -15.24 -7.62 0)
+			(at -15.24 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1931,7 +2655,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1942,7 +2666,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1953,17 +2677,17 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Model" "TBC (house sync source)"
-			(at -15.24 -10.16 0)
+			(at -15.24 -14.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
@@ -1975,7 +2699,7 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
@@ -1986,36 +2710,36 @@
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
-		(property "Distribution" "To Dell SDI card REF-IN, D8 GENLOCK-IN, SX40 SYNC-IN - all TBC"
+		(property "Distribution" "To the reference inputs of downstream devices - TBC"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 			)
 		)
 		(property "Status" "TBC"
-			(at -15.24 -12.7 0)
+			(at -15.24 -17.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.78 1.78)
 				)
 				(justify left)
 			)
 		)
 		(symbol "SYNC_GENERATOR_TBC_0_1"
 			(rectangle
-				(start -15.24 6.35)
-				(end 15.24 -6.35)
+				(start -15.24 10.16)
+				(end 15.24 -10.16)
 				(stroke
 					(width 0.254)
 					(type dash)
@@ -2027,73 +2751,73 @@
 		)
 		(symbol "SYNC_GENERATOR_TBC_1_1"
 			(pin output line
-				(at 17.78 3.81 180)
-				(length 2.54)
+				(at 19.05 5.08 180)
+				(length 3.81)
 				(name "REF-OUT-1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 1.27 180)
-				(length 2.54)
+				(at 19.05 1.27 180)
+				(length 3.81)
 				(name "REF-OUT-2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -1.27 180)
-				(length 2.54)
+				(at 19.05 -2.54 180)
+				(length 3.81)
 				(name "REF-OUT-3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at 17.78 -3.81 180)
-				(length 2.54)
+				(at 19.05 -6.35 180)
+				(length 3.81)
 				(name "REF-OUT-4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.78 1.78)
 						)
 					)
 				)

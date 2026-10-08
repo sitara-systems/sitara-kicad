@@ -155,7 +155,7 @@
 			(pin bidirectional line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "USB_Dongle"
+				(name "USB-DONGLE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -304,7 +304,7 @@
 			(pin bidirectional line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "USB"
+				(name "USB-A-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -475,7 +475,7 @@
 			(pin bidirectional line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "USB_Dongle"
+				(name "USB-DONGLE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,7 +624,7 @@
 			(pin bidirectional line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "USB"
+				(name "USB-A-1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -795,7 +795,7 @@
 			(pin bidirectional line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "USB_Dongle"
+				(name "USB-DONGLE"
 					(effects
 						(font
 							(size 1.27 1.27)

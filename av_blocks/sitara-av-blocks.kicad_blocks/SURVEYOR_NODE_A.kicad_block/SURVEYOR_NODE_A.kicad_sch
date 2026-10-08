@@ -1,0 +1,563 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d92e3ceb-4620-53be-aeb4-3aeebbaaa1df")
+	(paper "A3")
+	(title_block
+		(title "Surveyor Node A (design block)")
+		(rev "A")
+		(company "Sitara Systems")
+	)
+	(lib_symbols
+		(symbol "sitara-computers:COMPUTER_PROTECTLI_V1210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SURV"
+				(at -17.78 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "COMPUTER_PROTECTLI_V1210"
+				(at -17.78 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Description" "Protectli Vault V1210 (2-port, Intel N5105) - surveyor node: headless StarWatch monitoring and remote-ops node"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Model" "Protectli V1210 (2-port)"
+				(at -17.78 -10.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+					(justify left)
+				)
+			)
+			(property "PreferredModel" "Protectli V1210"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Processor" "Intel N5105 quad-core, 2.0 GHz base / 2.9 GHz turbo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "RAM" "4 GB LPDDR4 on-board (soldered)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Storage" "32 GB eMMC + M.2 slot for NVMe (SSD choice TBC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Network" "2x Intel I226-V 2.5 GbE RJ45"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "OS" "Ubuntu Server 26.04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Role" "Surveyor node (StarWatch + MeshCentral)"
+				(at -17.78 -13.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+					(justify left)
+				)
+			)
+			(property "Software" "Sitara surveyor app (headless StarWatch, survey drivers: remote control and health of the render-node application) + MeshCentral (remote / out-of-band management)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Power" "12 V DC adapter (draw not listed)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Mounting" "VESA or Protectli rack shelf - TBC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Status" "CONFIRMED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "Usage" "Monitoring / remote-ops node on the same LAN as the render node."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(symbol "COMPUTER_PROTECTLI_V1210_0_1"
+				(rectangle
+					(start -17.78 6.35)
+					(end 17.78 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "COMPUTER_PROTECTLI_V1210_1_1"
+				(pin power_in line
+					(at -21.59 0 0)
+					(length 3.81)
+					(name "PWR-IN"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 1.27 180)
+					(length 3.81)
+					(name "RJ45-1"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -2.54 180)
+					(length 3.81)
+					(name "RJ45-2"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.78 1.78)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 111.76 102.87)
+		(uuid "e5136377-0029-520f-a944-85d0cf102db4")
+	)
+	(no_connect
+		(at 68.58 100.33)
+		(uuid "e5ee5824-1b0f-58f5-93e4-ba29b2765a52")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 110 110 110 1)
+		)
+		(uuid "cdb4018f-7d74-5da5-9b5d-8675cf72bb40")
+	)
+	(global_label "NET-MGMT"
+		(shape bidirectional)
+		(at 118.11 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.78 1.78)
+			)
+			(justify left)
+		)
+		(uuid "abdf25fa-7485-56fd-913d-2d311357664b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sitara-computers:COMPUTER_PROTECTLI_V1210")
+		(at 90.17 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0664a529-d803-5893-921b-853a128c9256")
+		(property "Reference" "SURV1"
+			(at 72.39 93.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "COMPUTER_PROTECTLI_V1210"
+			(at 72.39 107.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Protectli Vault V1210 (2-port, Intel N5105) - surveyor node: headless StarWatch monitoring and remote-ops node"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "Protectli V1210 (2-port)"
+			(at 72.39 110.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "PreferredModel" "Protectli V1210"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Processor" "Intel N5105 quad-core, 2.0 GHz base / 2.9 GHz turbo"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "RAM" "4 GB LPDDR4 on-board (soldered)"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Storage" "32 GB eMMC + M.2 slot for NVMe (SSD choice TBC)"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Network" "2x Intel I226-V 2.5 GbE RJ45"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "OS" "Ubuntu Server 26.04"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Role" "Surveyor node (StarWatch + MeshCentral)"
+			(at 72.39 113.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left top)
+			)
+		)
+		(property "Software" "Sitara surveyor app (headless StarWatch, survey drivers: remote control and health of the render-node application) + MeshCentral (remote / out-of-band management)"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Power" "12 V DC adapter (draw not listed)"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Mounting" "VESA or Protectli rack shelf - TBC"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "CONFIRMED"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Usage" "Monitoring / remote-ops node on the same LAN as the render node."
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "133946cb-90d6-51a7-8a15-1d05fa00d054")
+		)
+		(pin "2"
+			(uuid "020e8145-b7b5-573e-b17c-13983afafb60")
+		)
+		(pin "3"
+			(uuid "0603dc40-b08a-54b0-badc-5961fcbd3844")
+		)
+		(instances
+			(project ""
+				(path "/d92e3ceb-4620-53be-aeb4-3aeebbaaa1df"
+					(reference "SURV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

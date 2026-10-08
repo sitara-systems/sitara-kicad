@@ -1,0 +1,385 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "AMPLIFIER_STEREO_GENERIC"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "AMP"
+			(at -19.05 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMPLIFIER_STEREO_GENERIC"
+			(at -19.05 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic stereo amplifier - placeholder until a model is chosen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -19.05 -11.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "AMPLIFIER_STEREO_GENERIC_0_1"
+			(rectangle
+				(start -19.05 7.62)
+				(end 19.05 -7.62)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AMPLIFIER_STEREO_GENERIC_1_1"
+			(pin input line
+				(at -22.86 3.81 0)
+				(length 3.81)
+				(name "AUDIO-IN-L"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 0 0)
+				(length 3.81)
+				(name "AUDIO-IN-R"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -3.81 0)
+				(length 3.81)
+				(name "PWR-IN"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 1.27 180)
+				(length 3.81)
+				(name "SPEAKER-L"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 22.86 -2.54 180)
+				(length 3.81)
+				(name "SPEAKER-R"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AUDIO_DANTE_ENDPOINT_2X2"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "AUD"
+			(at -21.59 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AUDIO_DANTE_ENDPOINT_2X2"
+			(at -21.59 -8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Description" "Generic Dante endpoint, 2 analog in and 2 analog out - placeholder until a model is chosen"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Model" "TBC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "Status" "PLACEHOLDER"
+			(at -21.59 -11.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+				(justify left)
+			)
+		)
+		(symbol "AUDIO_DANTE_ENDPOINT_2X2_0_1"
+			(rectangle
+				(start -21.59 7.62)
+				(end 21.59 -7.62)
+				(stroke
+					(width 0.254)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AUDIO_DANTE_ENDPOINT_2X2_1_1"
+			(pin input line
+				(at -25.4 1.27 0)
+				(length 3.81)
+				(name "AUDIO-IN-L"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -25.4 -2.54 0)
+				(length 3.81)
+				(name "AUDIO-IN-R"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 25.4 3.81 180)
+				(length 3.81)
+				(name "RJ45-1"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 25.4 0 180)
+				(length 3.81)
+				(name "AUDIO-OUT-L"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 25.4 -3.81 180)
+				(length 3.81)
+				(name "AUDIO-OUT-R"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.78 1.78)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

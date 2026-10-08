@@ -6,7 +6,8 @@ For each target library in symbols_spec.LIBS:
   1. write the generated symbols as a temporary library (KiCad 8 syntax) in the build dir
   2. `kicad-cli sym upgrade --force` normalizes it to the current KiCad 10 format
   3. splice each normalized (symbol ...) block into the target library:
-       - existing symbols that are NOT in the spec are preserved byte-for-byte (CRLF kept)
+       - existing symbols that are NOT in the spec are preserved byte-for-byte (CRLF kept),
+         except symbols named in symbols_spec.RETIRED, which are removed
        - symbols with the same name as a spec entry are replaced (re-run safe)
        - a missing target library is created with a KiCad 10 header
   4. `kicad-cli sym export svg` of every target library proves it still loads.
@@ -24,7 +25,7 @@ try:
 except ImportError:
     RETIRED = []
 
-KICAD_CLI = os.environ.get("KICAD_CLI", r"C:\Program Files\KiCad\10.0\bin\kicad-cli.exe")
+KICAD_CLI = os.environ.get("KICAD_CLI") or shutil.which("kicad-cli") or r"C:\Program Files\KiCad\10.0\bin\kicad-cli.exe"
 HEADER = "(kicad_symbol_lib\r\n\t(version 20251024)\r\n\t(generator \"kicad_symbol_editor\")\r\n\t(generator_version \"10.0\")\r\n"
 
 
