@@ -679,7 +679,7 @@
 				)
 			)
 		)
-		(property "Model" "Brompton Tessera SX40 (vendor inferred from arch B2 'Brompton Tessera / NovaStar-class' - verify)"
+		(property "Model" "Brompton Tessera SX40"
 			(at -19.05 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -688,6 +688,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "PartNumber" "BROMSX403Y"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "PreferredModel" "Brompton Tessera SX40"
@@ -1076,7 +1087,7 @@
 				)
 			)
 		)
-		(property "Fallback" "Backup server plays the house ProRes 422 3840x6794@60 ambient loop (arch B4)"
+		(property "Fallback" "Backup server plays the house ProRes 422 3840x6794@60 ambient loop"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,6 +1620,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "PartNumber" "130-0008-03-0"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "PreferredModel" "RGBLink D8 Plus"
