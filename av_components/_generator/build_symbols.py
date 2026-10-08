@@ -19,6 +19,10 @@ LIB_DIR = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from kicad_sym_writer import library_text  # noqa: E402
 from symbols_spec import SYMBOLS, LIBS  # noqa: E402
+try:
+    from symbols_spec import RETIRED
+except ImportError:
+    RETIRED = []
 
 KICAD_CLI = os.environ.get("KICAD_CLI", r"C:\Program Files\KiCad\10.0\bin\kicad-cli.exe")
 HEADER = "(kicad_symbol_lib\r\n\t(version 20251024)\r\n\t(generator \"kicad_symbol_editor\")\r\n\t(generator_version \"10.0\")\r\n"
@@ -74,7 +78,7 @@ def splice(target_path, blocks, check=False):
     # remove previously generated copies of our symbols (re-run), preserving everything else
     text = orig
     for name, a, b in reversed(top_level_symbols(orig)):
-        if name in blocks:
+        if name in blocks or name in RETIRED:
             # include the preceding indentation and following newline
             a0 = text.rfind("\n", 0, a) + 1
             b0 = b

@@ -144,19 +144,20 @@ SYMBOLS = {
         desc="NVIDIA RTX PRO Sync card (frame lock / genlock). Shown for PCIe slot accounting",
         pins=[("PCIe-X4", "L", "output"), ("GENLOCK-IN", "L", "input"), ("GENLOCK-LOOP", "R", "output")],
         fields={"Model": "NVIDIA RTX PRO Sync", "PreferredModel": "NVIDIA RTX PRO Sync",
-                "Usage": "Added separately (not sold by Dell); not used on this system", "SlotWidth": "1 (assumed, TBC)", "Lanes": "x4 assumed (TBC)", "Status": "CONFIRMED"},
+                "Usage": "Added separately (not sold by Dell)", "SlotWidth": "1 (assumed, TBC)", "Lanes": "x4 assumed (TBC)", "Status": "CONFIRMED"},
         visible=("Model", "Usage")),
-    "AUDIO_INTERFACE_USB_2STEREO": dict(
-        lib="sitara-computers", ref="AUD", w=35.56, dashed=True, exclude_bom=True,
-        desc="USB audio interface with two stereo outputs - placeholder until the model is chosen",
-        pins=[("USB-IN", "L", "bidirectional"), ("AUDIO-OUT-1", "R", "output"), ("AUDIO-OUT-2", "R", "output")],
-        fields={"Model": "TBC (USB audio interface)", "PreferredModel": "TBC",
-                "Outputs": "2 stereo (L/R each)", "OutputConnector": "TBC (TRS / XLR / RCA)", "Status": "TBC"},
+    "AUDIO_INTERFACE_FOCUSRITE_SCARLETT_2I2": dict(
+        lib="sitara-computers", ref="AUD", w=35.56,
+        desc="Focusrite Scarlett 2i2 USB audio interface used as the render node sound card (line outputs L/R + headphones)",
+        pins=[("USB-IN", "L", "bidirectional"), ("AUDIO-OUT-L", "R", "output"), ("AUDIO-OUT-R", "R", "output"), ("AUDIO-HP", "R", "output")],
+        fields={"Model": "Focusrite Scarlett 2i2", "PreferredModel": "Focusrite Scarlett 2i2", "Generation": "Older unit (1st or 2nd gen), TBC",
+                "Outputs": "2x 1/4 in balanced line out (one stereo pair); 1x 1/4 in TRS headphone out",
+                "Connection": "USB 2.0 to the render node (interface-end connector TBC, likely Type-B)", "Status": "CONFIRMED"},
         visible=("Model", "Outputs")),
     "AUDIO_DESTINATION_TBC": dict(
         lib="sitara-computers", ref="AUDX", w=30.48, dashed=True, exclude_bom=True,
-        desc="Placeholder for the audio system that receives the render node's stereo feeds",
-        pins=[("AUDIO-IN-1", "L", "input"), ("AUDIO-IN-2", "L", "input")],
+        desc="Placeholder for the audio system that receives the render node's stereo pair",
+        pins=[("AUDIO-IN-L", "L", "input"), ("AUDIO-IN-R", "L", "input")],
         fields={"Model": "TBC (house audio system)", "PreferredModel": "TBC", "InputConnector": "TBC", "Status": "PLACEHOLDER"},
         visible=("Model", "Status")),
     "COMPUTER_PROTECTLI_V1210": dict(
@@ -183,3 +184,6 @@ SYMBOLS = {
 }
 
 LIBS = sorted({s["lib"] for s in SYMBOLS.values()})
+
+# Symbols removed from the libraries on the next build (renamed or replaced)
+RETIRED = ["AUDIO_INTERFACE_USB_2STEREO", "AUDIO_INTERFACE_TBC"]
