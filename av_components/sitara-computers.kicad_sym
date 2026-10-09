@@ -4887,6 +4887,17 @@
 				)
 			)
 		)
+		(property "PowerIncludedIn" "host"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
 		(property "Model" "Focusrite Scarlett 2i2"
 			(at -17.78 -11.89 0)
 			(show_name no)
@@ -5093,6 +5104,17 @@
 			)
 		)
 		(property "Description" "Generic 4-channel 12G-SDI PCIe I/O card with reference input, drawn configured as 4x OUT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,6 +5389,17 @@
 			)
 		)
 		(property "Description" "NVIDIA RTX PRO Sync card (frame lock / genlock). Shown for PCIe slot accounting"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,7 +5938,51 @@
 				)
 			)
 		)
-		(property "PSU" "1350 W"
+		(property "PSU" "1350 W Platinum, C20 inlet (owner's manual); 90-264 VAC, 16 A max"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerW" "1350"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerBasis" "Dell PSU rating: maximum for the whole node, installed cards included"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerTypicalW" "800"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerTypicalBasis" "estimate: CPU 350 W + GPU 300 W + about 150 W other"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,7 +6603,29 @@
 				)
 			)
 		)
-		(property "PowerDraw" "300 W"
+		(property "PowerW" "300"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerBasis" "NVIDIA spec (Max-Q)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

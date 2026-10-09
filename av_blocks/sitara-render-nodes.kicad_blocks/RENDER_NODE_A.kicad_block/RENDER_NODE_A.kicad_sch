@@ -71,6 +71,17 @@
 					)
 				)
 			)
+			(property "PowerIncludedIn" "host"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
 			(property "Model" "DeckLink 8K Pro G2 | AJA Corvid 44 12G BNC (TBC)"
 				(at -16.51 -14.43 0)
 				(show_name no)
@@ -345,6 +356,17 @@
 					)
 				)
 			)
+			(property "PowerIncludedIn" "host"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
 			(property "Model" "NVIDIA RTX PRO Sync"
 				(at -21.59 -10.62 0)
 				(show_name no)
@@ -598,7 +620,51 @@
 					)
 				)
 			)
-			(property "PSU" "1350 W"
+			(property "PSU" "1350 W Platinum, C20 inlet (owner's manual); 90-264 VAC, 16 A max"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerW" "1350"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerBasis" "Dell PSU rating: maximum for the whole node, installed cards included"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerTypicalW" "800"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerTypicalBasis" "estimate: CPU 350 W + GPU 300 W + about 150 W other"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1219,7 +1285,29 @@
 					)
 				)
 			)
-			(property "PowerDraw" "300 W"
+			(property "PowerW" "300"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerBasis" "NVIDIA spec (Max-Q)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
+			(property "PowerIncludedIn" "host"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2057,7 +2145,51 @@
 				)
 			)
 		)
-		(property "PSU" "1350 W"
+		(property "PSU" "1350 W Platinum, C20 inlet (owner's manual); 90-264 VAC, 16 A max"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerW" "1350"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerBasis" "Dell PSU rating: maximum for the whole node, installed cards included"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerTypicalW" "800"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerTypicalBasis" "estimate: CPU 350 W + GPU 300 W + about 150 W other"
 			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2294,6 +2426,17 @@
 				)
 			)
 		)
+		(property "PowerIncludedIn" "host"
+			(at 250.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
 		(property "Model" "NVIDIA RTX PRO Sync"
 			(at 228.6 217.12 0)
 			(show_name no)
@@ -2510,7 +2653,29 @@
 				)
 			)
 		)
-		(property "PowerDraw" "300 W"
+		(property "PowerW" "300"
+			(at 250.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerBasis" "NVIDIA spec (Max-Q)"
+			(at 250.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2648,6 +2813,17 @@
 			)
 		)
 		(property "Description" "Generic 4-channel 12G-SDI PCIe I/O card with reference input, drawn configured as 4x OUT"
+			(at 250.19 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 250.19 162.56 0)
 			(hide yes)
 			(show_name no)

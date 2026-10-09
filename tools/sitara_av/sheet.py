@@ -61,6 +61,7 @@ class Sheet:
         self.page = "1"
         self.items = []
         self.used_libs = set()
+        self.placed = []   # (ref, symbol name, merged fields) of every symbol placed, for power.budget()
         self.n = 0
 
     def key(self, s):
@@ -81,6 +82,7 @@ class Sheet:
                  f'(property "Description" "{q(spec.get("desc", ""))}" (at {x} {y} 0) {fh})']
         allf = dict(spec.get("fields", {}))
         allf.update(fields or {})
+        self.placed.append((ref, name, dict(allf), bool(spec.get("exclude_bom"))))
         row = 1
         for k, v in allf.items():
             if k in show:

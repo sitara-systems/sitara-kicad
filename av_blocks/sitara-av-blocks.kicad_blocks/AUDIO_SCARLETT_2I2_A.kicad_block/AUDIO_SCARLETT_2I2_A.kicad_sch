@@ -71,6 +71,17 @@
 					)
 				)
 			)
+			(property "PowerIncludedIn" "host"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.78 1.78)
+					)
+				)
+			)
 			(property "Model" "Focusrite Scarlett 2i2"
 				(at -17.78 -11.89 0)
 				(show_name no)
@@ -363,6 +374,17 @@
 			)
 		)
 		(property "Description" "Focusrite Scarlett 2i2 USB audio interface used as the render node sound card (line outputs L/R + headphones)"
+			(at 119.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.78 1.78)
+				)
+			)
+		)
+		(property "PowerIncludedIn" "host"
 			(at 119.38 100.33 0)
 			(hide yes)
 			(show_name no)

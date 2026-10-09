@@ -3,5 +3,5 @@
     from sitara_av import Context, Sheet, SYMBOLS, gr, palette
     from sitara_av.build import BuildConfig, build
 """
-from . import checks, palette, tbc, theme  # noqa: F401
+from . import checks, palette, power, tbc, theme  # noqa: F401
 from .sheet import Context, Inst, Sheet, SYMBOLS, T, gr  # noqa: F401
