@@ -178,6 +178,11 @@ class Sheet:
         typ = stroke_type or ("dash" if dash else "default")
         self.items.append(f'(polyline (pts {pts_s}) (stroke (width {width}) (type {typ}) (color {color} 1)) (uuid "{self.key("pl")}"))')
 
+    def rect(self, x0, y0, x1, y1, stroke="30 30 30", fill=None, width=0.2, stroke_type="default"):
+        """Rectangle, optionally filled with an 'r g b' color. Not part of the overlap check (text may sit inside it)."""
+        f = f"(fill (type color) (color {fill} 1))" if fill else "(fill (type none))"
+        self.items.append(f'(rectangle (start {x0:.2f} {y0:.2f}) (end {x1:.2f} {y1:.2f}) (stroke (width {width}) (type {stroke_type}) (color {stroke} 1)) {f} (uuid "{self.key("rc")}"))')
+
     def legend(self, x, y, w=95.0, formats=None):
         """Legend box for the wire formats, grouped video | audio + USB | network, reference, PCIe. Returns the bottom y."""
         keys = formats or palette.LEGEND_ORDER
