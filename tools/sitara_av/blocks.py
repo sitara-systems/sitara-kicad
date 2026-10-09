@@ -6,6 +6,7 @@ A design block holds only the generic assembly (devices, internal wiring, interf
 import json
 import os
 
+from . import reporting
 from .sheet import Context, Sheet, SYMBOLS, T, gr
 
 BLOCK_NAMESPACE = "b7d1a9c2-3e4f-4a56-8b7c-5a1e0d2c9f01"
@@ -114,6 +115,12 @@ def audio_scarlett_2i2_a(s):
     return {"aud": au}
 
 
+def reporting_architecture_a(s):
+    """Generic data and reporting diagram (cloud vs site LAN) with neutral labels. See sitara_av.reporting."""
+    s.text("DATA AND REPORTING - who reports to whom. Conceptual roles, not cables.", 20.32, 22.86, 3.2, True)
+    reporting.diagram(s)
+
+
 BLOCKS = [
     # (library, name, builder, description, keywords)
     ("sitara-render-nodes", "RENDER_NODE_A", render_node_a,
@@ -125,6 +132,9 @@ BLOCKS = [
     ("sitara-av-blocks", "SURVEYOR_NODE_A", surveyor_node_a,
      "Protectli V1210 surveyor (monitoring and remote-ops) node with its management port on the house LAN.",
      "surveyor, Protectli, StarWatch, MeshCentral, network"),
+    ("sitara-av-blocks", "REPORTING_ARCHITECTURE_A", reporting_architecture_a,
+     "Conceptual data and reporting page: Galaxy and Pub/Sub in the cloud, the application-node StarWatch client and the Protectli V1210 surveyor node (StarWatch survey mode + MeshCentral) on the site LAN. Roles, not cables. A full A3 page.",
+     "Galaxy, StarWatch, Pub/Sub, Photon, Electron, MeshCentral, surveyor, reporting, architecture"),
     ("sitara-av-blocks", "AUDIO_SCARLETT_2I2_A", audio_scarlett_2i2_a,
      "Focusrite Scarlett 2i2 USB audio interface with L/R line outputs; the USB end joins the render node by net label.",
      "audio, Focusrite, Scarlett, USB"),

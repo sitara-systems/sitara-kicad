@@ -1,0 +1,1475 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ed02e6cf-1177-584b-b101-e508b5763a72")
+	(paper "A3")
+	(title_block
+		(title "Reporting Architecture A (design block)")
+		(rev "A")
+		(company "Sitara Systems")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 320 62)
+		(end 395 114)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "07bfbc92-fffc-5f33-8698-a5d1307443d7")
+	)
+	(polyline
+		(pts
+			(xy 102.2 179.01) (xy 100 180) (xy 102.2 180.99)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "137b3784-464a-536a-97ae-474a6d9214ef")
+	)
+	(rectangle
+		(start 306 150)
+		(end 390 184)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "1710b3b7-1145-5c19-863d-a270634dd3d1")
+	)
+	(rectangle
+		(start 73 56)
+		(end 127 109)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type color)
+			(color 250 250 255 1)
+		)
+		(uuid "17e7b1c3-a4fa-55e8-96df-459bf6885b26")
+	)
+	(polyline
+		(pts
+			(xy 44.01 147.8) (xy 45 150) (xy 45.99 147.8)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1ed615fc-a8de-5f19-aa22-1279901f93fb")
+	)
+	(rectangle
+		(start 318 192)
+		(end 390 228)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "20a5447c-a312-5fc3-ad93-1527508b7453")
+	)
+	(polyline
+		(pts
+			(xy 199.2 237.01) (xy 197 238) (xy 199.2 238.99)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "28e58519-e922-539d-bc62-7fb8790ae6ff")
+	)
+	(rectangle
+		(start 208 150)
+		(end 285 232)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 239 236 255 1)
+		)
+		(uuid "30f5c351-b6b3-517f-901d-fbbbe75b16d7")
+	)
+	(polyline
+		(pts
+			(xy 262.99 114.2) (xy 262 112) (xy 261.01 114.2)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "33ba451f-4391-5ba5-8042-a14feea50b03")
+	)
+	(rectangle
+		(start 20 32)
+		(end 400 118)
+		(stroke
+			(width 0.3)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type color)
+			(color 239 236 255 1)
+		)
+		(uuid "3be71616-9d01-51ad-9534-75125889462f")
+	)
+	(rectangle
+		(start 242.5 56)
+		(end 296.5 109)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type color)
+			(color 250 250 255 1)
+		)
+		(uuid "3f975cc0-29fc-56a3-acca-01abe028580e")
+	)
+	(rectangle
+		(start 186 56)
+		(end 240 109)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type color)
+			(color 250 250 255 1)
+		)
+		(uuid "5b86bc1d-2219-5988-a64b-7ed36d01d1f1")
+	)
+	(rectangle
+		(start 137 150)
+		(end 192 232)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 239 236 255 1)
+		)
+		(uuid "5e2d71b8-1174-5ac9-8d1d-e2feec5dd359")
+	)
+	(rectangle
+		(start 129.5 56)
+		(end 183.5 109)
+		(stroke
+			(width 0.2)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type color)
+			(color 250 250 255 1)
+		)
+		(uuid "631c654a-08e5-596c-a8d0-af901b1c3014")
+	)
+	(rectangle
+		(start 20 128)
+		(end 400 250)
+		(stroke
+			(width 0.3)
+			(type dash)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 230 240 255 1)
+		)
+		(uuid "66e217e1-d91f-54bf-b0ca-253f51b16519")
+	)
+	(polyline
+		(pts
+			(xy 78.99 114.2) (xy 78 112) (xy 77.01 114.2)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "761c2b11-5b7e-5330-840d-2fe657a4e61d")
+	)
+	(rectangle
+		(start 203 138)
+		(end 395 246)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "814683bf-17c0-5395-b99f-9ed526e07302")
+	)
+	(polyline
+		(pts
+			(xy 317.8 74.99) (xy 320 74) (xy 317.8 73.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8a9fc9bf-8923-5eaf-a3ad-ad845457a4d8")
+	)
+	(polyline
+		(pts
+			(xy 356.01 59.8) (xy 357 62) (xy 357.99 59.8)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8fb0a819-4447-5ff5-9bbe-43a7db9df106")
+	)
+	(rectangle
+		(start 30 150)
+		(end 100 232)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 239 236 255 1)
+		)
+		(uuid "a8ab52a8-6cf5-5c82-a896-f03642fced06")
+	)
+	(polyline
+		(pts
+			(xy 302.2 97.01) (xy 300 98) (xy 302.2 98.99)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a9dcf64e-0be9-59df-a1eb-61bef024f3f7")
+	)
+	(rectangle
+		(start 25 138)
+		(end 197 246)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "b1b156a5-173b-5e81-af7b-74cedd2bb03f")
+	)
+	(rectangle
+		(start 25 66)
+		(end 62 110)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "c3205037-2d43-5e4c-88d8-f12a1d0e5ac7")
+	)
+	(polyline
+		(pts
+			(xy 312 184) (xy 312 238) (xy 197 238)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c6d12e4b-e1e6-50ac-bc3d-f97a06ef2deb")
+	)
+	(polyline
+		(pts
+			(xy 134.8 205.99) (xy 137 205) (xy 134.8 204.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9375d8a-b5c4-5166-a321-be781daa1096")
+	)
+	(polyline
+		(pts
+			(xy 303.8 166.99) (xy 306 166) (xy 303.8 165.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9b5727d-dd4f-502c-a73a-fec3d527bb67")
+	)
+	(polyline
+		(pts
+			(xy 276.01 147.8) (xy 277 150) (xy 277.99 147.8)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cc1959e1-d4d7-5f00-8337-79d869ba3ea0")
+	)
+	(polyline
+		(pts
+			(xy 91.01 147.8) (xy 92 150) (xy 92.99 147.8)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e2ab3d2f-5f03-51c1-aa3d-e178fefb554d")
+	)
+	(rectangle
+		(start 70 44)
+		(end 300 112)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "e98c12eb-b316-5a00-8700-800f79511684")
+	)
+	(polyline
+		(pts
+			(xy 315.8 212.99) (xy 318 212) (xy 315.8 211.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f121ac3d-ff84-5f19-9a67-6ad91f6779a2")
+	)
+	(rectangle
+		(start 320 38)
+		(end 395 52)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 30 30 30 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid "f65a735e-e770-567e-a94d-91aa98f32f47")
+	)
+	(text "APPLICATION NODE"
+		(exclude_from_sim no)
+		(at 28 144 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "00a5b7ca-7f1e-571c-9a76-05d9cbdb64df")
+	)
+	(text "crash recovery"
+		(exclude_from_sim no)
+		(at 32 175.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "00dc14e9-0197-5e4e-accd-c8a8c7f57564")
+	)
+	(text "DATA AND REPORTING - who reports to whom. Conceptual roles, not cables."
+		(exclude_from_sim no)
+		(at 20.32 22.86 0)
+		(effects
+			(font
+				(size 3.2 3.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "043e216f-d118-5b39-ad89-b41439c677f8")
+	)
+	(text "LOGS"
+		(exclude_from_sim no)
+		(at 131.5 62 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d92a1a3-2c7f-5e6e-b786-76d360d8830a")
+	)
+	(text "COMMANDS"
+		(exclude_from_sim no)
+		(at 244.5 62 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "108910f2-e055-5ce6-8b4d-37802242a442")
+	)
+	(text "Photon: telemetry out"
+		(exclude_from_sim no)
+		(at 102 177.5 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d0183d6-f177-518d-bfd5-fdd39c9b41b1")
+	)
+	(text "AV hardware"
+		(exclude_from_sim no)
+		(at 320 197.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fadf0df-5e11-5f4a-9b6c-34b803a6137e")
+	)
+	(text "usage"
+		(exclude_from_sim no)
+		(at 188 69 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "20f73540-3f3a-54d5-92a5-2b5b5636909a")
+	)
+	(text "(survey mode)"
+		(exclude_from_sim no)
+		(at 210 160.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "2340d571-e21e-5064-aa8e-c4516b39551f")
+	)
+	(text "GitHub"
+		(exclude_from_sim no)
+		(at 27 71.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "26623b33-b366-5018-a41e-4a60329a7f23")
+	)
+	(text "down: commands"
+		(exclude_from_sim no)
+		(at 281 141 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ca333d3-a512-577c-bcd4-3b9180810b92")
+	)
+	(text "Django on Cloud Run"
+		(exclude_from_sim no)
+		(at 322 72.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f43f88b-9322-5c63-88ee-ca608b6f45a9")
+	)
+	(text "Electron: control in"
+		(exclude_from_sim no)
+		(at 102 202.5 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "31f00232-2e9c-5647-9b45-62769f951368")
+	)
+	(text "events"
+		(exclude_from_sim no)
+		(at 188 74 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "33af6c09-d930-504e-be0e-2c7c0b71ad16")
+	)
+	(text "(Unreal /"
+		(exclude_from_sim no)
+		(at 139 160.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "3671c871-88da-5f8e-a301-b9722b659134")
+	)
+	(text "show"
+		(exclude_from_sim no)
+		(at 139 175.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "374ee594-8533-54e4-ad20-8732faa79c3e")
+	)
+	(text "restart,"
+		(exclude_from_sim no)
+		(at 244.5 69 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "4975ae20-dc4c-559e-a03a-5bff218745e5")
+	)
+	(text "StarWatch client"
+		(exclude_from_sim no)
+		(at 210 155.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "500e2a6b-9fb2-59da-b9d8-9cb6cd1cb5eb")
+	)
+	(text "local"
+		(exclude_from_sim no)
+		(at 288 164 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "513b106c-4c1e-554e-a030-f54451916cf4")
+	)
+	(text "webhook"
+		(exclude_from_sim no)
+		(at 301 72 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "56fe8d49-cca6-582f-afa7-5c9d9b66315b")
+	)
+	(text "SITE LAN"
+		(exclude_from_sim no)
+		(at 150 134.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aaff9be-723e-5fe0-b272-8d495c556aad")
+	)
+	(text "devices polled and"
+		(exclude_from_sim no)
+		(at 320 202.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aea0e56-961b-5758-9370-f18321cdcc54")
+	)
+	(text "of the application node"
+		(exclude_from_sim no)
+		(at 210 185.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3cf35d-1216-5c0c-ac15-b1b93707b701")
+	)
+	(text "app state"
+		(exclude_from_sim no)
+		(at 75 74 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a68e0f1-541e-5e7f-a99b-6332c4840ff6")
+	)
+	(text "control interface"
+		(exclude_from_sim no)
+		(at 210 170.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "7262e544-aa98-540e-8011-5d02152ca0d9")
+	)
+	(text "reported up"
+		(exclude_from_sim no)
+		(at 75 100 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "75149ef3-73ab-5044-bbd4-32e63f209f48")
+	)
+	(text "control"
+		(exclude_from_sim no)
+		(at 288 217 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "76b9e8af-0ef5-5ab4-8f95-44cb8eb95497")
+	)
+	(text "dashboards,"
+		(exclude_from_sim no)
+		(at 322 82.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "785ea8fe-5f36-5aa7-a5b5-07757e44383a")
+	)
+	(text "internet / site uplink (TBC)"
+		(exclude_from_sim no)
+		(at 335 121 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b98348b-bb1a-5a22-9085-7eebcadc247a")
+	)
+	(text "poll"
+		(exclude_from_sim no)
+		(at 290 208 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c097fb8-db4a-500c-9dcb-24682e6745bb")
+	)
+	(text "OOB management (power cycle, recovery)"
+		(exclude_from_sim no)
+		(at 210 236 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2f8d63-66fd-5524-ad81-9b8f3f30847c")
+	)
+	(text "OOB: power, console"
+		(exclude_from_sim no)
+		(at 308 160.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "80524081-8365-5d47-a24c-249f6fbd47fa")
+	)
+	(text "reported up"
+		(exclude_from_sim no)
+		(at 131.5 100 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "86fea2df-b22a-5590-8880-f9960e99304c")
+	)
+	(text "StarWatch client"
+		(exclude_from_sim no)
+		(at 32 155.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8954099e-9061-56f4-8919-adc6b5e57426")
+	)
+	(text "Operators (browser)"
+		(exclude_from_sim no)
+		(at 322 43.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "920e3949-a09f-5866-b088-60e0b842bb70")
+	)
+	(text "publish"
+		(exclude_from_sim no)
+		(at 301 96 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "96c7be19-91f6-5143-9eaf-32fe016d42ef")
+	)
+	(text "releases"
+		(exclude_from_sim no)
+		(at 27 76.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "9774c1ae-b601-540f-a798-8c05e9737663")
+	)
+	(text "logs, node health,"
+		(exclude_from_sim no)
+		(at 32 180.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "98f16a3b-b76d-5258-af00-fdd51ef3be33")
+	)
+	(text "(app"
+		(exclude_from_sim no)
+		(at 27 81.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "991d37d6-b15b-5049-9ec7-c60e08208af8")
+	)
+	(text "app updates"
+		(exclude_from_sim no)
+		(at 32 190.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a452a04-18db-5c3e-a4cb-0f32c9da6a7d")
+	)
+	(text "surveys hardware,"
+		(exclude_from_sim no)
+		(at 210 165.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27d3dc5-da58-5a55-8d35-2ae4161f1043")
+	)
+	(text "update, reboot"
+		(exclude_from_sim no)
+		(at 244.5 74 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5a0a5f1-b1ba-50d8-9fa9-fba2481c8afe")
+	)
+	(text "builds)"
+		(exclude_from_sim no)
+		(at 27 86.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6c81ce6-5be8-5eb6-891e-866788ef0965")
+	)
+	(text "Application"
+		(exclude_from_sim no)
+		(at 139 155.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab693e83-b3e9-51ae-8db2-62acd6e6ec71")
+	)
+	(text "MeshCentral"
+		(exclude_from_sim no)
+		(at 308 155.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac9020af-84c0-58a8-94ad-13e344859400")
+	)
+	(text "Cloud SQL + Storage"
+		(exclude_from_sim no)
+		(at 322 77.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea44fd2-f252-57df-996d-ba2581419f47")
+	)
+	(text "for hardware,"
+		(exclude_from_sim no)
+		(at 210 175.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff421d6-90b9-5e6a-adb2-f7c6d2c15c10")
+	)
+	(text "the application"
+		(exclude_from_sim no)
+		(at 32 165.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "b64d40e8-d93c-5721-a553-c136b686114f")
+	)
+	(text "SitaraCore)"
+		(exclude_from_sim no)
+		(at 139 165.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb4a7d7c-7ea1-5d76-9fe8-c38f303fe862")
+	)
+	(text "Google Pub/Sub"
+		(exclude_from_sim no)
+		(at 73 50 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc40b078-4a10-5645-af0c-d36e65a88332")
+	)
+	(text "renders the"
+		(exclude_from_sim no)
+		(at 139 170.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0e6c98f-a3ae-58f0-81c6-b6815b2427ca")
+	)
+	(text "ANALYTICS"
+		(exclude_from_sim no)
+		(at 188 62 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c21a6c5b-3eb4-5b76-b409-02806ffca9ad")
+	)
+	(text "Galaxy CMS"
+		(exclude_from_sim no)
+		(at 322 67.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5074f68-c68e-5fd6-a1ba-5cb0a8dfda38")
+	)
+	(text "down: commands"
+		(exclude_from_sim no)
+		(at 96 141 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "c943070f-35d2-5fc2-9be5-e90cdec63e5d")
+	)
+	(text "application state"
+		(exclude_from_sim no)
+		(at 32 185.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce72e39b-9774-59e6-9bd0-3ff0f4bd8bab")
+	)
+	(text "CLOUD  (Google Cloud Platform)"
+		(exclude_from_sim no)
+		(at 23 38.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0bf3711-9d8d-5ff6-8ebf-558eb008127f")
+	)
+	(text "HTTPS"
+		(exclude_from_sim no)
+		(at 360 58.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2d11868-bc7f-54df-8dea-a711f5802fd5")
+	)
+	(text "app builds"
+		(exclude_from_sim no)
+		(at 47 128 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc9abaec-cd0e-5d24-a37a-c0e24b0f4e9b")
+	)
+	(text "up: status, logs, analytics"
+		(exclude_from_sim no)
+		(at 96 135 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddce282a-954a-581b-891d-f93be5c795c8")
+	)
+	(text "batched"
+		(exclude_from_sim no)
+		(at 131.5 69 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1cb90d0-bcc1-58a5-8187-95dbd4deff58")
+	)
+	(text "sent down"
+		(exclude_from_sim no)
+		(at 244.5 100 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2ac32af-4c4c-5b9b-84ca-86da7eb554a3")
+	)
+	(text "launches + restarts"
+		(exclude_from_sim no)
+		(at 32 160.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "e53acde4-1ee2-5235-a2ba-88bb237d7b80")
+	)
+	(text "up: status, logs"
+		(exclude_from_sim no)
+		(at 281 135 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebb03967-374c-5710-ad04-ff5fc2d8510d")
+	)
+	(text "OOB management"
+		(exclude_from_sim no)
+		(at 210 180.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef6db045-6b53-5e50-bf94-3900950bb50c")
+	)
+	(text "heartbeat,"
+		(exclude_from_sim no)
+		(at 75 69 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "f07b9c99-0bc8-581a-9252-39ecdcd586f4")
+	)
+	(text "process monitoring,"
+		(exclude_from_sim no)
+		(at 32 170.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "f19be17c-2405-57b0-94af-22a0c3dff967")
+	)
+	(text "STATUS"
+		(exclude_from_sim no)
+		(at 75 62 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f56a5b67-e5b7-5423-a000-d923ed675279")
+	)
+	(text "controlled (drivers TBC)"
+		(exclude_from_sim no)
+		(at 320 207.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6488c9b-ae15-5865-b1ba-34d053dda049")
+	)
+	(text "reported up"
+		(exclude_from_sim no)
+		(at 188 100 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb70b66e-1131-5ad8-b2c2-f0af54740ece")
+	)
+	(text "SURVEYOR NODE (Protectli V1210)"
+		(exclude_from_sim no)
+		(at 206 144 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd83b430-f304-5c81-af37-21d4d9ee66a7")
+	)
+	(text "System Control"
+		(exclude_from_sim no)
+		(at 322 87.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdb1f6d9-3487-5d3d-b00e-d7a55208bebd")
+	)
+	(text "app logs"
+		(exclude_from_sim no)
+		(at 131.5 74 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe5e8bf4-fdaa-5a41-bc5e-0de43ad7ef25")
+	)
+	(text "from GitHub"
+		(exclude_from_sim no)
+		(at 32 195.5 0)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff256ecc-bb50-58d3-8f0c-929c76f27e06")
+	)
+	(text_box "Read it as roles: the cloud holds Galaxy and Pub/Sub; the site holds the StarWatch clients and the hardware. Violet arrows are data reported up, orange arrows are control or commands sent down."
+		(exclude_from_sim no)
+		(at 20 253 0)
+		(size 270 10.21)
+		(margins 1.8175 1.8175 1.8175 1.8175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left top)
+		)
+		(uuid "79faf82a-c75f-55bd-beab-dc4f9a43b3fd")
+	)
+	(text_box "StarWatch only connects out to Pub/Sub; the site accepts no inbound connection from the cloud. Photon and Electron stay on the application node (local to the app). The surveyor's MeshCentral stays on the LAN."
+		(exclude_from_sim no)
+		(at 20 263.21 0)
+		(size 270 10.21)
+		(margins 1.8175 1.8175 1.8175 1.8175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left top)
+		)
+		(uuid "869e196c-da3b-5f86-b989-e10243208f41")
+	)
+	(text_box "Why two clients: the application-node client keeps the show running and reports on it; the surveyor client watches the hardware around it and can recover the application node when its own client cannot."
+		(exclude_from_sim no)
+		(at 20 273.42 0)
+		(size 270 10.21)
+		(margins 1.8175 1.8175 1.8175 1.8175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.29 2.29)
+			)
+			(justify left top)
+		)
+		(uuid "d1064bbc-68a1-5000-9de1-38c019a583cc")
+	)
+	(polyline
+		(pts
+			(xy 100 205) (xy 137 205)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "0c571fea-8218-5e0d-a020-14696d8c5967")
+	)
+	(polyline
+		(pts
+			(xy 45 110) (xy 45 150)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "11486098-11b6-59ff-beb1-7bcbe8880eb7")
+	)
+	(polyline
+		(pts
+			(xy 357 52) (xy 357 62)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "13af81ed-533a-566d-b60a-ab9d2f657062")
+	)
+	(polyline
+		(pts
+			(xy 262 150) (xy 262 112)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "14dbf40a-8e48-5c48-8900-1b144c53e57c")
+	)
+	(polyline
+		(pts
+			(xy 20 123) (xy 400 123)
+		)
+		(stroke
+			(width 0.2)
+			(type dot)
+			(color 120 120 120 1)
+		)
+		(uuid "4f19dbfa-0825-53f1-9620-b4d1ff9cdbf4")
+	)
+	(polyline
+		(pts
+			(xy 137 180) (xy 100 180)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "69c30e87-5022-5cf2-bc06-bda09b46f7e4")
+	)
+	(polyline
+		(pts
+			(xy 92 112) (xy 92 150)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "9f3e747a-d67b-5932-af41-37bb9e2a9ba8")
+	)
+	(polyline
+		(pts
+			(xy 285 212) (xy 318 212)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "9f8aefa6-692b-5aa7-ae66-a22e4692430c")
+	)
+	(polyline
+		(pts
+			(xy 78 150) (xy 78 112)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "a402d1fb-663a-5e33-a586-503833dde99f")
+	)
+	(polyline
+		(pts
+			(xy 300 74) (xy 320 74)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 88 62 210 1)
+		)
+		(uuid "a54d303d-5e1c-548d-b120-a83f8de61264")
+	)
+	(polyline
+		(pts
+			(xy 320 98) (xy 300 98)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "b31b19b4-210d-5611-837b-ebf074d85b36")
+	)
+	(polyline
+		(pts
+			(xy 285 166) (xy 306 166)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "d39c6c64-8e27-5e62-a673-756afe65968b")
+	)
+	(polyline
+		(pts
+			(xy 277 112) (xy 277 150)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 176 84 0 1)
+		)
+		(uuid "f93df86f-a4f4-5377-91d2-17a31e4082e1")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

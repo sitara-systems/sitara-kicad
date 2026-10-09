@@ -183,6 +183,17 @@ class Sheet:
         f = f"(fill (type color) (color {fill} 1))" if fill else "(fill (type none))"
         self.items.append(f'(rectangle (start {x0:.2f} {y0:.2f}) (end {x1:.2f} {y1:.2f}) (stroke (width {width}) (type {stroke_type}) (color {stroke} 1)) {f} (uuid "{self.key("rc")}"))')
 
+    def arrow(self, pts, color="88 62 210", width=0.4, head=2.2, stroke_type="default"):
+        """Polyline with an arrowhead at the last point (for conceptual diagrams; not an electrical wire)."""
+        self.line(pts, color, width=width, stroke_type=stroke_type)
+        (x0, y0), (x1, y1) = pts[-2], pts[-1]
+        dx, dy = x1 - x0, y1 - y0
+        n = math.hypot(dx, dy) or 1.0
+        ux, uy = dx / n, dy / n
+        bx, by = x1 - ux * head, y1 - uy * head
+        px, py = -uy * head * 0.45, ux * head * 0.45
+        self.line([(bx + px, by + py), (x1, y1), (bx - px, by - py)], color, width=width)
+
     def legend(self, x, y, w=95.0, formats=None):
         """Legend box for the wire formats, grouped video | audio + USB | network, reference, PCIe. Returns the bottom y."""
         keys = formats or palette.LEGEND_ORDER

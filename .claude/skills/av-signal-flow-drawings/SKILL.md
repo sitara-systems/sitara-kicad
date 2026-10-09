@@ -16,6 +16,7 @@ KiCad is used here as a connectivity model, not a drafting tool: every port is a
 - `worksheet_template/template.kicad_wks` - the Sitara drawing sheet (set per project via a `${KIPRJMOD}`-relative path).
 - `themes/Sitara.json` - the Sitara KiCad color theme (black, brand-colored drawing-sheet frame). Select it in Preferences, and export with `kicad-cli ... --theme Sitara`; see `themes/README.md`.
 - `tools/new_project.py` scaffolds a project (generator + lib tables); `tools/sitara_av/` is the sheet writer, palette, checks and build; `tools/check_repo.py` runs all repo checks; `templates/` holds the KiCad-native template. A print build (black and white, formats by line pattern) is produced next to the color PDF.
+- Data and reporting page: `tools/sitara_av/reporting.py` (`diagram(sheet, site=..., render_title=..., hardware=...)`) draws the cloud-vs-site picture: Galaxy and Pub/Sub in the cloud, the render-node StarWatch client (Photon out, Electron in) and the Protectli V1210 surveyor (StarWatch survey mode + MeshCentral OOB) on the LAN. Roles, not cables. The same function makes the `REPORTING_ARCHITECTURE_A` design block.
 - Open items (TBC): `tools/sitara_av/tbc.py` and the `av-tbc-register` skill. Keep the list in the project generator, one list for the register sheet and the root-sheet count.
 - `morphogencc_library/` is PCB electronics. Leave it out of AV drawings.
 
