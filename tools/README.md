@@ -15,7 +15,7 @@ Python tooling for the AV signal-flow drawings. Needs Python 3.10+ and KiCad 10 
 
 `Context` + `Sheet` write schematics; `palette` holds the wire colors and the line patterns used by the print variant; `checks` has
 the format and PCIe-lane checks; `build` generates, upgrades, runs ERC, exports color PDF/SVG/PNG and a black-and-white
-print PDF in which formats are told apart by line pattern and width, not by color; `blocks` holds the reusable assemblies; `power` sums PowerW fields into the power note on a sheet; `tbc` writes the open-items register sheet and the count on the root sheet (skill `av-tbc-register`).
+print PDF in which formats are told apart by line pattern and width, not by color; `blocks` holds the reusable assemblies; `overlap` estimates text collisions (the build fails in --strict mode on any); `power` sums PowerW fields into the power note on a sheet; `tbc` writes the open-items register sheet and the count on the root sheet (skill `av-tbc-register`).
 
 ## Public-repo leak scan
 

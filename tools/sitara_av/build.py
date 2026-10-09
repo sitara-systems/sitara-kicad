@@ -13,7 +13,7 @@ import sys
 from dataclasses import dataclass, field
 from typing import Callable
 
-from . import checks, palette, theme
+from . import checks, overlap, palette, theme
 
 
 def kicad_cli():
@@ -116,7 +116,12 @@ def build(cfg, no_gen=False, strict=False):
     name = cfg.name
     if not no_gen:
         print("generate (color)")
+        overlap.WARNINGS.clear()
         cfg.generate("color")
+        for w in overlap.WARNINGS:
+            print("  text overlap: " + w)
+        if not overlap.WARNINGS:
+            print("  no text overlaps (estimate)")
         write_project(cfg)
         upgrade_all(cfg)
     print("ERC")
@@ -158,6 +163,6 @@ def build(cfg, no_gen=False, strict=False):
         upgrade_all(cfg)
     print("done ->", cfg.out)
     summary = {"erc": {f"{k[0]}:{k[1]}": v for k, v in counts.items()}, "problems": problems}
-    if strict and (counts or problems):
+    if strict and (counts or problems or overlap.WARNINGS):
         sys.exit(1)
     return summary

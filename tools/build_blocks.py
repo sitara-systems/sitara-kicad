@@ -14,7 +14,7 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from sitara_av import blocks  # noqa: E402
+from sitara_av import blocks, overlap  # noqa: E402
 from sitara_av.build import run  # noqa: E402
 
 
@@ -51,7 +51,12 @@ def main():
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
         return
+    overlap.WARNINGS.clear()
     paths = build(dest)
+    for w in overlap.WARNINGS:
+        print('  text overlap: ' + w)
+    if overlap.WARNINGS:
+        sys.exit(1)
     scratch = tempfile.mkdtemp()
     try:
         for p in paths:

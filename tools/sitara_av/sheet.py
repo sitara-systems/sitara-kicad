@@ -17,7 +17,7 @@ if LIBGEN not in sys.path:
 from kicad_sym_writer import symbol_text, pin_pos, pin_number, body_half_height, TEXT as T  # noqa: E402
 from symbols_spec import SYMBOLS  # noqa: E402
 
-from . import palette  # noqa: E402
+from . import overlap, palette  # noqa: E402
 
 UNIT = 1.27
 NOTE = 2.29  # comment / note text: 1.3x the symbol text size T, so notes stay readable when a sheet is printed on A4 or Letter
@@ -61,6 +61,7 @@ class Sheet:
         self.page = "1"
         self.items = []
         self.used_libs = set()
+        self.rects = []    # (kind, label, rect) for the overlap check
         self.placed = []   # (ref, symbol name, merged fields) of every symbol placed, for power.budget()
         self.n = 0
 
@@ -83,6 +84,11 @@ class Sheet:
         allf = dict(spec.get("fields", {}))
         allf.update(fields or {})
         self.placed.append((ref, name, dict(allf), bool(spec.get("exclude_bom"))))
+        self.rects.append(("body", f"{ref} body", (x - hw, y - hh, x + hw, y + hh)))
+        self.rects.append(("text", f"{ref} reference", overlap.text_rect(ref, x - hw, y - hh - 0.76, T, "bottom")))
+        self.rects.append(("text", f"{ref} {name}", overlap.text_rect(name, x - hw, y + hh + 0.76, T, "top")))
+        for _row, _k in enumerate([k for k in allf if k in show], 1):
+            self.rects.append(("text", f"{ref} {_k}", overlap.text_rect(str(allf[_k]), x - hw, y + hh + 0.76 + 3.0 * _row, T, "top")))
         row = 1
         for k, v in allf.items():
             if k in show:
@@ -143,10 +149,15 @@ class Sheet:
         size = NOTE if size == T else size
         b = " bold" if bold else ""
         c = f" (color {color} 1)" if color else ""
+        self.rects.append(("text", t, overlap.text_rect(t, x, y, size, "bottom", bold)))
         self.items.append(f'(text "{q(t)}" (exclude_from_sim no) (at {x:.2f} {y:.2f} 0) (effects (font (size {size} {size}){b}{c}) (justify left bottom)) (uuid "{self.key("t")}"))')
 
-    def text_box(self, t, x, y, w, h, size=T):
+    def text_box(self, t, x, y, w, h, size=T, frame=False):
         size = NOTE if size == T else size
+        if frame:   # a titled frame that other text is placed inside: only its heading counts
+            self.rects.append(("text", t, overlap.text_rect(t, x + 0.8, y + 0.8, size, "top")))
+        else:
+            self.rects.append(("box", t, (x, y, x + w, y + h)))
         """Single paragraph (KiCad wraps it); embedded newlines are not accepted by the parser."""
         self.items.append(f'(text_box "{q(t)}" (exclude_from_sim no) (at {x:.2f} {y:.2f} 0) (size {w} {h}) (stroke (width 0.2) (type solid)) (fill (type none)) '
                           f'(effects (font (size {size} {size})) (justify left top)) (uuid "{self.key("tb")}"))')
@@ -170,7 +181,7 @@ class Sheet:
     def legend(self, x, y, w=95.0, formats=None):
         """Legend box for the wire formats, grouped video | audio + USB | network, reference, PCIe. Returns the bottom y."""
         keys = formats or palette.LEGEND_ORDER
-        self.text_box("LEGEND", x, y, w, 60.0, T)
+        self.text_box("LEGEND", x, y, w, 60.0, T, frame=True)
         prev = None
         extra = 0.0
         for i, k in enumerate(keys):
@@ -195,6 +206,9 @@ class Sheet:
             px = x if side == "L" else x + w
             ang, j = (180, "left") if side == "L" else (0, "right")
             ps.append(f'(pin "{name}" {shape} (at {px:.2f} {y + dy:.2f} {ang}) (effects (font (size {T} {T})) (justify {j})) (uuid "{self.key("sp" + name)}"))')
+        self.rects.append(("body", f"sheet {sub.title}", (x, y, x + w, y + h)))
+        self.rects.append(("text", f"sheet name {sub.title}", overlap.text_rect(sub.title, x, y - 0.76, 2.4, "bottom", True)))
+        self.rects.append(("text", f"sheet file {sub.fname}", overlap.text_rect("File: " + sub.fname, x, y + h + 0.76, T, "top")))
         self.items.append(f'''(sheet (at {x:.2f} {y:.2f}) (size {w} {h}) (fields_autoplaced yes) (stroke (width 0.25) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "{sub.uuid}")
 (property "Sheetname" "{sub.title}" (at {x:.2f} {y - 0.76:.2f} 0) (effects (font (size 2.4 2.4) bold) (justify left bottom)))
 (property "Sheetfile" "{sub.fname}" (at {x:.2f} {y + h + 0.76:.2f} 0) (effects (font (size {T} {T})) (justify left top)))
@@ -204,6 +218,7 @@ class Sheet:
     # --- file
     def write(self, root=False, out_dir=None):
         c = self.ctx
+        overlap.WARNINGS.extend(overlap.check(self))
         lib_syms = "\n".join(symbol_text(n, SYMBOLS[n], lib_prefix=f"{lib}:") for lib, n in sorted(self.used_libs))
         head = (f'(kicad_sch (version 20231120) (generator "sitara_schgen") (generator_version "8.0")\n(uuid "{self.uuid}")\n(paper "{self.paper}")\n'
                 f'(title_block (title "{q(self.title)}") (date "{c.date}") (rev "{c.rev}") (company "{q(c.company)}") (comment 1 "{q(c.comment)}"))\n'

@@ -62,7 +62,7 @@ def summary(s, items, x, y, w=275.0, h=40.0, page="7"):
     owners = {}
     for it in items:
         owners[it.owner or "unassigned"] = owners.get(it.owner or "unassigned", 0) + 1
-    s.text_box(f"TO BE CONFIRMED (TBC): {len(items)} open", x, y, w, h, T)
+    s.text_box(f"TO BE CONFIRMED (TBC): {len(items)} open", x, y, w, h, T, frame=True)
     s.text(f"Full register with owner and expected date: sheet {page}.", x + 4.0, y + 16.0, T)
     s.text("   ".join(f"{k}: {v}" for k, v in sorted(owners.items())), x + 4.0, y + 22.0, T)
     dated = [str(i + 1) for i, it in enumerate(items) if it.expected]
