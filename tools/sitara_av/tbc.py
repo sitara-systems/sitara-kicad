@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from .sheet import Sheet, T
 
 INK = "88 62 210"
-MAX_ROWS = 14        # rows that fit on an A3 sheet with the detail line
+MAX_ROWS = 16        # rows that fit on an A3 sheet with the detail line (row pitch shrinks above 14)
 
 
 @dataclass(frozen=True)
@@ -41,17 +41,17 @@ def register_sheet(ctx, uuid, root_uuid, items, page, fname="tbc.kicad_sch", tit
         s.text(name, cx, y + 7.0, T, True)
     y += 10.0
     s.line([(x0, y), (x1, y)], INK, width=0.3)
-    pitch = 13.0
+    pitch = 13.0 if len(items) <= 14 else 11.6
     for i, it in enumerate(items):
         top = y + i * pitch
-        s.text(f"{i + 1}", cols[0][1], top + 8.0, T)
-        s.text(it.item, cols[1][1], top + 6.0 if it.detail else top + 8.0, T)
+        s.text(f"{i + 1}", cols[0][1], top + pitch * 0.62, T)
+        s.text(it.item, cols[1][1], top + pitch * (0.46 if it.detail else 0.62), T)
         if it.detail:
-            s.text(it.detail, cols[1][1], top + 11.2, 1.78)
-        s.text(it.owner or "-", cols[2][1], top + 8.0, T)
-        s.text(it.expected or "-", cols[3][1], top + 8.0, T)
+            s.text(it.detail, cols[1][1], top + pitch * 0.86, 1.78)
+        s.text(it.owner or "-", cols[2][1], top + pitch * 0.62, T)
+        s.text(it.expected or "-", cols[3][1], top + pitch * 0.62, T)
         if it.note:
-            s.text(it.note, cols[4][1], top + 8.0, T)
+            s.text(it.note, cols[4][1], top + pitch * 0.62, T)
         s.line([(x0, top + pitch), (x1, top + pitch)], INK, width=0.15)
     s.text("Expected date is left blank until it is known.", 20.32, y + len(items) * pitch + 9.0, T)
     return s

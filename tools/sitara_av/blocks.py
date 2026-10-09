@@ -15,25 +15,26 @@ BLOCK_NAMESPACE = "b7d1a9c2-3e4f-4a56-8b7c-5a1e0d2c9f01"
 def render_node_a(s, usb_rear1_free=True, sdi_bus_end="label"):
     """Dell Precision 7875 + RTX PRO 6000 Max-Q (dual width) + 12G-SDI card + RTX PRO Sync, PCIe slots wired as claims.
 
-    Slot numbers follow the Dell owner's manual rear view. Assignment: GPU in slot 2 (also uses 3), SDI card 4, Sync 6;
-    slots 1 and 5 free. Interface: net labels NET-MGMT / NET-SHOW (the two integrated jacks), REF (SDI card reference
+    Slot numbers follow the Dell owner's manual rear view. Assignment: GPU in slot 2 (also uses 3), Sync 1, SDI card 5;
+    slots 4 and 6 left empty (slot 4 is an air gap beside the GPU; the manual allows GPUs only in slots 2 and 5). Interface: net labels NET-MGMT / NET-SHOW (the two integrated jacks), REF (SDI card reference
     input) and the SDI1..4 outputs on an SDI[1..4] bus. `sdi_bus_end` is "label" (design block) or "hlabel" (sheet pin).
     """
     cpu = s.place("DELL_PRECISION_7875_TOWER", "CPU1", (gr(85), gr(135)), show=("PreferredModel", "Processor", "RAM"))
     gpu = s.place("GPU_NVIDIA_RTX_PRO_6000_BLACKWELL_MAXQ", "GPU1", (gr(250), gr(70)), show=("PreferredModel", "VRAM"))
     sdi = s.place("CAPTURE_CARD_SDI_12G_4CH", "SDI1", (gr(250), gr(162)), show=("Model", "Status"))
-    sync = s.place("CARD_NVIDIA_RTX_PRO_SYNC", "SYNC1", (gr(250), gr(207)), show=("Model", "Usage"))
+    sync = s.place("CARD_NVIDIA_RTX_PRO_SYNC", "SYNC1", (gr(250), gr(40)), show=("Model", "Usage"))
     S1, S2, S3, S4, S5, S6 = (f"PCIe-Slot-{k}-" + g for k, g in zip(range(1, 7), ("G5x8", "G5x16", "G4x4", "G4x8", "G4x16", "G4x8")))
-    xa, xb, xc, xd = 157.48, 165.1, 180.34, 172.72
+    xa, xb, xc, xe = 157.48, 165.1, 180.34, 149.86
     a, b = cpu.pin(S2), gpu.pin("PCIe-X16")
     s.wire([a, (xa, a[1]), (xa, b[1]), b], "PCIE"); s.text("PCIe x16 (slot 2)", xa + 1.27, b[1] - 1.0, T)
     a, b = cpu.pin(S3), gpu.pin("PCIe-ADJ")
     s.wire([a, (xb, a[1]), (xb, b[1]), b], "PCIE"); s.text("dual width: slot 3 too", xb + 2.54, b[1] + 4.2, T)
-    a, b = cpu.pin(S4), sdi.pin("PCIe-X8")
-    s.wire([a, (xc, a[1]), (xc, b[1]), b], "PCIE"); s.text("PCIe x8 (slot 4)", xc + 1.27, b[1] - 1.0, T)
-    a, b = cpu.pin(S6), sync.pin("PCIe-X4")
-    s.wire([a, (xd, a[1]), (xd, b[1]), b], "PCIE"); s.text("PCIe (slot 6)", xd + 1.27, b[1] - 1.0, T)
-    for sl in (S1, S5):
+    a, b = cpu.pin(S5), sdi.pin("PCIe-X8")
+    s.wire([a, (xc, a[1]), (xc, b[1]), b], "PCIE"); s.text("PCIe x8 (slot 5)", xc + 1.27, b[1] - 1.0, T)
+    a, b = cpu.pin(S1), sync.pin("PCIe-X4")
+    s.wire([a, (xe, a[1]), (xe, b[1]), b], "PCIE"); s.text("PCIe (slot 1)", xe + 2.54, b[1] - 1.0, T)
+    s.text("Sync card links to the GPU by ribbon cable (not drawn).", 279.4, sync.pin("GENLOCK-LOOP")[1] + 1.0, T)
+    for sl in (S4, S6):
         s.nc(cpu.pin(sl))
     for pn, _side, _etype in SYMBOLS["DELL_PRECISION_7875_TOWER"]["pins"]:
         if pn.startswith("PCIe-Slot") or pn in ("RJ45-1G", "RJ45-10G"):
