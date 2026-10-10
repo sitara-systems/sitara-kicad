@@ -15,7 +15,7 @@ from dataclasses import dataclass
 from .sheet import Sheet, T
 
 INK = "88 62 210"
-MAX_ROWS = 16        # rows that fit on an A3 sheet with the detail line (row pitch shrinks above 14)
+MAX_ROWS = 18        # rows that fit on an A3 sheet with the detail line (row pitch shrinks above 14 and above 16)
 
 
 @dataclass(frozen=True)
@@ -41,7 +41,7 @@ def register_sheet(ctx, uuid, root_uuid, items, page, fname="tbc.kicad_sch", tit
         s.text(name, cx, y + 7.0, T, True)
     y += 10.0
     s.line([(x0, y), (x1, y)], INK, width=0.3)
-    pitch = 13.0 if len(items) <= 14 else 11.6
+    pitch = 13.0 if len(items) <= 14 else (11.6 if len(items) <= 16 else 11.0)
     for i, it in enumerate(items):
         top = y + i * pitch
         s.text(f"{i + 1}", cols[0][1], top + pitch * 0.62, T)
